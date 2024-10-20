@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?attr/colorPrimaryBackground"/>
+    <stroke
+        android:width="@dimen/file_preview_background_border"
+        android:color="?attr/colorOutlineVariant"/>
+    <corners android:radius="@dimen/file_attachment_rounded_corner_radius"/>
+</shape>

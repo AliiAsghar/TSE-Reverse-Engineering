@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.conversation.AudioButtonView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:visibility="gone"
+    android:clipToPadding="false"
+    android:contentDescription="@string/audio_button_view_content_description"
+    android:paddingStart="@dimen/conversation_audio_button_microphone_icon_padding_start"
+    android:paddingEnd="@dimen/conversation_audio_button_microphone_icon_padding_end"
+    android:elevation="@dimen/compose_message_view_elevation"
+    style="@style/ComposeMessageViewSendButtonContainerStyle">
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_gravity="center"
+        android:id="@+id/audio_button_view_recording_indicator"
+        android:layout_width="@dimen/conversation_audio_button_recording_indicator_width"
+        android:layout_height="@dimen/conversation_audio_button_recording_indicator_height"
+        android:src="@drawable/compose2o_voice_message_recording_indicator_background"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_gravity="center"
+        android:id="@+id/audio_button_view_background"
+        android:layout_width="@dimen/conversation_audio_button_recording_indicator_width"
+        android:layout_height="@dimen/conversation_audio_button_recording_indicator_height"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_gravity="center"
+        android:id="@+id/audio_button_view_microphone_icon"
+        android:layout_width="@dimen/conversation_audio_button_microphone_icon_width"
+        android:layout_height="@dimen/conversation_audio_button_microphone_icon_height"/>
+</com.google.android.apps.messaging.ui.conversation.AudioButtonView>

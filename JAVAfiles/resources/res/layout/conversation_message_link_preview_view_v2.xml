@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/conversation_message_link_preview_container"/>
+    <include layout="@layout/conversation_message_link_preview_tap_to_load"/>
+    <include layout="@layout/conversation_message_link_preview_loading"/>
+</merge>

@@ -1,0 +1,24 @@
+package defpackage;
+
+/* loaded from: classes4.dex */
+public final class asau extends arps {
+    public /* synthetic */ Object a;
+    public int b;
+    public Object c;
+    public asdz d;
+    final /* synthetic */ akee e;
+    public akee f;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public asau(akee akeeVar, arpe arpeVar) {
+        super(arpeVar);
+        this.e = akeeVar;
+    }
+
+    @Override // defpackage.arpq
+    public final Object b(Object obj) {
+        this.a = obj;
+        this.b |= Integer.MIN_VALUE;
+        return this.e.a(null, this);
+    }
+}

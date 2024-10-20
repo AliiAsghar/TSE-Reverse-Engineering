@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/fab_stub"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/conversation_list_fab_margin_bottom_end"
+    android:layout_marginEnd="@dimen/conversation_list_fab_margin_bottom_end">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_gravity="end"
+        android:id="@+id/penpal_fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/conversation_list_vertical_margin_between_fabs"
+        android:layout_marginEnd="@dimen/penpal_fab_end_margin"
+        app:backgroundTint="?attr/colorSurfaceBright"
+        app:srcCompat="@null"
+        app:tint="@null"
+        style="@style/Widget.Bugle.Home.FloatingActionButton.Small"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:textColor="?attr/colorOnFab"
+        android:layout_gravity="end"
+        android:id="@+id/start_chat_fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/conversation_list_fab_height"
+        android:minHeight="@dimen/conversation_list_fab_height"
+        android:text="@string/conversation_list_fab_Text"
+        android:contentDescription="@string/conversation_list_fab_Text"
+        android:paddingStart="@dimen/conversation_list_fab_padding_start_end"
+        android:paddingEnd="@dimen/conversation_list_fab_padding_start_end"
+        app:backgroundTint="?attr/colorFab"
+        app:icon="@drawable/messages_chat_icon"
+        app:iconPadding="@dimen/conversation_list_fab_drawable_padding"
+        app:iconTint="@null"
+        style="@style/Widget.Bugle.Home.ExtendedFloatingActionButton"/>
+</LinearLayout>

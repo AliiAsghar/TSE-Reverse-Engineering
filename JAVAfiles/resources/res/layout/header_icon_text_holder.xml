@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:tag=".expression-category-item-tablet"
+    android:background="@drawable/bg_expression_category_container"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    style="@style/EmojiPickerCategoryContainer">
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/emoji_picker_header_icon"
+        android:scaleType="centerInside"
+        style="@style/TabletExpressionCategoryLargeIcon"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/emoji_picker_header_text"
+        style="@style/TabletExpressionCategoryText"/>
+</LinearLayout>

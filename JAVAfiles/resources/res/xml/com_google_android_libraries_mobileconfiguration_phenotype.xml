@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.libraries.mobileconfiguration
+        </configuration-package>
+        <log-sources>
+            <log-source>ANDROID_MESSAGING
+            </log-source>
+            <log-source>ANDROID_MESSAGING_PRIMES
+            </log-source>
+            <log-source>CARRIER_SERVICES
+            </log-source>
+        </log-sources>
+        <auto-subpackage>true
+        </auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>

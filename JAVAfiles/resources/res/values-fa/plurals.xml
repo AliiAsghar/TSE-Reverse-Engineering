@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">و %d نفر دیگر</item>
+        <item quantity="other">و %d نفر دیگر</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d مکالمه بایگانی شد</item>
+        <item quantity="other">%d مکالمه بایگانی شد</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">‏%d پیوست آماده ارسال است</item>
+        <item quantity="other">‏%d پیوست آماده ارسال است</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">‏%d پیوست ذخیره نشد</item>
+        <item quantity="other">‏%d پیوست ذخیره نشد</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">‏%d پیوست ذخیره شد</item>
+        <item quantity="other">‏%d پیوست ذخیره شد</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">‏%d دقیقه</item>
+        <item quantity="other">‏%d دقیقه</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">‏%d ثانیه</item>
+        <item quantity="other">‏%d ثانیه</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d دقیقه</item>
+        <item quantity="other">%d دقیقه</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d دقیقه</item>
+        <item quantity="other">%d دقیقه</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">‏%d ساعت</item>
+        <item quantity="other">‏%d ساعت</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d دقیقه</item>
+        <item quantity="other">%d دقیقه</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d ثانیه</item>
+        <item quantity="other">%d ثانیه</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">%d مکالمه حذف شود؟</item>
+        <item quantity="other">%d مکالمه حذف شود؟</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">%d پیام حذف شود؟</item>
+        <item quantity="other">%d پیام حذف شود؟</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d مکالمه حذف شد</item>
+        <item quantity="other">%d مکالمه حذف شد</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d پیام انتخاب‌شده</item>
+        <item quantity="other">%1$d پیام انتخاب‌شده</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">از %1$d پیام</item>
+        <item quantity="other">از %1$d پیام</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d فرستنده</item>
+        <item quantity="other">%d فرستنده</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d پیام</item>
+        <item quantity="other">%d پیام</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d پیام انتخاب شد</item>
+        <item quantity="other">%d پیام انتخاب شد</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">رمزگذاری سرتاسر گروه برای شما و %1$s نفر دیگر دردسترس نیست. %2$s</item>
+        <item quantity="other">رمزگذاری سرتاسر گروه برای شما و %1$s نفر دیگر دردسترس نیست. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">رمزگذاری سرتاسر گروه برای %1$s و %2$s نفر دیگر دردسترس نیست. %3$s</item>
+        <item quantity="other">رمزگذاری سرتاسر گروه برای %1$s و %2$s نفر دیگر دردسترس نیست. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d ثانیه سریع به‌جلو بردن</item>
+        <item quantity="other">%d ثانیه سریع به‌جلو بردن</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d ثانیه به‌عقب بردن</item>
+        <item quantity="other">%d ثانیه به‌عقب بردن</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">%d پیوست انتخاب نشد</item>
+        <item quantity="other">%d پیوست انتخاب نشد</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s گیرنده نمی‌تواند رمزگشایی کند.</item>
+        <item quantity="other">%1$s گیرنده نمی‌توانند رمزگشایی کند.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d مورد پیوست شد</item>
+        <item quantity="other">%d مورد پیوست شد</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d تصویر انتخاب‌شده</item>
+        <item quantity="other">%d تصویر انتخاب‌شده</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">‏%d پیام حذف شد</item>
+        <item quantity="other">‏%d پیام حذف شد</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d پیام انتخاب شد</item>
+        <item quantity="other">%d پیام انتخاب شد</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">مشاهده‌شده توسط %s</item>
+        <item quantity="other">مشاهده‌شده توسط %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s گیرنده رمزگشایی نشد، برای گزینه‌ها تک‌ضرب بزنید</item>
+        <item quantity="other">%1$s گیرنده رمزگشایی نشدند، برای گزینه‌ها تک‌ضرب بزنید</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s گیرنده نمی‌تواند رمزگشایی کند</item>
+        <item quantity="other">%1$s گیرنده نمی‌تواند رمزگشایی کنند</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">توسط %s خوانده شد</item>
+        <item quantity="other">توسط %s خوانده شد</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d نفر درحال تایپ کردن است…</item>
+        <item quantity="other">%d نفر درحال تایپ کردن هستند…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s + %2$s نفر دیگر</item>
+        <item quantity="other">%1$s + %2$s نفر دیگر</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">%1$d پیام در %2$d مکالمه ارسال نمی‌شود</item>
+        <item quantity="other">%1$d پیام در %2$d مکالمه ارسال نمی‌شود</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">‏%1$d پیام در %2$d مکالمه</item>
+        <item quantity="other">‏%1$d پیام در %2$d مکالمه</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d عکس</item>
+        <item quantity="other">%d عکس</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d ویدیو</item>
+        <item quantity="other">%d ویدیو</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%1$d پیام به مکالمه %2$d ارسال نشده است</item>
+        <item quantity="other">%1$d پیام به مکالمه %2$d ارسال نشده است</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d عکس</item>
+        <item quantity="other">%d عکس</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">%1$d عکس در پوشه %2$s شما ذخیره شد</item>
+        <item quantity="other">%1$d عکس در پوشه %2$s شما ذخیره شد</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d ویدیو</item>
+        <item quantity="other">%d ویدیو</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d ویدیو در پوشه %2$s شما ذخیره شد</item>
+        <item quantity="other">%1$d ویدیو در پوشه %2$s شما ذخیره شد</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">پیوست عکس‌های جدید</item>
+        <item quantity="other">پیوست عکس‌های جدید</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d نفر</item>
+        <item quantity="other">%d نفر</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d عکس در رسانه‌های ذخیره‌شده %2$s شما ذخیره شد</item>
+        <item quantity="other">%1$d عکس در رسانه‌های ذخیره‌شده %2$s شما ذخیره شد</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">%d+</item>
+        <item quantity="other">%d+</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">ممکن است گیرندگان آفلاین باشند</item>
+        <item quantity="other">ممکن است گیرندگان آفلاین باشند</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">پیام تحویل داده نشد</item>
+        <item quantity="other">پیام‌ها تحویل داده نشدند</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">%1$d مکالمه را برای دیدن گزینه‌های ارسال بررسی کنید</item>
+        <item quantity="other">%1$d مکالمه را برای دیدن گزینه‌های ارسال بررسی کنید</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d واکنش %2$s</item>
+        <item quantity="other">%1$d واکنش %2$s</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">درحال ارسال %d پیوست</item>
+        <item quantity="other">درحال ارسال %d پیوست</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">درحال ارسال %d عکس</item>
+        <item quantity="other">درحال ارسال %d عکس</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">درحال ارسال %d ویدیو</item>
+        <item quantity="other">درحال ارسال %d ویدیو</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">پیام زمان‌بندی‌شده</item>
+        <item quantity="other">پیام‌های زمان‌بندی‌شده</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d پیام انتخاب شد</item>
+        <item quantity="other">%d پیام انتخاب شد</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">‏%1$s پیام همچنان درحال ارسال به %2$s است. برای ارسال بازخورد به Google تک‌ضرب بزنید. بازخوردتان در مرحله بتا به بهبود «پیام‌نگار» کمک می‌کند.</item>
+        <item quantity="other">‏%1$s پیام همچنان درحال ارسال به %2$s است. برای ارسال بازخورد به Google تک‌ضرب بزنید. بازخوردتان در مرحله بتا به بهبود «پیام‌نگار» کمک می‌کند.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">همچنان درحال ارسال پیام</item>
+        <item quantity="other">همچنان درحال ارسال پیام‌ها</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">مشاهده پیام‌ها</item>
+        <item quantity="other">مشاهده پیام‌ها</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">%1$d/%2$d نتیجه پیدا شد</item>
+        <item quantity="other">%1$d/%2$d نتیجه پیدا شد</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">صدای ضبط‌شده باید طولانی‌تر از %d ثانیه باشد</item>
+        <item quantity="other">صدای ضبط‌شده باید طولانی‌تر از %d ثانیه باشد</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s و %2$s نفر دیگر در حال تایپ کردن هستند</item>
+        <item quantity="other">%1$s و %2$s نفر دیگر در حال تایپ کردن هستند</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d مکالمه لغو بایگانی شد</item>
+        <item quantity="other">%d مکالمه لغو بایگانی شد</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d پیام خوانده‌نشده</item>
+        <item quantity="other">%d پیام خوانده‌نشده</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d مخاطب</item>
+        <item quantity="other">%d مخاطب</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">مشاهده مخاطبین</item>
+        <item quantity="other">مشاهده مخاطبین</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d ویدیو در رسانه‌های ذخیره‌شده %2$s شما ذخیره شد</item>
+        <item quantity="other">%1$d ویدیو در رسانه‌های ذخیره‌شده %2$s شما ذخیره شد</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d پیام صوتی در رسانه‌های ذخیره‌شده %2$s شما ذخیره شد</item>
+        <item quantity="other">%1$d پیام صوتی در رسانه‌های ذخیره‌شده %2$s شما ذخیره شد</item>
+    </plurals>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:paddingTop="@dimen/rich_card_conversation_suggestion_vertical_padding"
+    android:paddingBottom="@dimen/rich_card_conversation_suggestion_vertical_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    android:minHeight="@dimen/rich_card_conversation_suggestion_min_height">
+    <ImageView
+        android:id="@+id/suggestion_rich_card_button_icon"
+        android:layout_width="@dimen/rich_card_conversation_suggestion_icon_size"
+        android:layout_height="@dimen/rich_card_conversation_suggestion_icon_size"
+        android:contentDescription="@string/conversation_suggestion_app_icon"
+        android:layout_marginEnd="@dimen/rich_card_conversation_suggestion_icon_right_margin"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubhead2"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/suggestion_rich_card_button_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textIsSelectable="false"/>
+</LinearLayout>

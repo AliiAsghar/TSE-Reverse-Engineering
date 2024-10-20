@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="emoji_gallery_height">212dp</dimen>
+    <dimen name="google_toolbar_text_size_subtitle">12dp</dimen>
+    <dimen name="google_toolbar_text_size_title">14dp</dimen>
+    <dimen name="group_name_top_padding">20dp</dimen>
+    <dimen name="max_dialog_height">168dp</dimen>
+    <dimen name="minimum_available_space">140dp</dimen>
+    <dimen name="minimum_rendering_height">200dp</dimen>
+    <dimen name="mtrl_calendar_header_height_fullscreen">96dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_bottom">24dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_end">0dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_start">0dp</dimen>
+    <dimen name="sud_glif_button_min_height">36dp</dimen>
+    <dimen name="sud_glif_card_height">560dp</dimen>
+    <dimen name="sud_glif_card_width">672dp</dimen>
+    <dimen name="sud_glif_footer_bar_min_height">52dp</dimen>
+    <dimen name="sud_glif_footer_padding_vertical">0dp</dimen>
+</resources>

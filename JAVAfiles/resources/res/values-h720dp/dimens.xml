@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_alert_dialog_button_bar_height">54dp</dimen>
+    <dimen name="sud_alert_dialog_button_bar_height">54dp</dimen>
+    <dimen name="welcome_flow_description_margin_top">12dp</dimen>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/menu_action_color_ripple">
+    <item android:drawable="@drawable/quantum_gm_ic_delete_vd_theme_24"/>
+</ripple>

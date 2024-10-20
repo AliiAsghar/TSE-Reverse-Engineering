@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.toolbar.BugleToolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/BugleToolbar.Lockup"
+    android:id="@+id/toolbar"
+    android:fitsSystemWindows="false"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:minHeight="?attr/actionBarSize"
+    android:paddingStart="0dp"
+    app:contentInsetStart="0dp"
+    app:navigationIcon="@null"
+    app:theme="@style/BugleToolbar.Lockup">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/lockup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/googleg_icon"
+            android:layout_width="@dimen/toolbar_branded_googleg_width"
+            android:layout_height="wrap_content"
+            android:src="@drawable/googleg_standard_color_24"
+            android:scaleType="center"
+            android:layout_marginStart="@dimen/toolbar_branded_googleg_start_margin"
+            android:layout_marginEnd="@dimen/toolbar_branded_googleg_end_margin"/>
+        <TextView
+            android:textSize="@dimen/action_bar_text_size_big"
+            android:id="@+id/messages_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:maxLines="1"
+            app:autoSizeTextType="none"
+            style="@style/BugleToolbarTitleTextStyle"/>
+    </LinearLayout>
+</com.google.android.apps.messaging.ui.toolbar.BugleToolbar>

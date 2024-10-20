@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/gif_browser_title_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_gravity="center_vertical"
+        android:id="@+id/advanced_feedback_close_button"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quantum_ic_close_24"
+        android:contentDescription="@string/advanced_feedback_data_detail_close_button_content_description"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="?attr/colorOnSurface"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/advanced_feedback_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+</LinearLayout>

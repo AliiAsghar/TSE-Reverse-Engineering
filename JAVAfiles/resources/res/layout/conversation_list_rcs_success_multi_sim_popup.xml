@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.rcs.setup.success.RcsSuccessMultiSimPopup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conversation_list_rcs_success_multi_sim_popup"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>

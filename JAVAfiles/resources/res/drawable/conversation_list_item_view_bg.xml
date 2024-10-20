@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <inset
+            android:insetLeft="@dimen/conversation_list_item_view_background_right_left_inset"
+            android:insetRight="@dimen/conversation_list_item_view_background_right_left_inset"
+            android:insetTop="@dimen/conversation_list_item_view_background_top_bottom_inset"
+            android:insetBottom="@dimen/conversation_list_item_view_background_top_bottom_inset">
+            <shape>
+                <corners
+                    android:topLeftRadius="@dimen/conversation_list_item_view_background_radius"
+                    android:topRightRadius="@dimen/conversation_list_item_view_background_radius"
+                    android:bottomLeftRadius="@dimen/conversation_list_item_view_background_radius"
+                    android:bottomRightRadius="@dimen/conversation_list_item_view_background_radius"/>
+                <solid android:color="?attr/colorSelectionSurface"/>
+            </shape>
+        </inset>
+    </item>
+    <item android:state_activated="true">
+        <inset
+            android:insetLeft="@dimen/conversation_list_item_view_background_right_left_inset"
+            android:insetRight="@dimen/conversation_list_item_view_background_right_left_inset"
+            android:insetTop="@dimen/conversation_list_item_view_background_top_bottom_inset"
+            android:insetBottom="@dimen/conversation_list_item_view_background_top_bottom_inset">
+            <shape>
+                <corners
+                    android:topLeftRadius="@dimen/conversation_list_item_view_background_radius"
+                    android:topRightRadius="@dimen/conversation_list_item_view_background_radius"
+                    android:bottomLeftRadius="@dimen/conversation_list_item_view_background_radius"
+                    android:bottomRightRadius="@dimen/conversation_list_item_view_background_radius"/>
+                <solid android:color="?attr/colorOnSurfaceInverse"/>
+            </shape>
+        </inset>
+    </item>
+    <item android:state_activated="false">
+        <color android:color="?android:attr/windowBackground"/>
+    </item>
+</selector>

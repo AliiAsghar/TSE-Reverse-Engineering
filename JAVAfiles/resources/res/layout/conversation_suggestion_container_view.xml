@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.conversation.suggestions.common.ConversationSuggestionContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/suggestion_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/suggestion_sticker"
+        android:visibility="gone"
+        layout="@layout/conversation_suggestion_sticker_view"/>
+</com.google.android.apps.messaging.ui.conversation.suggestions.common.ConversationSuggestionContainerView>

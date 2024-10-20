@@ -1,0 +1,34 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public enum amei implements apak {
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_UNKNOWN(0),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_GENERIC(1),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_MESSAGES_FAIL_TO_SEND(2),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_MESSAGES_FAIL_TO_RECEIVE(3),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_MESSAGES_FAIL_TO_DOWNLOAD(4),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_MESSAGES_STUCK_IN_SENDING(5),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_MESSAGES_DUPLICATED(6),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_MESSAGES_OUT_OF_ORDER(7),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_MESSAGES_IN_WRONG_CONVERSATION(8),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_RCS_CONNECTIVITY_LOST(9),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_RCS_PROVISIONING_FAIL(10),
+    BUGLE_ADVANCED_FEEDBACK_ISSUE_TYPE_MESSAGES_LOST(11);
+
+    public final int m;
+
+    amei(int i) {
+        this.m = i;
+    }
+
+    @Override // defpackage.apak
+    public final int a() {
+        return this.m;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.m);
+    }
+}

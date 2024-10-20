@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/gif_browser_title_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="?attr/colorOnSurface"
+        android:gravity="start|center_vertical"
+        android:id="@+id/advanced_feedback_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/advanced_feedback_activity_title"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/advanced_feedback_fragment_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/advanced_feedback_activity_next_button"
+        android:layout_alignEnd="@+id/advanced_feedback_title"
+        style="@style/Widget.GoogleMaterial.Button.TextButton"/>
+</RelativeLayout>

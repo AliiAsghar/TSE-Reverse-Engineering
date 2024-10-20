@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen
+        android:title="@string/menu_version_info"
+        android:selectable="false"
+        android:key="@string/application_version_number"
+        app:allowDividerAbove="true"/>
+    <PreferenceScreen
+        android:title="@string/menu_privacy_policy"
+        android:key="@string/privacy_policy_pref_key"
+        app:allowDividerAbove="true"/>
+    <PreferenceScreen
+        android:title="@string/menu_terms_of_service"
+        android:key="@string/terms_of_service_pref_key"
+        app:allowDividerAbove="true"/>
+</PreferenceScreen>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25 倍</item>
+        <item>0.5 倍</item>
+        <item>0.75 倍</item>
+        <item>正常</item>
+        <item>1.25 倍</item>
+        <item>1.5 倍</item>
+        <item>2 倍</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>恋爱</item>
+        <item>是</item>
+        <item>亲吻</item>
+        <item>你好</item>
+        <item>拥抱</item>
+        <item>派对</item>
+        <item>愤怒</item>
+        <item>激动</item>
+        <item>再见</item>
+        <item>大笑</item>
+        <item>哭泣</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>是</item>
+        <item>否</item>
+        <item>好的</item>
+        <item>呵呵</item>
+        <item>谢谢</item>
+        <item>同意</item>
+        <item>不错</item>
+        <item>我在路上</item>
+        <item>好，稍后再回复你</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>彩信</item>
+        <item>包含链接的短信</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>一律以短信形式重新发送</item>
+        <item>在非漫游时以短信形式重新发送</item>
+        <item>重新发送前询问我</item>
+        <item>一律不以短信形式重新发送</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>一律以短信/彩信形式重新发送</item>
+        <item>在非漫游时以短信/彩信形式重新发送</item>
+        <item>重新发送前询问我</item>
+        <item>一律不以短信/彩信形式重新发送</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

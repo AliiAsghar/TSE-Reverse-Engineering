@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/conversation_suggestion_bubble">
+        <shape>
+            <corners android:radius="@dimen/suggestion_shortcut_corner_radius"/>
+            <solid android:color="?attr/colorPrimaryBackground"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.GoogleMaterial.Light" parent="@style/Base.V27.Theme.GoogleMaterial.Light">
+    </style>
+    <style name="Base.Theme.GoogleMaterial3.Light" parent="@style/Base.V27.Theme.GoogleMaterial3.Light">
+    </style>
+    <style name="Base.V27.Theme.GoogleMaterial.Light" parent="@style/Base.V24.Theme.GoogleMaterial.Light">
+        <item name="android:navigationBarColor">@color/google_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Base.V27.Theme.GoogleMaterial3.Light" parent="@style/Base.V24.Theme.GoogleMaterial3.Light">
+        <item name="android:navigationBarColor">@color/gm3_ref_palette_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="BugleBaseTheme.ActionBar" parent="@style/Theme.GoogleMaterial3.DayNight">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:navigationBarDividerColor">@color/navigation_bar_divider_color</item>
+    </style>
+    <style name="BugleBaseTheme.NoActionBar" parent="@style/Theme.GoogleMaterial3.DayNight.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:navigationBarDividerColor">@color/navigation_bar_divider_color</item>
+    </style>
+    <style name="BugleCameraActivityTheme" parent="@style/BugleDarkNavBarTheme">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+    <style name="BugleDarkNavBarTheme" parent="@style/BugleToolbarTheme">
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:navigationBarDividerColor">@color/navigation_bar_divider_color</item>
+    </style>
+    <style name="BuglePromoTheme" parent="@style/BugleDarkNavBarTheme">
+    </style>
+    <style name="StickerDarkTheme" parent="@style/Theme.GoogleMaterial.Dark.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@color/sticker_navigation_bar_color_dark_mode</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@color/sticker_navigation_bar_divider_color_dark_mode</item>
+    </style>
+    <style name="StickerLightTheme" parent="@style/Theme.GoogleMaterial.Light.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@color/sticker_navigation_bar_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@color/sticker_navigation_bar_divider_color</item>
+    </style>
+    <style name="SudThemeGlifV3" parent="@style/SudBaseThemeGlifV3">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@color/sud_glif_v3_nav_bar_divider_color_dark</item>
+        <item name="sucLightSystemNavBar">?android:attr/windowLightNavigationBar</item>
+        <item name="sucSystemNavBarDividerColor">?android:attr/navigationBarDividerColor</item>
+    </style>
+    <style name="SudThemeGlifV3.Light" parent="@style/SudBaseThemeGlifV3.Light">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_light</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@color/sud_glif_v3_nav_bar_divider_color_light</item>
+        <item name="sucLightSystemNavBar">?android:attr/windowLightNavigationBar</item>
+        <item name="sucSystemNavBarDividerColor">?android:attr/navigationBarDividerColor</item>
+    </style>
+</resources>

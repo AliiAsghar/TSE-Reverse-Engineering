@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">і яшчэ %d</item>
+        <item quantity="few">і яшчэ %d</item>
+        <item quantity="many">і яшчэ %d</item>
+        <item quantity="other">і яшчэ %d</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d размова архівавана</item>
+        <item quantity="few">%d размовы архівавана</item>
+        <item quantity="many">%d размоў архівавана</item>
+        <item quantity="other">%d размовы архівавана</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">%d далучэнне гатовае да адпраўкі</item>
+        <item quantity="few">%d далучэнні гатовыя да адпраўкі</item>
+        <item quantity="many">%d далучэнняў гатовыя да адпраўкі</item>
+        <item quantity="other">%d далучэння гатовыя да адпраўкі</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Не ўдалося захаваць %d далучэнне</item>
+        <item quantity="few">Не ўдалося захаваць %d далучэнні</item>
+        <item quantity="many">Не ўдалося захаваць %d далучэнняў</item>
+        <item quantity="other">Не ўдалося захаваць %d далучэння</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d далучэнне захавана</item>
+        <item quantity="few">%d далучэнні захаваны</item>
+        <item quantity="many">%d далучэнняў захавана</item>
+        <item quantity="other">%d далучэння захавана</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d хвіліна</item>
+        <item quantity="few">%d хвіліны</item>
+        <item quantity="many">%d хвілін</item>
+        <item quantity="other">%d хвіліны</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунды</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d хвіліна</item>
+        <item quantity="few">%d хвіліны</item>
+        <item quantity="many">%d хвілін</item>
+        <item quantity="other">%d хвіліны</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d хв</item>
+        <item quantity="few">%d хв</item>
+        <item quantity="many">%d хв</item>
+        <item quantity="other">%d хв</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d гадзіна</item>
+        <item quantity="few">%d гадзіны</item>
+        <item quantity="many">%d гадзін</item>
+        <item quantity="other">%d гадзіны</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d хвіліна</item>
+        <item quantity="few">%d хвіліны</item>
+        <item quantity="many">%d хвілін</item>
+        <item quantity="other">%d хвіліны</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунды</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Выдаліць %d размову?</item>
+        <item quantity="few">Выдаліць %d размовы?</item>
+        <item quantity="many">Выдаліць %d размоў?</item>
+        <item quantity="other">Выдаліць %d размовы?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Выдаліць %d паведамленне?</item>
+        <item quantity="few">Выдаліць %d паведамленні?</item>
+        <item quantity="many">Выдаліць %d паведамленняў?</item>
+        <item quantity="other">Выдаліць %d паведамлення?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">Выдалена %d размова</item>
+        <item quantity="few">Выдалена %d размовы</item>
+        <item quantity="many">Выдалена %d размоў</item>
+        <item quantity="other">Выдалена %d размовы</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">Выбрана %1$d паведамленне</item>
+        <item quantity="few">Выбрана %1$d паведамленні</item>
+        <item quantity="many">Выбрана %1$d паведамленняў</item>
+        <item quantity="other">Выбрана %1$d паведамлення</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">з %1$d</item>
+        <item quantity="few">з %1$d</item>
+        <item quantity="many">з %1$d</item>
+        <item quantity="other">з %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d адпраўшчык</item>
+        <item quantity="few">%d адпраўшчыкі</item>
+        <item quantity="many">%d адпраўшчыкаў</item>
+        <item quantity="other">%d адпраўшчыка</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d паведамленне</item>
+        <item quantity="few">%d паведамленні</item>
+        <item quantity="many">%d паведамленняў</item>
+        <item quantity="other">%d паведамлення</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">Выбрана %d паведамленне</item>
+        <item quantity="few">Выбрана %d паведамленні</item>
+        <item quantity="many">Выбрана %d паведамленняў</item>
+        <item quantity="other">Выбрана %d паведамлення</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Групавое скразное шыфраванне недаступнае для вас і іншых удзельнікаў (%1$s). %2$s</item>
+        <item quantity="few">Групавое скразное шыфраванне недаступнае для вас і іншых удзельнікаў (%1$s). %2$s</item>
+        <item quantity="many">Групавое скразное шыфраванне недаступнае для вас і іншых удзельнікаў (%1$s). %2$s</item>
+        <item quantity="other">Групавое скразное шыфраванне недаступнае для вас і іншых удзельнікаў (%1$s). %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">Групавое скразное шыфраванне недаступнае для карыстальніка %1$s і яшчэ %2$s. %3$s</item>
+        <item quantity="few">Групавое скразное шыфраванне недаступнае для карыстальніка %1$s і яшчэ %2$s. %3$s</item>
+        <item quantity="many">Групавое скразное шыфраванне недаступнае для карыстальніка %1$s і яшчэ %2$s. %3$s</item>
+        <item quantity="other">Групавое скразное шыфраванне недаступнае для карыстальніка %1$s і яшчэ %2$s. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Пераматаць уперад на %d секунду</item>
+        <item quantity="few">Пераматаць уперад на %d секунды</item>
+        <item quantity="many">Пераматаць уперад на %d секунд</item>
+        <item quantity="other">Пераматаць уперад на %d секунды</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Пераматаць назад на %d секунду</item>
+        <item quantity="few">Пераматаць назад на %d секунды</item>
+        <item quantity="many">Пераматаць назад на %d секунд</item>
+        <item quantity="other">Пераматаць назад на %d секунды</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Не ўдалося выбраць %d далучэнне</item>
+        <item quantity="few">Не ўдалося выбраць %d далучэнні</item>
+        <item quantity="many">Не ўдалося выбраць %d далучэнняў</item>
+        <item quantity="other">Не ўдалося выбраць %d далучэння</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s атрымальніку не ўдалося расшыфраваць.</item>
+        <item quantity="few">%1$s атрымальнікам не ўдалося расшыфраваць.</item>
+        <item quantity="many">%1$s атрымальнікам не ўдалося расшыфраваць.</item>
+        <item quantity="other">%1$s атрымальніка не ўдалося расшыфраваць.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d далучаны</item>
+        <item quantity="few">%d далучаны</item>
+        <item quantity="many">%d далучана</item>
+        <item quantity="other">%d далучана</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">Выбраны %d відарыс</item>
+        <item quantity="few">Выбрана %d відарысы</item>
+        <item quantity="many">Выбрана %d відарысаў</item>
+        <item quantity="other">Выбрана %d відарыса</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">Выдалена %d паведамленне</item>
+        <item quantity="few">Выдалена %d паведамленні</item>
+        <item quantity="many">Выдалена %d паведамленняў</item>
+        <item quantity="other">Выдалена %d паведамлення</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">Выбрана %d паведамленне</item>
+        <item quantity="few">Выбрана %d паведамленні</item>
+        <item quantity="many">Выбрана %d паведамленняў</item>
+        <item quantity="other">Выбрана %d паведамлення</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Прагледжана карыстальнікамі: %s</item>
+        <item quantity="few">Прагледжана карыстальнікамі: %s</item>
+        <item quantity="many">Прагледжана карыстальнікамі: %s</item>
+        <item quantity="other">Прагледжана карыстальнікамі: %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s атрымальніку не ўдалося расшыфраваць паведамленне. Дакраніцеся, каб праглядзець магчымыя дзеянні</item>
+        <item quantity="few">%1$s атрымальнікам не ўдалося расшыфраваць паведамленне. Дакраніцеся, каб праглядзець магчымыя дзеянні</item>
+        <item quantity="many">%1$s атрымальнікам не ўдалося расшыфраваць паведамленне. Дакраніцеся, каб праглядзець магчымыя дзеянні</item>
+        <item quantity="other">%1$s атрымальнікаў не ўдалося расшыфраваць паведамленне. Дакраніцеся, каб праглядзець магчымыя дзеянні</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s атрымальніку не ўдалося расшыфраваць</item>
+        <item quantity="few">%1$s атрымальнікам не ўдалося расшыфраваць</item>
+        <item quantity="many">%1$s атрымальнікам не ўдалося расшыфраваць</item>
+        <item quantity="other">%1$s атрымальнікаў не ўдалося расшыфраваць</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Прачыталі: %s</item>
+        <item quantity="few">Прачыталі: %s</item>
+        <item quantity="many">Прачыталі: %s</item>
+        <item quantity="other">Прачыталі: %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d карыстальнік набірае тэкст…</item>
+        <item quantity="few">%d карыстальнікі набіраюць тэкст…</item>
+        <item quantity="many">%d карыстальнікаў набіраюць тэкст…</item>
+        <item quantity="other">%d карыстальніка набіраюць тэкст…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s і яшчэ %2$s</item>
+        <item quantity="few">%1$s і яшчэ %2$s</item>
+        <item quantity="many">%1$s і яшчэ %2$s</item>
+        <item quantity="other">%1$s і яшчэ %2$s</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">Не ўдалося даставіць паведамленні (%1$d) у %2$d размове</item>
+        <item quantity="few">Не ўдалося даставіць паведамленні (%1$d) у %2$d размовах</item>
+        <item quantity="many">Не ўдалося даставіць паведамленні (%1$d) у %2$d размовах</item>
+        <item quantity="other">Не ўдалося даставіць паведамленні (%1$d) у %2$d размовы</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d паведамленне ў %2$d размовах</item>
+        <item quantity="few">%1$d паведамленні ў %2$d размовах</item>
+        <item quantity="many">%1$d паведамленняў у %2$d размовах</item>
+        <item quantity="other">%1$d паведамлення ў %2$d размовах</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d відарыс</item>
+        <item quantity="few">%d відарысы</item>
+        <item quantity="many">%d відарысаў</item>
+        <item quantity="other">%d відарыса</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d відэа</item>
+        <item quantity="few">%d відэа</item>
+        <item quantity="many">%d відэа</item>
+        <item quantity="other">%d відэа</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">Не ўдалося адправіць паведамленні (%1$d) у %2$d размове</item>
+        <item quantity="few">Не ўдалося адправіць паведамленні (%1$d) у %2$d размовах</item>
+        <item quantity="many">Не ўдалося адправіць паведамленнні (%1$d) у %2$d размовах</item>
+        <item quantity="other">Не ўдалося адправіць паведамленні (%1$d) у %2$d размовы</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d фота</item>
+        <item quantity="few">%d фота</item>
+        <item quantity="many">%d фота</item>
+        <item quantity="other">%d фота</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">%1$d фота захавана ў папцы &quot;%2$s&quot;</item>
+        <item quantity="few">%1$d фота захавана ў папцы &quot;%2$s&quot;</item>
+        <item quantity="many">%1$d фота захавана ў папцы &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d фота захавана ў папцы &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d відэа</item>
+        <item quantity="few">%d відэа</item>
+        <item quantity="many">%d відэа</item>
+        <item quantity="other">%d відэа</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d відэа захавана ў папцы &quot;%2$s&quot;</item>
+        <item quantity="few">%1$d відэа захавана ў папцы &quot;%2$s&quot;</item>
+        <item quantity="many">%1$d відэа захавана ў папцы &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d відэа захавана ў папцы &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Далучыць нядаўнія фота</item>
+        <item quantity="few">Далучыць нядаўнія фота</item>
+        <item quantity="many">Далучыць нядаўнія фота</item>
+        <item quantity="other">Далучыць нядаўнія фота</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d чалавек</item>
+        <item quantity="few">%d чалавекі</item>
+        <item quantity="many">%d чалавек</item>
+        <item quantity="other">%d чалавека</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d фота захавана ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="few">%1$d фота захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="many">%1$d фота захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d фота захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+%d</item>
+        <item quantity="few">+%d</item>
+        <item quantity="many">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">Атрымальнікі могуць быць па-за сеткай</item>
+        <item quantity="few">Атрымальнікі могуць быць па-за сеткай</item>
+        <item quantity="many">Атрымальнікі могуць быць па-за сеткай</item>
+        <item quantity="other">Атрымальнікі могуць быць па-за сеткай</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Паведамленні не дастаўлены</item>
+        <item quantity="few">Паведамленні не дастаўлены</item>
+        <item quantity="many">Паведамленні не дастаўлены</item>
+        <item quantity="other">Паведамленні не дастаўлены</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Праглядзіце даступныя варыянты адпраўкі для %1$d размовы</item>
+        <item quantity="few">Праглядзіце даступныя варыянты адпраўкі для %1$d размоў</item>
+        <item quantity="many">Праглядзіце даступныя варыянты адпраўкі для %1$d размоў</item>
+        <item quantity="other">Праглядзіце даступныя варыянты адпраўкі для %1$d размовы</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d рэакцыя &quot;%2$s&quot;</item>
+        <item quantity="few">%1$d рэакцыі &quot;%2$s&quot;</item>
+        <item quantity="many">%1$d рэакцый &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d рэакцыі &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Адпраўляецца %d далучэнне</item>
+        <item quantity="few">Адпраўляюцца %d далучэнні</item>
+        <item quantity="many">Адпраўляюцца %d далучэнняў</item>
+        <item quantity="other">Адпраўляюцца %d далучэння</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Адпраўляецца %d фота</item>
+        <item quantity="few">Адпраўляюцца %d фота</item>
+        <item quantity="many">Адпраўляюцца %d фота</item>
+        <item quantity="other">Адпраўляюцца %d фота</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Адпраўляецца %d відэа</item>
+        <item quantity="few">Адпраўляюцца %d відэа</item>
+        <item quantity="many">Адпраўляюцца %d відэа</item>
+        <item quantity="other">Адпраўляюцца %d відэа</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Запланаваныя паведамленні</item>
+        <item quantity="few">Запланаваныя паведамленні</item>
+        <item quantity="many">Запланаваныя паведамленні</item>
+        <item quantity="other">Запланаваныя паведамленні</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+        <item quantity="other">Выбрана: %d</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">%1$s паведамленне яшчэ адпраўляецца ў размову &quot;%2$s&quot;. Націсніце, каб адправіць водгук у Google. Ваш водгук на этапе бэта-тэсціравання дапаможа палепшыць Паведамленні.</item>
+        <item quantity="few">%1$s паведамленні яшчэ адпраўляюцца ў размову &quot;%2$s&quot;. Націсніце, каб адправіць водгук у Google. Ваш водгук на этапе бэта-тэсціравання дапаможа палепшыць Паведамленні.</item>
+        <item quantity="many">%1$s паведамленняў яшчэ адпраўляюцца ў размову &quot;%2$s&quot;. Націсніце, каб адправіць водгук у Google. Ваш водгук на этапе бэта-тэсціравання дапаможа палепшыць Паведамленні.</item>
+        <item quantity="other">%1$s паведамлення яшчэ адпраўляюцца ў размову &quot;%2$s&quot;. Націсніце, каб адправіць водгук у Google. Ваш водгук на этапе бэта-тэсціравання дапаможа палепшыць Паведамленні.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Паведамленні яшчэ адпраўляюцца</item>
+        <item quantity="few">Паведамленні яшчэ адпраўляюцца</item>
+        <item quantity="many">Паведамленні яшчэ адпраўляюцца</item>
+        <item quantity="other">Паведамленні яшчэ адпраўляюцца</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Праглядзець паведамленні</item>
+        <item quantity="few">Праглядзець паведамленні</item>
+        <item quantity="many">Праглядзець паведамленні</item>
+        <item quantity="other">Праглядзець паведамленні</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">Вынік %1$d (з %2$d)</item>
+        <item quantity="few">Вынік %1$d (з %2$d)</item>
+        <item quantity="many">Вынік %1$d (з %2$d)</item>
+        <item quantity="other">Вынік %1$d (з %2$d)</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Працягласць запісаў павінна перавышаць %d секунду</item>
+        <item quantity="few">Працягласць запісаў павінна перавышаць %d секунды</item>
+        <item quantity="many">Працягласць запісаў павінна перавышаць %d секунд</item>
+        <item quantity="other">Працягласць запісаў павінна перавышаць %d секунды</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s і яшчэ %2$s карыстальнік набіраюць тэкст</item>
+        <item quantity="few">%1$s і яшчэ %2$s карыстальнікі набіраюць тэкст</item>
+        <item quantity="many">%1$s і яшчэ %2$s карыстальнікаў набіраюць тэкст</item>
+        <item quantity="other">%1$s і яшчэ %2$s карыстальніка набіраюць тэкст</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">Разархівавана %d размова</item>
+        <item quantity="few">Разархівавана %d размовы</item>
+        <item quantity="many">Разархівавана %d размоў</item>
+        <item quantity="other">Разархівавана %d размовы</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d непрачытанае паведамленне</item>
+        <item quantity="few">%d непрачытаныя паведамленні</item>
+        <item quantity="many">%d непрачытаных паведамленняў</item>
+        <item quantity="other">%d непрачытанага паведамлення</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d кантакт</item>
+        <item quantity="few">%d кантакты</item>
+        <item quantity="many">%d кантактаў</item>
+        <item quantity="other">%d кантакту</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Прагледзець кантакты</item>
+        <item quantity="few">Прагледзець кантакты</item>
+        <item quantity="many">Прагледзець кантакты</item>
+        <item quantity="other">Прагледзець кантакты</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d відэа захавана ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="few">%1$d відэа захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="many">%1$d відэа захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d відэа захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d галасавое паведамленне захавана ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="few">%1$d галасавыя паведамленні захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="many">%1$d галасавых паведамленняў захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d галасавога паведамлення захаваны ў бібліятэцы медыяфайлаў праграмы &quot;%2$s&quot;</item>
+    </plurals>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Орточо</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Сүйүү</item>
+        <item>Ооба</item>
+        <item>Өбүү</item>
+        <item>Салам</item>
+        <item>Кучактоо</item>
+        <item>Кече</item>
+        <item>Ачуулуу</item>
+        <item>Кубанган</item>
+        <item>Кош бол</item>
+        <item>Кармана албай каткыруу</item>
+        <item>Ыйлоо</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Ооба</item>
+        <item>Жок</item>
+        <item>Жарайт</item>
+        <item>Хе-хе</item>
+        <item>Рахмат</item>
+        <item>Макул</item>
+        <item>Сонун</item>
+        <item>Жолдомун</item>
+        <item>Макул, бир аздан кийин байланышам</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>Шилтемеси бар SMS</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Ар дайым SMS катары кайра жөнөтүлсүн</item>
+        <item>Роуминг болбогондо SMS түрүндө кайра жөнөтүлөт</item>
+        <item>Кайра жөнөтүүдөн мурун суроо</item>
+        <item>Эч качан SMS катары жөнөтүлбөсүн</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Ар дайым SMS/MMS катары жөнөтүлсүн</item>
+        <item>Роуминг болбогондо SMS/MMS түрүндө кайра жөнөтүлөт</item>
+        <item>Кайра жөнөтүүдөн мурун суроо</item>
+        <item>Эч качан SMS/MMS катары жөнөтүлбөсүн</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

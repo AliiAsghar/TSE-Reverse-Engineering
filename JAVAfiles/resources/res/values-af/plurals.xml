@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">en nog %d</item>
+        <item quantity="other">en nog %d</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d gesprek geargiveer</item>
+        <item quantity="other">%d gesprekke geargiveer</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Een aanhegsel is gereed om te stuur</item>
+        <item quantity="other">%d aanhegsels is gereed om te stuur</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Kon %d aanhegsel nie stoor nie</item>
+        <item quantity="other">Kon %d aanhegsels nie stoor nie</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d aanhegsel is gestoor</item>
+        <item quantity="other">%d aanhegsels is gestoor</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d minuut</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d sekonde</item>
+        <item quantity="other">%d sekondes</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d minuut</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d uur</item>
+        <item quantity="other">%d uur</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d minuut</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d sekonde</item>
+        <item quantity="other">%d sekondes</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Vee hierdie gesprek uit?</item>
+        <item quantity="other">Vee %d gesprekke uit?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Vee hierdie boodskap uit?</item>
+        <item quantity="other">Vee %d boodskappe uit?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d gesprek is uitgevee</item>
+        <item quantity="other">%d gesprekke is uitgevee</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d is gekies</item>
+        <item quantity="other">%1$d is gekies</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">van %1$d</item>
+        <item quantity="other">van %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d stuurder</item>
+        <item quantity="other">%d stuurders</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d boodskappe</item>
+        <item quantity="other">%d boodskappe</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d gekies</item>
+        <item quantity="other">%d gekies</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Groep-punt-na-punt-enkripsie is nie vir jou en %1$s beskikbaar nie. %2$s</item>
+        <item quantity="other">Groep-punt-na-punt-enkripsie is nie vir jou en %1$s ander beskikbaar nie. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">Groep-punt-na-punt-enkripsie is nie vir %1$s en %2$s beskikbaar nie. %3$s</item>
+        <item quantity="other">Groep-punt-na-punt-enkripsie is nie vir %1$s en %2$s ander beskikbaar nie. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Spoel %d sekonde vinnig vorentoe</item>
+        <item quantity="other">Spoel %d sekondes vinnig vorentoe</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Spoel %d sekonde terug</item>
+        <item quantity="other">Spoel %d sekondes terug</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Kon nie ’n aanhegsel kies nie</item>
+        <item quantity="other">Kon %d aanhegsels nie kies nie</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s ontvanger kan nie dekripteer nie.</item>
+        <item quantity="other">%1$s ontvangers kan nie dekripteer nie.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d aangeheg</item>
+        <item quantity="other">%d aangeheg</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d is gekies</item>
+        <item quantity="other">%d is gekies</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d boodskap is uitgevee</item>
+        <item quantity="other">%d boodskappe is uitgevee</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%dboodskap is gekies</item>
+        <item quantity="other">%d boodskappe gekies</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Gesien deur %s</item>
+        <item quantity="other">Gesien deur %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s ontvanger kan nie dekripteer nie, tik vir opsies</item>
+        <item quantity="other">%1$s ontvangers kan nie dekripteer nie, tik vir opsies</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s ontvanger kan nie dekripteer nie</item>
+        <item quantity="other">%1$s ontvangers kan nie dekripteer nie</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Gelees deur %s</item>
+        <item quantity="other">Gelees deur %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d mense tik tans …</item>
+        <item quantity="other">%d mense tik tans …</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s + %2$s ander</item>
+        <item quantity="other">%1$s + %2$s ander</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">%1$d boodskappe aan %3$s kan nie afgelewer word nie</item>
+        <item quantity="other">%1$d boodskappe in %2$d-gesprekke kan nie afgelewer word nie</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d boodskappe in een gesprek</item>
+        <item quantity="other">%1$d boodskappe in %2$d gesprekke</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d prent</item>
+        <item quantity="other">%d prente</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video&apos;s</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%1$d boodskappe aan %3$s is nie gestuur nie</item>
+        <item quantity="other">%1$d boodskappe in %2$d gesprekke is nie gestuur nie</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d foto&apos;s</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">%1$d-foto na jou %2$s-vouer gestoor</item>
+        <item quantity="other">%1$d-foto&apos;s na jou %2$s-vouer gestoor</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d-video</item>
+        <item quantity="other">%d video&apos;s</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d-video na jou %2$s-vouer gestoor</item>
+        <item quantity="other">%1$d-video&apos;s na jou %2$s-vouer gestoor</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Heg onlangse foto aan</item>
+        <item quantity="other">Heg onlangse foto&apos;s aan</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d persoon</item>
+        <item quantity="other">%d mense</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d foto is in jou gebergde media vir %2$s gestoor</item>
+        <item quantity="other">%1$d foto&apos;s is in jou gebergde media vir %2$s gestoor</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">%1$s is dalk vanlyn</item>
+        <item quantity="other">Ontvangers is dalk vanlyn</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Boodskap is nie afgelewer nie</item>
+        <item quantity="other">Boodskappe is nie afgelewer nie</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Gaan %1$d gesprekke na vir stuuropsies</item>
+        <item quantity="other">Gaan %1$d gesprekke na vir stuuropsies</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d %2$s reaksie</item>
+        <item quantity="other">%1$d %2$s reaksies</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Stuur tans aanhegsel</item>
+        <item quantity="other">Stuur tans %d aanhegsels</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Stuur tans foto</item>
+        <item quantity="other">Stuur tans %d foto&apos;s</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Stuur tans video</item>
+        <item quantity="other">Stuur tans %d video&apos;s</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Geskeduleerde boodskap</item>
+        <item quantity="other">Geskeduleerde boodskappe</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d is gekies</item>
+        <item quantity="other">%d is gekies</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">Is nog besig om %1$s boodskap aan%2$s te stuur. Tik om terugvoer aan Google te stuur. Jou terugvoer in beta help om Boodskappe te verbeter.</item>
+        <item quantity="other">%1$s boodskappe aan %2$s word nog gestuur. Tik om terugvoer aan Google te stuur. Jou terugvoer in beta help om Boodskappe te verbeter.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Is nog besig om &apos;n boodskap te stuur</item>
+        <item quantity="other">Is nog besig om boodskappe te stuur</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Bekyk boodskap</item>
+        <item quantity="other">Bekyk boodskappe</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d ster uit %2$d</item>
+        <item quantity="other">%1$d sterre uit %2$d</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">%1$d/%2$d resultaat gekry</item>
+        <item quantity="other">%1$d/%2$d resultate gekry</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Opname moet langer as %d sekonde wees</item>
+        <item quantity="other">Opname moet langer as %d sekondes wees</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s en %2$s ander tik tans</item>
+        <item quantity="other">%1$s en %2$s ander tik tans</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d gesprek gedeargiveer</item>
+        <item quantity="other">%d gesprekke gedeargiveer</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d ongelese boodskap</item>
+        <item quantity="other">%d ongelese boodskappe</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kontak</item>
+        <item quantity="other">%d kontakte</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Bekyk kontak</item>
+        <item quantity="other">Bekyk kontakte</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d video is in jou gebergde media vir %2$s gestoor</item>
+        <item quantity="other">%1$d video&apos;s is in jou gebergde media vir %2$s gestoor</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d stemboodskap is in jou gebergde media vir %2$s gestoor</item>
+        <item quantity="other">%1$d stemboodskappe is in jou gebergde media vir %2$s gestoor</item>
+    </plurals>
+</resources>

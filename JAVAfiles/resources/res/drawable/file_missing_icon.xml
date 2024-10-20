@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:height="36dp"
+                android:width="36dp"/>
+            <solid android:color="?attr/colorOnSurfaceVariant"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:id="@+id/file_missing_icon_layer"
+        android:height="15dp"
+        android:width="15dp"
+        android:drawable="@drawable/quantum_gm_ic_broken_image_vd_theme_24"/>
+</layer-list>

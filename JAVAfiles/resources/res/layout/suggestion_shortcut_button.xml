@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.conversation.suggestions.shortcuts.SuggestionShortcutView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/suggestion_shortcut"
+    android:background="@drawable/suggestion_shortcut_bg"
+    android:visibility="gone"
+    android:layout_width="@dimen/suggestion_shortcut_size"
+    android:layout_height="@dimen/suggestion_shortcut_size"
+    android:foreground="?attr/selectableItemBackground"
+    android:stateListAnimator="@null"
+    android:clipToOutline="true">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center"
+        android:id="@+id/animated_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/anim_shortcut_background"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/suggestion_shortcut_icon"
+        android:layout_width="@dimen/suggestion_shortcut_icon_size"
+        android:layout_height="@dimen/suggestion_shortcut_icon_size"
+        android:stateListAnimator="@null"/>
+</com.google.android.apps.messaging.ui.conversation.suggestions.shortcuts.SuggestionShortcutView>

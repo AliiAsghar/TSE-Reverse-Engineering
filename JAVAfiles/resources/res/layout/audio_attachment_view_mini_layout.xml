@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/play_pause_button"
+        android:layout_width="@dimen/audio_attachment_button_size"
+        android:layout_height="@dimen/audio_attachment_button_size"
+        layout="@layout/audio_play_pause_button_v2"
+        style="@style/AudioAttachmentButtonStyle"/>
+</merge>

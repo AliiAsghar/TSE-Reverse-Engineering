@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.conversation.settings.BusinessTopActionView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/business_top_action"
+    android:paddingTop="@dimen/business_top_action_padding_vertical"
+    android:paddingBottom="@dimen/business_top_action_padding_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:minWidth="@dimen/business_top_action_min_width"
+    style="@style/ConversationSettingsTopActionStyle">
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubhead1"
+        android:textSize="@dimen/business_top_action_text_size_m2"
+        android:gravity="bottom|center_horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/business_top_action_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="1"
+        android:drawablePadding="@dimen/business_top_action_icon_padding"
+        android:textIsSelectable="false"/>
+</com.google.android.apps.messaging.conversation.settings.BusinessTopActionView>

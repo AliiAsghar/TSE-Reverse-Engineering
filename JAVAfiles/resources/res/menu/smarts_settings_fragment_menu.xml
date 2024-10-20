@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/quantum_gm_ic_help_outline_vd_theme_24"
+        android:id="@+id/action_learn_more"
+        android:title="@string/learn_more"
+        appcompat:iconTint="?attr/colorPrimaryBrandIcon"
+        appcompat:showAsAction="always"/>
+</menu>

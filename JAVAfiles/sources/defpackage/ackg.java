@@ -1,0 +1,100 @@
+package defpackage;
+
+import com.google.android.gms.common.Feature;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class ackg {
+    public static final Feature A;
+    public static final Feature B;
+    public static final Feature C;
+    public static final Feature[] D;
+    public static final Feature a;
+    public static final Feature b;
+    public static final Feature c;
+    public static final Feature d;
+    public static final Feature e;
+    public static final Feature f;
+    public static final Feature g;
+    public static final Feature h;
+    public static final Feature i;
+    public static final Feature j;
+    public static final Feature k;
+    public static final Feature l;
+    public static final Feature m;
+    public static final Feature n;
+    public static final Feature o;
+    public static final Feature p;
+    public static final Feature q;
+    public static final Feature r;
+    public static final Feature s;
+    public static final Feature t;
+    public static final Feature u;
+    public static final Feature v;
+    public static final Feature w;
+    public static final Feature x;
+    public static final Feature y;
+    public static final Feature z;
+
+    static {
+        Feature feature = new Feature("app_client", 4L);
+        a = feature;
+        Feature feature2 = new Feature("carrier_auth", 1L);
+        b = feature2;
+        Feature feature3 = new Feature("wear3_oem_companion", 1L);
+        c = feature3;
+        Feature feature4 = new Feature("wear_await_data_sync_complete", 1L);
+        d = feature4;
+        Feature feature5 = new Feature("wear_backup_restore", 6L);
+        e = feature5;
+        Feature feature6 = new Feature("wear_consent", 2L);
+        f = feature6;
+        Feature feature7 = new Feature("wear_consent_recordoptin", 1L);
+        g = feature7;
+        Feature feature8 = new Feature("wear_consent_recordoptin_swaadl", 1L);
+        h = feature8;
+        Feature feature9 = new Feature("wear_consent_supervised", 2L);
+        i = feature9;
+        Feature feature10 = new Feature("wear_get_phone_switching_feature_status", 1L);
+        j = feature10;
+        Feature feature11 = new Feature("wear_fast_pair_account_key_sync", 1L);
+        k = feature11;
+        Feature feature12 = new Feature("wear_fast_pair_get_account_keys", 1L);
+        l = feature12;
+        Feature feature13 = new Feature("wear_fast_pair_get_account_key_by_account", 1L);
+        m = feature13;
+        Feature feature14 = new Feature("wear_flush_batched_data", 1L);
+        n = feature14;
+        Feature feature15 = new Feature("wear_get_related_configs", 1L);
+        o = feature15;
+        Feature feature16 = new Feature("wear_get_node_id", 1L);
+        p = feature16;
+        Feature feature17 = new Feature("wear_logging_service", 2L);
+        q = feature17;
+        Feature feature18 = new Feature("wear_retry_connection", 1L);
+        r = feature18;
+        Feature feature19 = new Feature("wear_set_cloud_sync_setting_by_node", 1L);
+        s = feature19;
+        Feature feature20 = new Feature("wear_first_party_consents", 2L);
+        t = feature20;
+        Feature feature21 = new Feature("wear_update_config", 1L);
+        u = feature21;
+        Feature feature22 = new Feature("wear_update_connection_retry_strategy", 1L);
+        v = feature22;
+        Feature feature23 = new Feature("wear_update_delay_config", 1L);
+        w = feature23;
+        Feature feature24 = new Feature("wearable_services", 1L);
+        x = feature24;
+        Feature feature25 = new Feature("wear_cancel_migration", 1L);
+        y = feature25;
+        Feature feature26 = new Feature("wear_customizable_screens", 2L);
+        z = feature26;
+        Feature feature27 = new Feature("wear_wifi_immediate_connect", 1L);
+        A = feature27;
+        Feature feature28 = new Feature("wear_get_node_active_network_metered", 1L);
+        B = feature28;
+        Feature feature29 = new Feature("wear_consents_per_watch", 3L);
+        C = feature29;
+        D = new Feature[]{feature, feature2, feature3, feature4, feature5, feature6, feature7, feature8, feature9, feature10, feature11, feature12, feature13, feature14, feature15, feature16, feature17, feature18, feature19, feature20, feature21, feature22, feature23, feature24, feature25, feature26, feature27, feature28, feature29};
+    }
+}

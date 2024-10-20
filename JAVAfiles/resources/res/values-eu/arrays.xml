@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25×</item>
+        <item>0,5×</item>
+        <item>0,75×</item>
+        <item>Normala</item>
+        <item>1,25×</item>
+        <item>1,5×</item>
+        <item>2×</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Maitasuna</item>
+        <item>Bai</item>
+        <item>Musua</item>
+        <item>Kaixo</item>
+        <item>Besarkada</item>
+        <item>Festa</item>
+        <item>Haserre</item>
+        <item>Hunkituta</item>
+        <item>Agur</item>
+        <item>Barre-algarak</item>
+        <item>Negarrez</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Bai</item>
+        <item>Ez</item>
+        <item>Ados</item>
+        <item>Kar-kar</item>
+        <item>Eskerrik asko</item>
+        <item>Ados</item>
+        <item>Ederki</item>
+        <item>Banoa</item>
+        <item>Ados, geroago erantzungo dizut</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>Esteka duten SMSak</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>gisa</item>
+        <item>Bidali berriro SMS gisa ibiltaritza aktibatuta ez dagoenean</item>
+        <item>Galdetu berriro bidali aurretik</item>
+        <item>Ez bidali berriro inoiz SMS gisa</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>gisa</item>
+        <item>Bidali berriro SMS/MMS gisa ibiltaritza aktibatuta ez dagoenean</item>
+        <item>Galdetu berriro bidali aurretik</item>
+        <item>Ez bidali berriro inoiz SMS/MMS gisa</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

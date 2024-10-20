@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>இயல்பு</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>காதல்</item>
+        <item>ஆம்</item>
+        <item>முத்தம்</item>
+        <item>வணக்கம்</item>
+        <item>கட்டியணைத்தல்</item>
+        <item>பார்ட்டி</item>
+        <item>கோபம்</item>
+        <item>உற்சாகம்</item>
+        <item>விடைபெறுகிறேன்</item>
+        <item>ஹஹாஹா</item>
+        <item>அழுகை</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>ஆம்</item>
+        <item>இல்லை</item>
+        <item>சரி</item>
+        <item>ஹிஹி</item>
+        <item>நன்றி</item>
+        <item>ஏற்கிறேன்</item>
+        <item>அருமை</item>
+        <item>வந்துகொண்டிருக்கிறேன்</item>
+        <item>பின்னர் அழைக்கிறேன்</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>ஃபைல்களுக்கான இணைப்பைக் கொண்டுள்ள SMS</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>எப்போதும் SMS ஆக மீண்டும் அனுப்பு</item>
+        <item>ரோமிங்கில் இல்லாத போது SMS ஆக மீண்டும் அனுப்பு</item>
+        <item>மீண்டும் அனுப்பும் முன், கேள்</item>
+        <item>ஒருபோதும் SMS ஆக மீண்டும் அனுப்பாதே</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>எப்போதும் SMS/MMS ஆக மீண்டும் அனுப்பு</item>
+        <item>ரோமிங்கில் இல்லாத போது SMS/MMS ஆக மீண்டும் அனுப்பு</item>
+        <item>மீண்டும் அனுப்பும் முன், கேள்</item>
+        <item>ஒருபோதும் SMS/MMS ஆக மீண்டும் அனுப்பாதே</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

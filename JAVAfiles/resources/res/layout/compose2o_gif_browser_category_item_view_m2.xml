@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/gif_browser_category_frame_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/c2o_gif_browser_category_item_height"
+    android:layout_margin="@dimen/c2o_gif_browser_category_item_margin">
+    <TextView
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:textColor="@color/gif_browser_category_text_color_m2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/gif_browser_category_text"
+        android:background="@drawable/compose2o_gif_browser_category_item_rounded_corners_background_m2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/c2o_gif_browser_category_item_button_height"
+        android:foreground="@drawable/compose2o_gif_browser_category_item_ripple_bg"
+        android:paddingStart="@dimen/c2o_gif_browser_category_item_horizontal_padding"
+        android:paddingEnd="@dimen/c2o_gif_browser_category_item_horizontal_padding"/>
+</FrameLayout>

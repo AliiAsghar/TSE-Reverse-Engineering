@@ -1,0 +1,24 @@
+package defpackage;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class ide extends arps {
+    /* synthetic */ Object a;
+    final /* synthetic */ idg b;
+    int c;
+    idg d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public ide(idg idgVar, arpe arpeVar) {
+        super(arpeVar);
+        this.b = idgVar;
+    }
+
+    @Override // defpackage.arpq
+    public final Object b(Object obj) {
+        this.a = obj;
+        this.c |= Integer.MIN_VALUE;
+        return this.b.b(null, null, this);
+    }
+}

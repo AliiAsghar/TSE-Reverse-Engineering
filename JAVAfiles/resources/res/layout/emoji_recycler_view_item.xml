@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.apps.messaging.shared.ui.AsyncImageView
+        android:id="@+id/emoji_image"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_gravity="end|bottom"
+        android:id="@+id/variants_available_indicator"
+        android:background="@drawable/variant_indicator"
+        android:layout_width="6dp"
+        android:layout_height="6dp"/>
+</FrameLayout>

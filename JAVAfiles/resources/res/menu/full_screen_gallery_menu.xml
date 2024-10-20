@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_attach"
+        android:title="@string/full_screen_gallery_action_attach"
+        appcompat:showAsAction="always"/>
+</menu>

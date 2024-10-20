@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/google_tos_tooltip_popup_window"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp"
+    android:clickable="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <ScrollView
+        android:layout_gravity="bottom"
+        android:id="@+id/google_tos_tooltip_scroll_view"
+        android:background="@drawable/tooltip_bubble"
+        android:padding="2dp"
+        android:scrollbars="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp">
+        <TextView
+            android:textAppearance="?attr/textAppearanceCaption"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textColorLink="?attr/colorPrimaryBrandIcon"
+            android:id="@+id/google_tos_tooltip_text"
+            android:padding="14dp"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:textDirection="locale"/>
+    </ScrollView>
+</FrameLayout>

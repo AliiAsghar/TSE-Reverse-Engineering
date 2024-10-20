@@ -1,0 +1,10 @@
+package defpackage;
+
+import android.os.Parcelable;
+
+/* compiled from: PG */
+@Deprecated
+/* loaded from: classes4.dex */
+public final class ajrk {
+    public static final Parcelable.Creator a = new ajqp(17);
+}

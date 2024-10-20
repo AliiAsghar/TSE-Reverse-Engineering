@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normāls</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Mīlestība</item>
+        <item>Jā</item>
+        <item>Skūpsts</item>
+        <item>Labdien</item>
+        <item>Apskāviens</item>
+        <item>Ballīte</item>
+        <item>Dusmīgs</item>
+        <item>Patīkami satraukts</item>
+        <item>Atā</item>
+        <item>Skaļi smejos</item>
+        <item>Raudošs</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Jā</item>
+        <item>Nē</item>
+        <item>Labi</item>
+        <item>He-he</item>
+        <item>Paldies</item>
+        <item>Piekrītu</item>
+        <item>Jauki</item>
+        <item>Esmu ceļā</item>
+        <item>Labi, vēlāk ar tevi sazināšos</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>Īsziņa ar saiti</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Vienmēr sūtīt vēlreiz kā īsziņu</item>
+        <item>Sūtīt vēlreiz kā īsziņu, ja netiek izmantota viesabonēšana</item>
+        <item>Vaicāt pirms atkārtotas sūtīšanas</item>
+        <item>Nekad nesūtīt vēlreiz kā īsziņu</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Vienmēr sūtīt vēlreiz kā īsziņu/multiziņu</item>
+        <item>Sūtīt vēlreiz kā īsziņu/multiziņu, ja netiek izmantota viesabonēšana</item>
+        <item>Vaicāt pirms atkārtotas sūtīšanas</item>
+        <item>Nekad nesūtīt vēlreiz kā īsziņu/multiziņu</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

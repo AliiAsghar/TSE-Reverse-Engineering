@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">жана дагы %d катышуучу</item>
+        <item quantity="other">жана дагы %d катышуучу</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d маек архивделди</item>
+        <item quantity="other">%d маек архивделди</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Бир тиркеме жөнөтүүгө даяр</item>
+        <item quantity="other">%d тиркеме жөнөтүүгө даяр</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d тиркеме сакталбай калды</item>
+        <item quantity="other">%d тиркеме сакталбай калды</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d тиркеме сакталды</item>
+        <item quantity="other">%d тиркеме сакталды</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d мүнөт</item>
+        <item quantity="other">%d мүнөт</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d мүнөт</item>
+        <item quantity="other">%d мүнөт</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d мүн</item>
+        <item quantity="other">%d мүн</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d саат</item>
+        <item quantity="other">%d саат</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d мүнөт</item>
+        <item quantity="other">%d мүнөт</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Бул маекти өчүрөсүзбү?</item>
+        <item quantity="other">%d маекти өчүрөсүзбү?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Бул билдирүүнү өчүрөсүзбү?</item>
+        <item quantity="other">%d билдирүүнү өчүрөсүзбү?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d жазышуу өчүрүлдү</item>
+        <item quantity="other">%d жазышуу өчүрүлдү</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d тандалды</item>
+        <item quantity="other">%1$d тандалды</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">%1$d ичинен</item>
+        <item quantity="other">%1$d ичинен</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d жөнөтүүчү</item>
+        <item quantity="other">%d жөнөтүүчү</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d билдирүү</item>
+        <item quantity="other">%d билдирүү</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d тандалды</item>
+        <item quantity="other">%d тандалды</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Сиз менен %1$s топтордо баштан аяк шифрлөөнү пайдалана албайт. %2$s</item>
+        <item quantity="other">Сиз жана башка %1$s топтордо баштан аяк шифрлөөнү пайдалана албайт. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">%1$s жана %2$s топтордо баштан аяк шифрлөөнү пайдалана албайт. %3$s</item>
+        <item quantity="other">%1$s жана башка %2$s топтордо баштан аяк шифрлөөнү пайдалана албайт. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d секунд алдыга түрдүрүү</item>
+        <item quantity="other">%d секунд алдыга түрдүрүү</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d секунд артка түрдүрүү</item>
+        <item quantity="other">%d секунд артка түрдүрүү</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Тиркеме тандалган жок</item>
+        <item quantity="other">%d тиркеме тандалган жок</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s алуучу шифрди чечмелей алган жок.</item>
+        <item quantity="other">%1$s алуучу шифрди чечмелей алган жок.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d файл тиркелди</item>
+        <item quantity="other">%d файл тиркелди</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d тандалды</item>
+        <item quantity="other">%d тандалды</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d билдирүү өчүрүлдү</item>
+        <item quantity="other">%d билдирүү өчүрүлдү</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d билдирүү тандалды</item>
+        <item quantity="other">%d билдирүү тандалды</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">%s көрдү</item>
+        <item quantity="other">%s көрдү</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s алуучу шифрди чечмелеген жок. Варианттарды көрүү үчүн басыңыз</item>
+        <item quantity="other">%1$s алуучу шифрди чечмелеген жок. Варианттарды көрүү үчүн басыңыз</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s алуучу шифрди чечмелей алган жок</item>
+        <item quantity="other">%1$s алуучу шифрди чечмелей алган жок</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Окуду: %s</item>
+        <item quantity="other">Окуду: %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d адам терип жатат…</item>
+        <item quantity="other">%d адам терип жатат…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s + дагы %2$s</item>
+        <item quantity="other">%1$s + дагы %2$s</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">%3$s деген колдонуучуга %1$d билдирүү жөнөтүлбөй жатат</item>
+        <item quantity="other">%2$d маектешүүдөгү %1$d билдирүү жөнөтүлбөй жатат</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">Бир маекте %1$d билдирүү</item>
+        <item quantity="other">%2$d маекте %1$d билдирүү</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d сүрөт</item>
+        <item quantity="other">%d сүрөт</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d видео</item>
+        <item quantity="other">%d видео</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%3$s маегинде %1$d билдирүү жөнөтүлбөй калды</item>
+        <item quantity="other">%2$d маегинде %1$d билдирүү жөнөтүлбөй калды</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d сүрөт</item>
+        <item quantity="other">%d сүрөт</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">%1$d сүрөт %2$s папкаңызга сакталды</item>
+        <item quantity="other">%1$d сүрөт %2$s папкаңызга сакталды</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d видео</item>
+        <item quantity="other">%d видео</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d видео %2$s папкаңызга сакталды</item>
+        <item quantity="other">%1$d видео %2$s папкаңызга сакталды</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Акыркы сүрөттү тиркөө</item>
+        <item quantity="other">Акыркы сүрөттөрдү тиркөө</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d киши</item>
+        <item quantity="other">%d киши</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d фото %2$s медиафайлдар альбомуна сакталды</item>
+        <item quantity="other">%1$d фото %2$s медиафайлдар альбомуна сакталды</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">%1$s офлайн болушу мүмкүн</item>
+        <item quantity="other">Алуучу офлайн болушу мүмкүн</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Билдирүү жеткен жок</item>
+        <item quantity="other">Билдирүүлөр жеткен жок</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">%1$d сүйлөшүү үчүн жеткиликтүү жөнөтүү параметрлерин карап көрүңүз</item>
+        <item quantity="other">%1$d сүйлөшүү үчүн жеткиликтүү жөнөтүү параметрлерин карап көрүңүз</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d %2$s реакциясы</item>
+        <item quantity="other">%1$d %2$s реакциясы</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Тиркеме жөнөтүлүүдө</item>
+        <item quantity="other">%d тиркеме жөнөтүлүүдө</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Сүрөт жөнөтүлүүдө</item>
+        <item quantity="other">%d сүрөт жөнөтүлүүдө</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Видео жөнөтүлүүдө</item>
+        <item quantity="other">%d видео жөнөтүлүүдө</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Графикке киргизилген билдирүү</item>
+        <item quantity="other">Графикке киргизилген билдирүүлөр</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d тандалды</item>
+        <item quantity="other">%d тандалды</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">%1$s билдирүү дагы эле %2$s сүйлөшүүсүнө жөнөтүлүүдө. Google&apos;га пикир жөнөтүү үчүн басыңыз. Пикириңиз бета версияда Жазышууларды жакшыртууга жардам берет.</item>
+        <item quantity="other">%1$s билдирүү дагы эле %2$s сүйлөшүүсүнө жөнөтүлүүдө. Google&apos;га пикир жөнөтүү үчүн басыңыз. Пикириңиз бета версияда Жазышууларды жакшыртууга жардам берет.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Билдирүү дагы эле жөнөтүлүүдө</item>
+        <item quantity="other">Билдирүүлөр дагы эле жөнөтүлүүдө</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Билдирүүнү көрүү</item>
+        <item quantity="other">Билдирүүлөрдү көрүү</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%2$d ичинен %1$d жылдызча</item>
+        <item quantity="other">%2$d ичинен %1$d жылдызча</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">%1$d/%2$d нерсе табылды</item>
+        <item quantity="other">%1$d/%2$d нерсе табылды</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Жаздыруулар %d секунддан узунураак болушу керек</item>
+        <item quantity="other">Жаздыруулар %d секунддан узунураак болушу керек</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s жана дагы %2$s терип жатат</item>
+        <item quantity="other">%1$s жана дагы %2$s терип жатат</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d маек архивден чыгарылды</item>
+        <item quantity="other">%d маек архивден чыгарылды</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d окула элек билдирүү</item>
+        <item quantity="other">%d окула элек билдирүү</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d байланыш</item>
+        <item quantity="other">%d байланыш</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Байланышты карап көрүү</item>
+        <item quantity="other">Байланыштарды карап көрүү</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d видео %2$s медиафайлдар альбомуна сакталды</item>
+        <item quantity="other">%1$d видео %2$s медиафайлдар альбомуна сакталды</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d үн билдирүүсү %2$s медиафайлдар альбомуна сакталды</item>
+        <item quantity="other">%1$d үн билдирүүсү %2$s медиафайлдар альбомуна сакталды</item>
+    </plurals>
+</resources>

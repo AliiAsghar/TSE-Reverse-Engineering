@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/country_code_view_flipper"
+    android:background="?attr/colorSurface"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/country_code_progress_bar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:indeterminate="true"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/country_code_list"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</ViewFlipper>

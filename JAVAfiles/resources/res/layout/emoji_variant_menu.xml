@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_gravity="left"
+        android:id="@+id/descender"
+        android:background="@drawable/generic_menu_descender_background"
+        android:clipToPadding="false"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/emoji_variant_menu_descender_height"
+        android:elevation="@dimen/standard_menu_elevation"/>
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="left"
+        android:id="@+id/panel"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="?android:attr/colorBackground"
+        app:cardCornerRadius="@dimen/emoji_variant_menu_rounding"
+        app:cardElevation="@dimen/standard_menu_elevation">
+        <FrameLayout
+            android:id="@+id/emoji_set_view_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

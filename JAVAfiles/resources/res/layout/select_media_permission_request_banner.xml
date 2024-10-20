@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/select_media_permission_request_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/standard_view_padding">
+    <TextView
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/select_media_permission_request_text"
+        android:layout_weight="1"
+        android:paddingStart="16dp"/>
+    <Button
+        android:textColor="?attr/colorPrimary"
+        android:id="@+id/select_media_request_permission_button"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_media_permission_request_button"
+        android:textAllCaps="false"
+        style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <transitionSet android:duration="217">
+        <changeTransform android:interpolator="@interpolator/mtrl_fast_out_slow_in"/>
+        <targets>
+            <target android:targetId="@+id/plus_button"/>
+        </targets>
+    </transitionSet>
+    <transitionSet
+        android:duration="250"
+        android:startDelay="83">
+        <changeTransform android:interpolator="@anim/chevron_button_overshoot_interpolator"/>
+        <targets>
+            <target android:targetId="@+id/expand_attach_button"/>
+            <target android:targetId="@+id/message_compose_view_container_with_c2o"/>
+        </targets>
+    </transitionSet>
+    <transitionSet android:duration="167">
+        <changeBounds android:interpolator="@interpolator/mtrl_fast_out_slow_in"/>
+        <targets>
+            <target android:targetId="@+id/camera_gallery_button"/>
+            <target android:targetId="@+id/message_compose_view_container_with_c2o"/>
+            <target android:targetId="@+id/expand_attach_button"/>
+            <target android:targetId="@+id/plus_button"/>
+            <target android:targetId="@+id/compose_message_box_linear_layout"/>
+            <target android:targetId="@+id/compose_message_container"/>
+            <target android:targetId="@+id/emoji_gallery_button_container"/>
+            <target android:targetId="@+id/emoji_gallery_button"/>
+            <target android:targetId="@+id/send_message_button_container"/>
+            <target android:targetId="@+id/subject_view"/>
+            <target android:targetId="@+id/subject_container"/>
+            <target android:targetId="@+id/delete_subject_button"/>
+            <target android:targetId="@+id/priority_checkbox_container"/>
+            <target android:targetId="@+id/compose_message_text_container"/>
+        </targets>
+    </transitionSet>
+    <transitionSet
+        android:duration="183"
+        android:startDelay="50">
+        <changeTransform android:interpolator="@interpolator/mtrl_fast_out_slow_in"/>
+        <targets>
+            <target android:targetId="@+id/camera_gallery_button"/>
+        </targets>
+    </transitionSet>
+    <transitionSet android:duration="0">
+        <changeTransform android:interpolator="@interpolator/mtrl_fast_out_slow_in"/>
+        <changeBounds android:interpolator="@interpolator/mtrl_fast_out_slow_in"/>
+        <targets>
+            <target android:targetId="@+id/compose_message_text"/>
+        </targets>
+    </transitionSet>
+    <transitionSet
+        android:duration="0"
+        android:startDelay="250">
+        <fade/>
+        <targets>
+            <target android:targetId="@+id/camera_gallery_button"/>
+            <target android:targetId="@+id/plus_button"/>
+        </targets>
+    </transitionSet>
+    <transitionSet android:duration="0">
+        <fade/>
+        <targets>
+            <target android:targetId="@+id/expand_attach_button"/>
+        </targets>
+    </transitionSet>
+</transitionSet>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/compose_attachment_container_height"
+    android:minWidth="@dimen/attachment_preview_width">
+    <FrameLayout
+        android:id="@+id/attachment_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/compose_attachment_container_height"
+        android:minWidth="@dimen/attachment_preview_width"
+        style="@style/AttachmentPreviewAttachmentStyle"/>
+    <ImageButton
+        android:id="@+id/close_button"
+        android:background="@null"
+        android:paddingTop="@dimen/attachment_close_btn_top_offset"
+        android:paddingBottom="@dimen/attachment_close_btn_bottom_offset"
+        android:layout_width="@dimen/min_touch_target_size"
+        android:layout_height="@dimen/min_touch_target_size"
+        android:src="@drawable/remove_attachment_element_m2"
+        android:contentDescription="@string/attachment_preview_close_content_description"
+        android:paddingStart="@dimen/attachment_close_btn_start_offset"
+        android:paddingEnd="@dimen/attachment_close_btn_end_offset"
+        style="@style/AttachmentPreviewCloseButtonStyle"/>
+</merge>

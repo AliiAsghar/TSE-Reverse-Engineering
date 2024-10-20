@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/play_button"
+        android:layout_width="@dimen/play_pause_button_size"
+        android:layout_height="@dimen/play_pause_button_size"
+        android:src="@drawable/gs_play_circle_vd_theme_48"
+        android:tint="?attr/colorPrimaryBrandIcon"
+        android:contentDescription="@string/audio_play_content_description"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/pause_button"
+        android:layout_width="@dimen/play_pause_button_size"
+        android:layout_height="@dimen/play_pause_button_size"
+        android:src="@drawable/gs_pause_circle_vd_theme_48"
+        android:tint="?attr/colorPrimaryBrandIcon"
+        android:contentDescription="@string/audio_pause_content_description"/>
+</ViewSwitcher>

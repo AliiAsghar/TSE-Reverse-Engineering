@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audio_attachment_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.apps.messaging.audio.attachment.AudioAttachmentView
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/audio_attachment_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

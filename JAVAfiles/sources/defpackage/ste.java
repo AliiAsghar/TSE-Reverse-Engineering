@@ -1,0 +1,14 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class ste extends agmh<ste> {
+    public ste(agmk agmkVar) {
+        super(agmkVar);
+    }
+
+    @Override // defpackage.agmh
+    public final /* bridge */ /* synthetic */ agoz a() {
+        return stl.a().b();
+    }
+}

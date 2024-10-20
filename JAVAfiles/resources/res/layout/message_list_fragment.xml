@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_list_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/c2o_root"
+    android:layout_alignParentTop="true">
+    <com.google.android.apps.messaging.conversation.messagelist.MessageListRecyclerView
+        android:id="@android:id/list"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:contentDescription="@string/message_list_content_description"
+        android:importantForAccessibility="yes"/>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@+id/conversation_compose_divider"
+        android:background="@drawable/conversation_compose_divider_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:alpha="0"
+        android:importantForAccessibility="no"/>
+    <View
+        android:id="@+id/flash_conversation"
+        android:background="?attr/colorPrimaryBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

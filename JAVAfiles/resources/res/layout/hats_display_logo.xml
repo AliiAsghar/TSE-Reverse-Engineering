@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="top|left"
+    android:id="@+id/hats_lib_prompt_banner_logo"
+    android:layout_width="@dimen/hats_display_logo_width"
+    android:layout_height="@dimen/hats_display_logo_height"
+    android:layout_marginRight="@dimen/hats_display_logo_padding_right"
+    android:layout_marginBottom="@dimen/hats_display_logo_padding_bottom"
+    android:scaleType="fitXY"/>

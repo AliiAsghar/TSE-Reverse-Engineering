@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/colorPrimaryStateContent">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="?attr/colorSurface"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/surface3_elevation_overlay_color"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/elevation_overlay_accent_color"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/cancel_attachment_icon"/>
+        </layer-list>
+    </item>
+</ripple>

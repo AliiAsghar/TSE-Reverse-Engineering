@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conversation_and_compose_container"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/conversation_placeholder_container"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/conversation_fragment_container"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/contact_picker_fragment_container"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/group_name_edit_fragment_container"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ViewStub
+        android:id="@+id/conversationstatusbar_scrim_stub"
+        android:layout="@layout/conversation_statusbar_scrim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">және тағы %d адам</item>
+        <item quantity="other">және тағы %d адам</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d әңгіме мұрағатталды</item>
+        <item quantity="other">%d әңгіме мұрағатталды</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Бір тіркеме жіберуге дайын</item>
+        <item quantity="other">%d тіркеме жіберуге дайын</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d тіркемені сақтау мүмкін болмады</item>
+        <item quantity="other">%d тіркемені сақтау мүмкін болмады</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d тіркеме сақталды</item>
+        <item quantity="other">%d тіркеме сақталды</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d мин</item>
+        <item quantity="other">%d мин</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d сағат</item>
+        <item quantity="other">%d сағат</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Осы әңгімені жою керек пе?</item>
+        <item quantity="other">%d әңгімені жою керек пе?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Бұл хабарды жою керек пе?</item>
+        <item quantity="other">%d хабарды жою керек пе?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d әңгіме жойылды</item>
+        <item quantity="other">%d әңгіме жойылды</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d хабар таңдалды.</item>
+        <item quantity="other">%1$d хабар таңдалды.</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">/%1$d</item>
+        <item quantity="other">/%1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d жіберуші</item>
+        <item quantity="other">%d жіберуші</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d хабар</item>
+        <item quantity="other">%d хабар</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d хабар таңдалды.</item>
+        <item quantity="other">%d хабар таңдалды.</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Сіз және %1$s үшін топтық чатты тура шифрлау қолжетімсіз. %2$s</item>
+        <item quantity="other">Сіз және %1$s үшін топтық чатты тура шифрлау қолжетімсіз. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">%1$s және %2$s үшін топтық чатты тура шифрлау қолжетімсіз. %3$s</item>
+        <item quantity="other">%1$s және %2$s үшін топтық чатты тура шифрлау қолжетімсіз. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d секунд алға айналдыру</item>
+        <item quantity="other">%d секунд алға айналдыру</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d секунд артқа айналдыру</item>
+        <item quantity="other">%d секунд артқа айналдыру</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Тіркеме таңдалмады.</item>
+        <item quantity="other">%d тіркеме таңдалмады.</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s алушы хабарды шифрдан шығара алмады.</item>
+        <item quantity="other">%1$s алушы хабарды шифрдан шығара алмады.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d тіркелді</item>
+        <item quantity="other">%d тіркелді</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d кескін таңдалды</item>
+        <item quantity="other">%d кескін таңдалды</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d хабар жойылды</item>
+        <item quantity="other">%d хабар жойылды</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d хабар таңдалды.</item>
+        <item quantity="other">%d хабар таңдалды.</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">%s көрді</item>
+        <item quantity="other">%s көрді</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s алушы шифрдан шығара алмады, опцияларды көру үшін түртіңіз.</item>
+        <item quantity="other">%1$s алушы шифрдан шығара алмады, опцияларды көру үшін түртіңіз.</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s алушы жіберілген хабарды шифрдан шығара алмады.</item>
+        <item quantity="other">%1$s алушы жіберілген хабарды шифрдан шығара алмады.</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">%s оқыды</item>
+        <item quantity="other">%s оқыды</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d адам теріп жатыр…</item>
+        <item quantity="other">%d адам теріп жатыр…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s және тағы %2$s</item>
+        <item quantity="other">%1$s және тағы %2$s</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">&quot;%3$s&quot; әңгімесіне %1$d хабар жеткізілмеді.</item>
+        <item quantity="other">%2$d әңгімеге %1$d хабар жеткізілмеді.</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">бір сөйлесуде %1$d хабар</item>
+        <item quantity="other">%2$d сөйлесуде %1$d хабар</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d сурет</item>
+        <item quantity="other">%d сурет</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d бейне</item>
+        <item quantity="other">%d бейне</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%3$s чатындағы %1$d хабар жіберілмеді</item>
+        <item quantity="other">%2$d чаттағы %1$d хабар жіберілмеді</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d фотосурет</item>
+        <item quantity="other">%d фотосурет</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">%1$d фотосурет %2$s қалтасына сақталды.</item>
+        <item quantity="other">%1$d фотосурет %2$s қалтасына сақталды.</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d бейне</item>
+        <item quantity="other">%d бейне</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d бейне %2$s қалтасына сақталды.</item>
+        <item quantity="other">%1$d бейне %2$s қалтасына сақталды.</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Соңғы суретті тіркеу</item>
+        <item quantity="other">Соңғы суреттерді тіркеу</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d адам</item>
+        <item quantity="other">%d адам</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d сурет &quot;%2$s&quot; альбомына сақталды</item>
+        <item quantity="other">%1$d сурет &quot;%2$s&quot; альбомына сақталды</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">%1$s желіге қосылмаған болуы мүмкін</item>
+        <item quantity="other">Алушылар желіге қосылмаған болуы мүмкін</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Хабар жеткізілмеді</item>
+        <item quantity="other">Хабарлар жеткізілмеді</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Жіберу опцияларын көру үшін %1$d әңгімені тексеріңіз.</item>
+        <item quantity="other">Жіберу опцияларын көру үшін %1$d әңгімені тексеріңіз.</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d %2$s эмоциясы</item>
+        <item quantity="other">%1$d %2$s эмоциясы</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Тіркеме жіберілуде</item>
+        <item quantity="other">%d тіркеме жіберілуде</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Фотосурет жіберілуде</item>
+        <item quantity="other">%d фотосурет жіберілуде</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Бейне жіберілуде</item>
+        <item quantity="other">%d бейне жіберілуде</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Жоспарланған хабар</item>
+        <item quantity="other">Жоспарланған хабарлар</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d хабар таңдалды.</item>
+        <item quantity="other">%d хабар таңдалды.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">%1$s хабар әлі жіберіліп жатыр: %2$s. Google-ға пікір жіберу үшін түртіңіз. Бета нұсқасына қатысты жіберген пікіріңіз Messages қызметін жақсартуға көмектеседі.</item>
+        <item quantity="other">%1$s хабар әлі жіберіліп жатыр: %2$s. Google-ға пікір жіберу үшін түртіңіз. Бета нұсқасына қатысты жіберген пікіріңіз Messages қызметін жақсартуға көмектеседі.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Хабар әлі жіберіліп жатыр</item>
+        <item quantity="other">Хабарлар әлі жіберіліп жатыр</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Хабарды көру</item>
+        <item quantity="other">Хабарларды көру</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d/%2$d жұлдыз</item>
+        <item quantity="other">%1$d/%2$d жұлдыз</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">%1$d/%2$d нәтиже табылды.</item>
+        <item quantity="other">%1$d/%2$d нәтиже табылды.</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Жазбалар %d секундтан ұзақ болуы керек.</item>
+        <item quantity="other">Жазбалар %d секундтан ұзақ болуы керек.</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s және басқа %2$s адам теруде</item>
+        <item quantity="other">%1$s және басқа %2$s адам теруде</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d чат мұрағаттан шығарылды</item>
+        <item quantity="other">%d чат мұрағаттан шығарылды</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d оқылмаған хабар</item>
+        <item quantity="other">%d оқылмаған хабар</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d контакт</item>
+        <item quantity="other">%d контакт</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Контактіні көру</item>
+        <item quantity="other">Контактілерді көру</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d бейне &quot;%2$s&quot; альбомына сақталды</item>
+        <item quantity="other">%1$d бейне &quot;%2$s&quot; альбомына сақталды</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d дауыстық хабар &quot;%2$s&quot; альбомына сақталды</item>
+        <item quantity="other">%1$d дауыстық хабар &quot;%2$s&quot; альбомына сақталды</item>
+    </plurals>
+</resources>

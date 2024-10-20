@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="opt_out_multidevice_notification_title_legacy_res_0x7f140b9f">Vous vous êtes connecté·e sur un autre téléphone</string>
+    <string name="opt_out_multidevice_notification_title_legacy_res_0x7f140b9f">Vous vous êtes connectée sur un autre téléphone</string>
+    <string name="welcome_gaia_auto_sign_in_account_info_title_text_res_0x7f14162a">Vous êtes connecté·e en tant que :</string>
+    <string name="welcome_gaia_auto_sign_in_account_info_title_text_res_0x7f14162a">Vous êtes connectée en tant que :</string>
+    <string name="welcome_gaia_auto_sign_in_disclaimer_text_res_0x7f14162c">Vous seul·e pouvez voir les informations de votre compte Google. Gérez votre compte à tout moment dans les paramètres.</string>
+    <string name="welcome_gaia_auto_sign_in_disclaimer_text_res_0x7f14162c">Vous seule pouvez voir les informations de votre compte Google. Gérez votre compte à tout moment dans les paramètres.</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Amour</item>
+        <item>Oui</item>
+        <item>Bisou</item>
+        <item>Bonjour</item>
+        <item>Étreinte</item>
+        <item>Fête</item>
+        <item>En colère</item>
+        <item>Enthousiaste</item>
+        <item>Au revoir</item>
+        <item>MDR</item>
+        <item>En larmes</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Oui</item>
+        <item>Non</item>
+        <item>OK</item>
+        <item>Hé, hé!</item>
+        <item>Merci</item>
+        <item>D\'accord</item>
+        <item>Bien</item>
+        <item>En chemin</item>
+        <item>OK, je te réponds plus tard</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>Message texte contenant un lien</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Toujours renvoyer par message texte</item>
+        <item>Renvoyer par message texte sans itinérance</item>
+        <item>Demander avant de renvoyer</item>
+        <item>Ne jamais renvoyer par message texte</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Toujours renvoyer par message texte ou multimédia</item>
+        <item>Renvoyer par message texte ou multimédia lorsque l\'appareil n\'est pas en itinérance</item>
+        <item>Demander avant de renvoyer</item>
+        <item>Ne jamais renvoyer par message texte ou multimédia</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

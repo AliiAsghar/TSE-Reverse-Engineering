@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.conversation.simpicker.SimPickerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/sim_picker_background_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="?attr/colorPrimaryBackground">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@+id/send_option_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/sim_list"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ViewStub
+            android:id="@+id/scheduled_send_entry_point"
+            android:inflatedId="@+id/scheduled_send_entry_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.google.android.apps.messaging.conversation.simpicker.SimPickerView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.home.list.ConversationListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeableContainer"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/conversation_list_item_view_fg"
+    android:minHeight="@dimen/conversation_list_item_view_min_height_v2"
+    android:importantForAccessibility="yes"
+    style="@style/ConversationListItemViewPaddingStyleV2">
+    <include layout="@layout/conversation_list_item_view_shared_v3"/>
+</com.google.android.apps.messaging.home.list.ConversationListItemView>

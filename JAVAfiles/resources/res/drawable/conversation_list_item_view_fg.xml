@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <inset
+            android:insetLeft="@dimen/conversation_list_item_view_background_left_inset"
+            android:insetRight="@dimen/conversation_list_item_view_background_right_inset"
+            android:insetTop="@dimen/conversation_list_item_view_background_top_bottom_inset"
+            android:insetBottom="@dimen/conversation_list_item_view_background_top_bottom_inset">
+            <ripple android:color="?attr/colorControlHighlight">
+                <item android:id="@android:id/mask">
+                    <shape>
+                        <corners
+                            android:topLeftRadius="@dimen/conversation_list_item_view_background_left_radius"
+                            android:topRightRadius="@dimen/conversation_list_item_view_background_right_radius"
+                            android:bottomLeftRadius="@dimen/conversation_list_item_view_background_left_radius"
+                            android:bottomRightRadius="@dimen/conversation_list_item_view_background_right_radius"/>
+                        <solid android:color="@color/white"/>
+                    </shape>
+                </item>
+            </ripple>
+        </inset>
+    </item>
+</selector>

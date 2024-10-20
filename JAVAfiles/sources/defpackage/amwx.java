@@ -1,0 +1,45 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public enum amwx implements apak {
+    CHAT_API_ERROR_CAUSE_UNKNOWN(0),
+    CHAT_API_GENERIC_TRANSPORT_ERROR(1),
+    CHAT_API_TRANSPORT_NOT_CONNECTED(2),
+    CHAT_API_GROUP_TOO_FEW_PARTICIPANTS(3),
+    CHAT_API_GROUP_TOO_MANY_PARTICIPANTS(4),
+    CHAT_API_USER_NOT_A_GROUP_PARTICIPANT(5),
+    CHAT_API_INVALID_LOCAL_PARTICIPANT(6),
+    CHAT_API_INVALID_REMOTE_PARTICIPANT(7),
+    CHAT_API_INVALID_FILE_UPLOAD_RESULT(8),
+    CHAT_API_SERIALIZATION_ERROR(9),
+    CHAT_API_NO_RCS_SUBSCRIPTION(10),
+    CHAT_API_UPLOAD_START_FAILED(11),
+    CHAT_API_GROUP_NOT_FOUND(12),
+    CHAT_API_EMPTY_CHAT_MESSAGE(13),
+    CHAT_API_LOW_PRIORITY_MESSAGE_REJECTED(14),
+    CHAT_API_TRANSPORT_INTERNAL_ERROR(15),
+    CHAT_API_TRANSPORT_ILLEGAL_ARGUMENTS(16),
+    CHAT_API_INVALID_CONVERSATION_ID(17),
+    CHAT_API_INVALID_CONFERENCE_URI(18),
+    CHAT_API_NETWORK_CONNECTION_ERROR(19),
+    CHAT_API_NETWORK_PERMISSION_DENIED(20),
+    CHAT_API_REMOTE_PARTICIPANT_NOT_RCS_CAPABLE(21),
+    CHAT_API_TRANSPORT_UNAVAILABLE(22);
+
+    public final int x;
+
+    amwx(int i) {
+        this.x = i;
+    }
+
+    @Override // defpackage.apak
+    public final int a() {
+        return this.x;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.x);
+    }
+}

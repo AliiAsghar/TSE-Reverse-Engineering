@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground">
+    <ImageView
+        android:id="@+id/proxy_screen_search_row_start_icon"
+        android:padding="@dimen/standard_icon_padding"
+        android:layout_width="@dimen/proxy_screen_search_bar_height"
+        android:layout_height="@dimen/proxy_screen_search_bar_height"
+        android:layout_marginStart="@dimen/proxy_screen_search_bar_spacing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/google_opensearchbar_text_size"
+        android:id="@+id/proxy_screen_search_row_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/proxy_screen_search_bar_height"
+        android:paddingEnd="@dimen/proxy_screen_search_bar_height"
+        android:layout_marginHorizontal="@dimen/proxy_screen_search_bar_spacing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/proxy_screen_search_row_end_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/proxy_screen_search_row_end_icon"
+        android:padding="@dimen/standard_icon_padding"
+        android:layout_width="@dimen/proxy_screen_search_bar_height"
+        android:layout_height="@dimen/proxy_screen_search_bar_height"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginEnd="@dimen/proxy_screen_search_bar_spacing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quantum_gm_ic_arrow_upward_vd_theme_24"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

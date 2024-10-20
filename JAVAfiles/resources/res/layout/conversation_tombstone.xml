@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.conversation.messagelist.tombstone.ConversationTombstoneView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/tombstone_top_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/min_touch_target_size">
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubhead1"
+        android:layout_gravity="top|center_horizontal"
+        android:id="@+id/tombstone_timestamp"
+        android:paddingTop="@dimen/timestamp_top_padding"
+        android:paddingBottom="@dimen/timestamp_bottom_padding"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        style="@style/ConversationMessageMetadata"/>
+    <TextView
+        android:textSize="@dimen/tombstone_text_size"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:gravity="center"
+        android:id="@+id/tombstone_message"
+        android:paddingTop="@dimen/tombstone_text_vertical_padding"
+        android:paddingBottom="@dimen/tombstone_text_vertical_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/tombstone_text_horizontal_padding"
+        android:paddingEnd="@dimen/tombstone_text_horizontal_padding"/>
+</com.google.android.apps.messaging.conversation.messagelist.tombstone.ConversationTombstoneView>

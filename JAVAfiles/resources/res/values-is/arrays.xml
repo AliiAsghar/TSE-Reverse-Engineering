@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Venjulegt</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Ást</item>
+        <item>Já</item>
+        <item>Koss</item>
+        <item>Halló</item>
+        <item>Knús</item>
+        <item>Partí</item>
+        <item>Reiði</item>
+        <item>Spenningur</item>
+        <item>Bless</item>
+        <item>HAHA!</item>
+        <item>Grátur</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Já</item>
+        <item>Nei</item>
+        <item>ókei</item>
+        <item>Hehe</item>
+        <item>Takk fyrir</item>
+        <item>Sammála</item>
+        <item>Flott</item>
+        <item>Er á leiðinni</item>
+        <item>Ókei, ég fæ að hafa samband síðar</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS-skilaboð með tengli</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Endursenda alltaf sem SMS-skilaboð</item>
+        <item>Endursenda sem SMS-skilaboð þegar slökkt er á reiki</item>
+        <item>Spyrja áður en sent er aftur</item>
+        <item>Endursenda aldrei sem SMS-skilaboð</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Endursenda alltaf sem SMS/MMS-skilaboð</item>
+        <item>Endursenda sem SMS/MMS-skilaboð þegar slökkt er á reiki</item>
+        <item>Spyrja áður en sent er aftur</item>
+        <item>Aldrei endursenda sem SMS/MMS-skilaboð</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

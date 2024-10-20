@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/record_cancel_button"
+    android:visibility="gone"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/compose_message_view_elevation">
+    <ImageView
+        android:id="@+id/triangle_icon"
+        android:background="@null"
+        android:layout_width="@dimen/voice_messages_triangle_icon_size"
+        android:layout_height="@dimen/voice_messages_triangle_icon_size"
+        android:src="@drawable/quantum_ic_arrow_left_black_24"
+        android:tint="?attr/colorOnSurfaceVariant"
+        android:contentDescription="@null"
+        android:elevation="@dimen/compose_message_view_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:id="@+id/cancel_recording_text_v1"
+        android:layout_width="@dimen/swipe_to_cancel_text_view_width"
+        android:layout_height="wrap_content"
+        android:text="@string/voice_messages_slide_to_cancel_text"
+        android:textDirection="locale"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/triangle_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

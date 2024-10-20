@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gif_category_names_tenor">
+        <item>ପ୍ରେମ</item>
+        <item>ହଁ</item>
+        <item>ଚୁମ୍ବନ</item>
+        <item>ହେଲୋ</item>
+        <item>ଆଲିଙ୍ଗନ</item>
+        <item>ପାର୍ଟି</item>
+        <item>କ୍ରୁଦ୍ଧ</item>
+        <item>ଉତ୍ସାହିତ</item>
+        <item>ବିଦାୟ</item>
+        <item>ଜୋର୍‌ରେ ହସିବା</item>
+        <item>କ୍ରନ୍ଦନରତ</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>ହଁ</item>
+        <item>ନାଁ</item>
+        <item>ଠିକ୍ ଅଛି</item>
+        <item>ହେହେ</item>
+        <item>ଧନ୍ୟବାଦ</item>
+        <item>ମୁଁ ରାଜି</item>
+        <item>ଭଲ</item>
+        <item>ମୋ ରାସ୍ତାରେ</item>
+        <item>ଠିକ୍ ଅଛି, ମୁଁ ଆପଣଙ୍କ ସହ ପରେ କଥା ହେବି</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>ଗୋଟିଏ ଲିଙ୍କ ଥିବା SMS</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>ସର୍ବଦା SMS ରୂପେ ପୁଣିଥରେ ପଠାନ୍ତୁ</item>
+        <item>ରୋମିଙ୍ଗରେ ନଥିବାବେଳେ SMS ଦ୍ୱାରା ପୁଣିଥରେ ପଠାନ୍ତୁ</item>
+        <item>ପୁଣିଥରେ ପଠାଇବା ପୂୂର୍ବରୁ ପଚାରନ୍ତୁ</item>
+        <item>କେବେବି SMS ରୂପେ ପୁଣିଥରେ ପଠାନ୍ତୁ ନାହିଁ</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>ସର୍ବଦା SMS/MMS ଭାବେ ପୁଣିଥରେ ପଠାନ୍ତୁ</item>
+        <item>ରୋମିଙ୍ଗରେ ନଥିବାବେଳେ SMS/MMS ଭାବେ ପୁଣିଥରେ ପଠାନ୍ତୁ</item>
+        <item>ପୁଣିଥରେ ପଠାଇବା ପୂୂର୍ବରୁ ପଚାରନ୍ତୁ</item>
+        <item>କେବେବି SMS/MMS ରୂପେ ପୁଣିଥରେ ପଠାନ୍ତୁ ନାହିଁ</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

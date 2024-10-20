@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/conversation_message_emoji_only_anim_size"
+    android:layout_height="@dimen/conversation_message_emoji_only_anim_size"/>

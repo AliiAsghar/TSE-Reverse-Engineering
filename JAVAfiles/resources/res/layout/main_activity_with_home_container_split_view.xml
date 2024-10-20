@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.google.android.apps.messaging.ui.util.InsetAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/conversation_and_compose_container_split_view"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/conversation_list_root_container"
+            android:fitsSystemWindows="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="@dimen/split_view_leftside_width_percent"/>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/conversation_container_background"
+            android:background="@drawable/conversation_container_background"
+            android:fitsSystemWindows="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingStart="1dp"
+            android:paddingEnd="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="@dimen/split_view_rightside_width_percent">
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/conversation_root_container"
+                android:fitsSystemWindows="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <include layout="@layout/toolbar_conversation"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.google.android.apps.messaging.ui.util.InsetAwareConstraintLayout>
+</merge>

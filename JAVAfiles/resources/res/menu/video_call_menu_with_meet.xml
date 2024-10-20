@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/comms_gm_ic_videocam_vd_theme_24"
+        android:id="@+id/vilte_call"
+        android:title="@string/action_viLTE_video_call"
+        app:iconTint="?attr/colorOnActionBar"/>
+    <item
+        android:icon="@drawable/comms_gm_ic_videocam_vd_theme_24"
+        android:id="@+id/duo_call"
+        android:title="@string/action_meet_video_call"
+        app:iconTint="?attr/colorOnActionBar"/>
+</menu>

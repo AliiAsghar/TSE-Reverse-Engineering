@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/bright_foreground_disabled_material_light"/>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/media_selection_position_background"/>
+</layer-list>

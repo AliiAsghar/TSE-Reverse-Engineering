@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/overflow_menu_button"
+    android:background="?android:attr/selectableItemBackgroundBorderless"
+    android:layout_width="@dimen/people_add_a_photo_width"
+    android:layout_height="match_parent"
+    android:src="@drawable/ic_more_vert_gray_24px"
+    android:tint="?android:attr/colorControlNormal"
+    android:contentDescription="@string/vcard_overflow_menu_content_description"
+    android:paddingStart="@dimen/people_add_a_photo_padding_start"
+    android:paddingEnd="@dimen/people_add_a_photo_padding_end"/>

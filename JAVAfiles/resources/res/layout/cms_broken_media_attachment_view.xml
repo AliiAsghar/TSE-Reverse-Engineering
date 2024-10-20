@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/cms_broken_media_attachment_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/cms_broken_media_icon_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cms_broken_media_icon"
+            android:scaleType="center"
+            android:contentDescription="@string/message_bubble_permanent_failure_media"
+            android:paddingEnd="16dp"/>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/attachment_preview_bubble_height">
+            <TextView
+                android:textColor="?attr/colorOnSurface"
+                android:id="@+id/file_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="@dimen/file_name_max_width"
+                android:text="@string/message_bubble_permanent_failure_media"
+                style="@style/FilePreviewText"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

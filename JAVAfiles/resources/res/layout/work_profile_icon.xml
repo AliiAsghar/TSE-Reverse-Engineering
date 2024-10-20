@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/work_profile_icon"
+    android:background="@android:color/transparent"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="center"
+    android:tint="?android:attr/textColorPrimary"
+    android:contentDescription="@null"
+    android:importantForAccessibility="no"
+    android:layout_toEndOf="@+id/conversation_notification_bell"
+    app:srcCompat="@drawable/ic_work_profile"
+    style="@style/ConversationListNotificationBellPaddingStyle"/>

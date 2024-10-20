@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.apps.messaging.ui.appsettings.widgets.ImagePreference
+        android:persistent="false"
+        android:key="@string/gemini_illustration_pref_key"/>
+    <SwitchPreferenceCompat
+        android:persistent="false"
+        android:key="@string/gemini_entrypoint_enabled_pref_key"
+        android:summary="@string/gemini_preference_summary"
+        android:defaultValue="@bool/smart_actions_enabled_pref_default"/>
+</PreferenceScreen>

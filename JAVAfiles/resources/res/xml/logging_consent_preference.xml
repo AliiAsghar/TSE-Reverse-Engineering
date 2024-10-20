@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Preference
+        android:persistent="false"
+        android:title="@string/device_logging_consent_settings_title"
+        android:key="@string/logging_consent_link_to_checkbox_pref_key"
+        android:summary="@string/device_logging_consent_settings_summary"
+        app:allowDividerAbove="true"/>
+    <androidx.preference.SwitchPreferenceCompat
+        android:persistent="false"
+        android:title="@string/gaia_logging_consent_setting_title"
+        android:key="@string/gaia_logging_consent_pref_key"
+        android:summary="@string/gaia_logging_consent_setting_summary"
+        android:defaultValue="false"
+        app:allowDividerAbove="true"/>
+    <Preference
+        android:persistent="false"
+        android:layout="@layout/learn_more_preference"
+        android:selectable="false"
+        android:key="@string/logging_consent_settings_learn_more_pref_key"
+        app:allowDividerAbove="true"/>
+</PreferenceScreen>

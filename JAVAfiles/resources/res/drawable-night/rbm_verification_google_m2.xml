@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_verified_icon_border"
+        android:left="0dp"
+        android:top="0dp"
+        android:right="16dp"
+        android:bottom="8dp"/>
+    <item
+        android:drawable="@drawable/rbm_verification_round_background"
+        android:left="24dp"
+        android:top="32dp"
+        android:right="8dp"
+        android:bottom="0dp"/>
+    <item
+        android:left="24dp"
+        android:top="32dp"
+        android:right="8dp"
+        android:bottom="0dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/product_logo_googleg_color_24"/>
+    </item>
+</layer-list>

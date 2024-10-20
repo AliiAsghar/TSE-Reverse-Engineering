@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>సాధారణం</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>ప్రేమ</item>
+        <item>అవును</item>
+        <item>ముద్దు</item>
+        <item>హలో</item>
+        <item>కౌగిలి</item>
+        <item>పార్టీ</item>
+        <item>కోపం</item>
+        <item>ఉత్తేజితం</item>
+        <item>వీడ్కోలు</item>
+        <item>బిగ్గరగా నవ్వడం</item>
+        <item>ఏడుపు</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>అవును</item>
+        <item>వద్దు</item>
+        <item>సరే</item>
+        <item>హెహే</item>
+        <item>ధన్యవాదాలు</item>
+        <item>నేను అంగీకరిస్తున్నాను</item>
+        <item>బాగుంది</item>
+        <item>ఆ పని మీదే ఉన్నాను</item>
+        <item>సరే, నేను మిమ్మల్ని తర్వాత సంప్రదిస్తాను</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>లింక్‌తో SMS</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>ఎల్లప్పుడూ SMS లాగా మళ్లీ పంపు</item>
+        <item>రోమింగ్‌లో లేనప్పుడు SMS లాగా మళ్లీ పంపు</item>
+        <item>మళ్లీ పంపే ముందు అడగాలి</item>
+        <item>ఎన్నడూ SMS లాగా మళ్లీ పంపవద్దు</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>ఎల్లప్పుడూ SMS/MMS లాగా మళ్లీ పంపు</item>
+        <item>రోమింగ్‌లో లేనప్పుడు SMS/MMS లాగా మళ్లీ పంపు</item>
+        <item>మళ్లీ పంపే ముందు అడగాలి</item>
+        <item>ఎన్నడూ SMS/MMS లాగా మళ్లీ పంపవద్దు</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

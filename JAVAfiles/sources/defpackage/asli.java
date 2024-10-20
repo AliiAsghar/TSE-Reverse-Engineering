@@ -1,0 +1,160 @@
+package defpackage;
+
+import java.util.Comparator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public final class asli {
+    public static final asli c;
+    public static final asli d;
+    public static final asli e;
+    public static final asli f;
+    public static final asli g;
+    public static final asli h;
+    public static final asli i;
+    public static final asli j;
+    public static final asli k;
+    public static final asli l;
+    public static final asli m;
+    public static final asli n;
+    public static final asli o;
+    public static final asli p;
+    public static final asli q;
+    public static final asli r;
+    public final String s;
+    public static final arwi t = new arwi();
+    public static final Comparator a = new mm(19);
+    public static final Map b = new LinkedHashMap();
+
+    static {
+        arwi.E("SSL_RSA_WITH_NULL_MD5");
+        arwi.E("SSL_RSA_WITH_NULL_SHA");
+        arwi.E("SSL_RSA_EXPORT_WITH_RC4_40_MD5");
+        arwi.E("SSL_RSA_WITH_RC4_128_MD5");
+        arwi.E("SSL_RSA_WITH_RC4_128_SHA");
+        arwi.E("SSL_RSA_EXPORT_WITH_DES40_CBC_SHA");
+        arwi.E("SSL_RSA_WITH_DES_CBC_SHA");
+        c = arwi.E("SSL_RSA_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA");
+        arwi.E("SSL_DHE_DSS_WITH_DES_CBC_SHA");
+        arwi.E("SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA");
+        arwi.E("SSL_DHE_RSA_WITH_DES_CBC_SHA");
+        arwi.E("SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("SSL_DH_anon_EXPORT_WITH_RC4_40_MD5");
+        arwi.E("SSL_DH_anon_WITH_RC4_128_MD5");
+        arwi.E("SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA");
+        arwi.E("SSL_DH_anon_WITH_DES_CBC_SHA");
+        arwi.E("SSL_DH_anon_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("TLS_KRB5_WITH_DES_CBC_SHA");
+        arwi.E("TLS_KRB5_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("TLS_KRB5_WITH_RC4_128_SHA");
+        arwi.E("TLS_KRB5_WITH_DES_CBC_MD5");
+        arwi.E("TLS_KRB5_WITH_3DES_EDE_CBC_MD5");
+        arwi.E("TLS_KRB5_WITH_RC4_128_MD5");
+        arwi.E("TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA");
+        arwi.E("TLS_KRB5_EXPORT_WITH_RC4_40_SHA");
+        arwi.E("TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5");
+        arwi.E("TLS_KRB5_EXPORT_WITH_RC4_40_MD5");
+        d = arwi.E("TLS_RSA_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_DHE_DSS_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_DHE_RSA_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_DH_anon_WITH_AES_128_CBC_SHA");
+        e = arwi.E("TLS_RSA_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_DHE_DSS_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_DHE_RSA_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_DH_anon_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_RSA_WITH_NULL_SHA256");
+        arwi.E("TLS_RSA_WITH_AES_128_CBC_SHA256");
+        arwi.E("TLS_RSA_WITH_AES_256_CBC_SHA256");
+        arwi.E("TLS_DHE_DSS_WITH_AES_128_CBC_SHA256");
+        arwi.E("TLS_RSA_WITH_CAMELLIA_128_CBC_SHA");
+        arwi.E("TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA");
+        arwi.E("TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA");
+        arwi.E("TLS_DHE_RSA_WITH_AES_128_CBC_SHA256");
+        arwi.E("TLS_DHE_DSS_WITH_AES_256_CBC_SHA256");
+        arwi.E("TLS_DHE_RSA_WITH_AES_256_CBC_SHA256");
+        arwi.E("TLS_DH_anon_WITH_AES_128_CBC_SHA256");
+        arwi.E("TLS_DH_anon_WITH_AES_256_CBC_SHA256");
+        arwi.E("TLS_RSA_WITH_CAMELLIA_256_CBC_SHA");
+        arwi.E("TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA");
+        arwi.E("TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA");
+        arwi.E("TLS_PSK_WITH_RC4_128_SHA");
+        arwi.E("TLS_PSK_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("TLS_PSK_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_PSK_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_RSA_WITH_SEED_CBC_SHA");
+        f = arwi.E("TLS_RSA_WITH_AES_128_GCM_SHA256");
+        g = arwi.E("TLS_RSA_WITH_AES_256_GCM_SHA384");
+        arwi.E("TLS_DHE_RSA_WITH_AES_128_GCM_SHA256");
+        arwi.E("TLS_DHE_RSA_WITH_AES_256_GCM_SHA384");
+        arwi.E("TLS_DHE_DSS_WITH_AES_128_GCM_SHA256");
+        arwi.E("TLS_DHE_DSS_WITH_AES_256_GCM_SHA384");
+        arwi.E("TLS_DH_anon_WITH_AES_128_GCM_SHA256");
+        arwi.E("TLS_DH_anon_WITH_AES_256_GCM_SHA384");
+        arwi.E("TLS_EMPTY_RENEGOTIATION_INFO_SCSV");
+        arwi.E("TLS_FALLBACK_SCSV");
+        arwi.E("TLS_ECDH_ECDSA_WITH_NULL_SHA");
+        arwi.E("TLS_ECDH_ECDSA_WITH_RC4_128_SHA");
+        arwi.E("TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_ECDHE_ECDSA_WITH_NULL_SHA");
+        arwi.E("TLS_ECDHE_ECDSA_WITH_RC4_128_SHA");
+        arwi.E("TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_ECDH_RSA_WITH_NULL_SHA");
+        arwi.E("TLS_ECDH_RSA_WITH_RC4_128_SHA");
+        arwi.E("TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_ECDHE_RSA_WITH_NULL_SHA");
+        arwi.E("TLS_ECDHE_RSA_WITH_RC4_128_SHA");
+        arwi.E("TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA");
+        h = arwi.E("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA");
+        i = arwi.E("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_ECDH_anon_WITH_NULL_SHA");
+        arwi.E("TLS_ECDH_anon_WITH_RC4_128_SHA");
+        arwi.E("TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA");
+        arwi.E("TLS_ECDH_anon_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_ECDH_anon_WITH_AES_256_CBC_SHA");
+        arwi.E("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256");
+        arwi.E("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384");
+        arwi.E("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256");
+        arwi.E("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384");
+        arwi.E("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256");
+        arwi.E("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384");
+        arwi.E("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256");
+        arwi.E("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384");
+        j = arwi.E("TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256");
+        k = arwi.E("TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384");
+        arwi.E("TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256");
+        arwi.E("TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384");
+        l = arwi.E("TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256");
+        m = arwi.E("TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384");
+        arwi.E("TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256");
+        arwi.E("TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384");
+        arwi.E("TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA");
+        arwi.E("TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA");
+        n = arwi.E("TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256");
+        o = arwi.E("TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256");
+        arwi.E("TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256");
+        arwi.E("TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256");
+        p = arwi.E("TLS_AES_128_GCM_SHA256");
+        q = arwi.E("TLS_AES_256_GCM_SHA384");
+        r = arwi.E("TLS_CHACHA20_POLY1305_SHA256");
+        arwi.E("TLS_AES_128_CCM_SHA256");
+        arwi.E("TLS_AES_128_CCM_8_SHA256");
+    }
+
+    public asli(String str) {
+        this.s = str;
+    }
+
+    public final String toString() {
+        return this.s;
+    }
+}

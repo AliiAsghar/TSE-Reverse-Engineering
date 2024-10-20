@@ -1,0 +1,103 @@
+package org.bouncycastle.asn1.nist;
+
+import org.bouncycastle.asn1.ASN1ObjectIdentifier;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public interface NISTObjectIdentifiers {
+    public static final ASN1ObjectIdentifier a;
+    public static final ASN1ObjectIdentifier b;
+    public static final ASN1ObjectIdentifier c;
+    public static final ASN1ObjectIdentifier d;
+    public static final ASN1ObjectIdentifier e;
+    public static final ASN1ObjectIdentifier f;
+    public static final ASN1ObjectIdentifier g;
+    public static final ASN1ObjectIdentifier h;
+    public static final ASN1ObjectIdentifier i;
+    public static final ASN1ObjectIdentifier j;
+    public static final ASN1ObjectIdentifier k;
+    public static final ASN1ObjectIdentifier l;
+    public static final ASN1ObjectIdentifier m;
+    public static final ASN1ObjectIdentifier n;
+    public static final ASN1ObjectIdentifier o;
+    public static final ASN1ObjectIdentifier p;
+    public static final ASN1ObjectIdentifier q;
+    public static final ASN1ObjectIdentifier r;
+    public static final ASN1ObjectIdentifier s;
+    public static final ASN1ObjectIdentifier t;
+    public static final ASN1ObjectIdentifier u;
+
+    static {
+        ASN1ObjectIdentifier aSN1ObjectIdentifier = new ASN1ObjectIdentifier("2.16.840.1.101.3.4");
+        a = aSN1ObjectIdentifier;
+        ASN1ObjectIdentifier aSN1ObjectIdentifier2 = new ASN1ObjectIdentifier(aSN1ObjectIdentifier, "2");
+        b = aSN1ObjectIdentifier2;
+        c = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "1");
+        d = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "2");
+        e = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "3");
+        f = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "4");
+        g = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "5");
+        h = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "6");
+        i = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "7");
+        j = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "8");
+        k = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "9");
+        l = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "10");
+        m = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "11");
+        n = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "12");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "13");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "14");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "15");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "16");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "17");
+        o = new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "18");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "19");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier2, "20");
+        ASN1ObjectIdentifier aSN1ObjectIdentifier3 = new ASN1ObjectIdentifier(aSN1ObjectIdentifier, "1");
+        p = aSN1ObjectIdentifier3;
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "1");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "2");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "3");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "4");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "5");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "6");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "7");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "8");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "9");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "21");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "22");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "23");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "24");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "25");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "26");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "27");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "28");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "29");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "41");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "42");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "43");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "44");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "45");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "46");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "47");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "48");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier3, "49");
+        ASN1ObjectIdentifier aSN1ObjectIdentifier4 = new ASN1ObjectIdentifier(aSN1ObjectIdentifier, "3");
+        q = aSN1ObjectIdentifier4;
+        r = new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "1");
+        s = new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "2");
+        t = new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "3");
+        u = new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "4");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "5");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "6");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "7");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "8");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "9");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "10");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "11");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "12");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "13");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "14");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "15");
+        new ASN1ObjectIdentifier(aSN1ObjectIdentifier4, "16");
+    }
+}

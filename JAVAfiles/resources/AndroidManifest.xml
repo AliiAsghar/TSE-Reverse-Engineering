@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="256096400"
+    android:versionName="messages.android_20241008_00_RC02.phone.go_dynamic"
+    android:installLocation="internalOnly"
+    android:compileSdkVersion="35"
+    android:compileSdkVersionCodename="VanillaIceCream"
+    package="com.google.android.apps.messaging"
+    platformBuildVersionCode="35"
+    platformBuildVersionName="VanillaIceCream">
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="35"/>
+    <uses-feature
+        android:name="android.hardware.ram.low"
+        android:required="true"/>
+    <uses-feature android:name="android.hardware.telephony"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+    <uses-permission android:name="android.permission.PERFORM_IMS_SINGLE_REGISTRATION"/>
+    <uses-permission android:name="android.permission.ACCESS_RCS_USER_CAPABILITY_EXCHANGE"/>
+    <permission android:name="com.google.android.messages.rcs.PROVISIONING_EVENT"/>
+    <permission
+        android:name="com.google.android.apps.messaging.emergency.permission.START_ESOS_CONVERSATION"
+        android:protectionLevel="system|signature"/>
+    <uses-permission android:name="com.google.android.apps.stargate.endpointservice.ACCESS_ENDPOINT_SERVICE"/>
+    <uses-permission android:name="com.google.android.apps.stargate.permission.SEND_EMERGENCY_INTENTS"/>
+    <uses-permission android:name="com.google.android.apps.stargate.permission.END_EMERGENCY_INTENTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.ACCESS_MESSAGES_ON_ICC"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="com.google.android.ims.providers.ACCESS_DATA"/>
+    <uses-permission android:name="com.google.android.ims.LOG_ACCESS"/>
+    <uses-permission android:name="com.google.android.setupwizard.READ_DEVICE_ORIGIN"/>
+    <uses-permission android:name="com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY"/>
+    <uses-permission android:name="com.cequint.ecid.CALLER_ID_EXTERNAL_LOOKUP_SMS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING"/>
+    <uses-permission android:name="android.permission.READ_SYSTEM_GRAMMATICAL_GENDER"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.sonymobile.launcher.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        android:maxSdkVersion="22"/>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        android:maxSdkVersion="22"/>
+    <uses-permission android:name="com.google.android.apps.aicore.service.BIND_SERVICE"/>
+    <uses-permission android:name="android.permission.SATELLITE_COMMUNICATION"/>
+    <uses-permission android:name="android.permission.DETECT_SCREEN_RECORDING"/>
+    <uses-permission android:name="android.permission.QUERY_USERS"/>
+    <uses-permission-sdk-23 android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false"/>
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="true"/>
+    <queries>
+        <package android:name="com.google.android.apps.tachyon"/>
+        <package android:name="com.google.android.apps.maps"/>
+        <package android:name="com.google.android.safetycore"/>
+        <intent>
+            <action android:name="com.google.android.apps.safetycore.classification.BIND"/>
+        </intent>
+        <package android:name="com.android.documentsui"/>
+        <package android:name="com.google.android.documentsui"/>
+        <package android:name="com.google.android.providers.media.module"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.samsung.android.mdecservice"/>
+        <package android:name="com.samsung.android.geargplugin"/>
+        <package android:name="com.samsung.android.gearnplugin"/>
+        <package android:name="com.samsung.android.gearoplugin"/>
+        <package android:name="com.samsung.android.gearpplugin"/>
+        <package android:name="com.samsung.android.gearrplugin"/>
+        <package android:name="com.samsung.android.gear1plugin"/>
+        <package android:name="com.samsung.android.gear2plugin"/>
+        <package android:name="com.samsung.android.gearfit2plugin"/>
+        <package android:name="com.samsung.android.bixby.agent"/>
+        <package android:name="com.google.android.googlequicksearchbox"/>
+        <package android:name="com.google.android.ims"/>
+        <package android:name="com.google.android.cellbroadcastreceiver"/>
+        <package android:name="com.sonymobile.home"/>
+        <package android:name="com.sonymobile.launcher"/>
+        <package android:name="com.sonymobile.home.resourceprovider"/>
+        <package android:name="com.google.android.apps.stargate"/>
+        <intent>
+            <action android:name="android.settings.INTERNAL_STORAGE_SETTINGS"/>
+        </intent>
+        <package android:name="com.google.android.wearable.app"/>
+        <package android:name="com.google.android.apps.wear.companion"/>
+        <package android:name="com.google.android.apps.wear.engcompanion"/>
+        <package android:name="com.samsung.android.app.watchmanager"/>
+        <package android:name="com.montblanc.summit.companion.android"/>
+        <package android:name="com.hublot.wearos3.companion"/>
+        <package android:name="com.fossil.wearables.fossil"/>
+        <package android:name="com.wearables.fossil.staging"/>
+        <package android:name="com.tagheuer.companion"/>
+        <package android:name="com.mobvoi.companion.at"/>
+        <package android:name="com.xiaomi.wearable"/>
+        <package android:name="com.heytap.health.international"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data
+                android:scheme="*"
+                android:host="*"/>
+        </intent>
+    </queries>
+    <permission
+        android:name="com.google.android.apps.messaging.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <permission
+        android:name="com.google.android.apps.messaging.services.ACCESS_MESSAGING_NOTIFICATION_SERVICE"
+        android:protectionLevel="normal"/>
+    <permission
+        android:name="com.google.android.ims.services.ACCESS_MESSAGING_SERVICE"
+        android:protectionLevel="normal"/>
+    <permission
+        android:name="com.google.android.apps.messaging.shared.satelliteapi.endpointservice.ACCESS_ENDPOINT_SERVICE"
+        android:protectionLevel="normal"/>
+    <permission
+        android:name="com.google.android.ims.messaging.ACCESS_MESSAGING_ENGINE_SERVICE"
+        android:protectionLevel="normal"/>
+    <application
+        android:theme="@style/BugleTheme"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.google.android.apps.messaging.go.BugleGo_Application"
+        android:backupAgent="com.google.android.apps.messaging.backup.BugleBackupAgent"
+        android:allowBackup="true"
+        android:restoreAnyVersion="true"
+        android:supportsRtl="true"
+        android:fullBackupOnly="false"
+        android:usesCleartextTraffic="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:name="com.google.apps.tiktok.account.ui.onegoogle.expresssignin.selector.ExpressSignInActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:label="@string/required_permissions_promptable_title"
+            android:name="com.google.android.apps.messaging.ui.PermissionCheckActivity"
+            android:exported="false"
+            android:configChanges="screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/Invisible"
+            android:name="com.google.android.apps.messaging.ui.conversation.LaunchConversationActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="smsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:name="com.google.android.apps.messaging.home.ArchivedActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.main.MainActivity"/>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:name="com.google.android.apps.messaging.home.SpamFolderActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.main.MainActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ConversationActivity"
+            android:name="com.google.android.apps.messaging.main.MainActivity"
+            android:exported="true"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity-alias
+            android:theme="@style/BugleToolbarTheme"
+            android:label="@string/app_name"
+            android:name="com.google.android.apps.messaging.ui.ConversationListActivity"
+            android:exported="true"
+            android:targetActivity="com.google.android.apps.messaging.main.MainActivity">
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.APP_MESSAGING"/>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/BugleTheme.DialogActivity"
+            android:name="com.google.android.apps.messaging.ui.conversationlist.ShareIntentActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:documentLaunchMode="always">
+            <intent-filter android:label="@string/share_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="text/x-vCard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/pdf"/>
+                <data android:mimeType="text/x-vCalendar"/>
+                <data android:mimeType="text/x-vcalendar"/>
+                <data android:mimeType="text/calendar"/>
+                <data android:mimeType="application/ics"/>
+                <data android:mimeType="application/vcs"/>
+                <data android:mimeType="application/hbs-vcs"/>
+                <data android:mimeType="application/msword"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+                <data android:mimeType="application/vnd.ms-powerpoint"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                <data android:mimeType="application/vnd.ms-excel"/>
+            </intent-filter>
+            <intent-filter android:label="@string/share_intent_label">
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value="com.google.android.apps.messaging.shared.datamodel.BugleChooserTargetService"/>
+        </activity>
+        <activity-alias
+            android:label="@string/app_name"
+            android:name="com.google.android.apps.messaging.ui.conversationlist.VideoShareIntentActivity"
+            android:exported="true"
+            android:targetActivity="com.google.android.apps.messaging.ui.conversationlist.ShareIntentActivity">
+            <intent-filter android:label="@string/share_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value="com.google.android.apps.messaging.shared.datamodel.BugleChooserTargetService"/>
+        </activity-alias>
+        <activity
+            android:theme="@style/BugleTheme.DialogActivity"
+            android:label="@string/forward_message_activity_title"
+            android:name="com.google.android.apps.messaging.ui.conversationlist.ForwardMessageActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:label="@string/vcard_detail_activity_title"
+            android:name="com.google.android.apps.messaging.ui.vcard.VCardDetailActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.screen.ConversationActivity"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:label="@string/mediapicker_gif_title"
+            android:name="com.google.android.apps.messaging.ui.mediapicker.c2o.gif.GifBrowserActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.screen.ConversationActivity"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:name="com.google.android.apps.messaging.ui.mediapicker.c2o.customization.CategoryCustomizationActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/BugleTheme.DiagnosticsActivity"
+            android:name="com.google.android.apps.messaging.diagnostics.ui.DiagnosticsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/Invisible"
+            android:name="com.google.android.apps.messaging.ui.conversation.LaunchConversationShimActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:noHistory="true"/>
+        <activity
+            android:theme="@style/Invisible"
+            android:name="com.google.android.apps.messaging.voiceactions.BugleSearchActionVerificationClientActivity"
+            android:exported="true"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.google.android.voicesearch.SEND_MESSAGE_TO_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.voicesearch.SEND_MESSAGE_TO_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="text/x-vCard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/pdf"/>
+                <data android:mimeType="text/x-vCalendar"/>
+                <data android:mimeType="text/x-vcalendar"/>
+                <data android:mimeType="text/calendar"/>
+                <data android:mimeType="application/ics"/>
+                <data android:mimeType="application/vcs"/>
+                <data android:mimeType="application/hbs-vcs"/>
+                <data android:mimeType="application/msword"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+                <data android:mimeType="application/vnd.ms-powerpoint"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                <data android:mimeType="application/vnd.ms-excel"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Invisible"
+            android:name="com.google.android.apps.messaging.ui.ClassZeroActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:showOnLockScreen="true"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar"
+            android:name="com.google.android.apps.messaging.wearable.WearableSetDefaultSmsAppActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="wear"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:name="com.google.android.apps.messaging.ui.rcs.setup.manual.PhoneNumberInputV2Activity"
+            android:exported="false"
+            android:screenOrientation="userPortrait"
+            android:configChanges="screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:name="com.google.android.apps.messaging.ui.rcs.setup.manual.CountryCodePickerActivity"
+            android:exported="false"
+            android:screenOrientation="userPortrait"
+            android:configChanges="screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/BugleTheme.RcsPromoActivity"
+            android:name="com.google.android.apps.messaging.ui.rcs.setup.auto.RcsPromoActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:label="@string/sim_storage_pref_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.SimMessagesActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.PerSubscriptionSettingsActivity"/>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:label="@string/app_name"
+            android:name="com.google.android.apps.messaging.ui.search.ZeroStateSearchActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="screenLayout|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider
+            android:label="@string/app_name"
+            android:name="com.google.android.apps.messaging.shared.datamodel.BugleContentProviderInternal"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.BugleContentProviderInternal"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:label="@string/app_name"
+            android:name="com.google.android.apps.messaging.shared.datamodel.BugleContentProvider"
+            android:exported="true"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.BugleContentProvider"/>
+        <provider
+            android:name="com.google.android.ims.rcsservice.businessinfo.BusinessInfoContentProvider"
+            android:exported="true"
+            android:process=":rcs"
+            android:authorities="com.google.android.rcs.client.businessinfo"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.provider.VerifiedSmsBrandLogoFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.provider.VerifiedSmsBrandLogoFileProvider"
+            android:grantUriPermissions="false"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.richcard.common.RichCardMediaFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.richcard.RichCardMediaFileProvider"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.provider.MmsFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.provider.MmsFileProvider"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.MediaScratchFileProvider"
+            android:exported="true"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.MediaScratchFileProvider"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.provider.InternalMediaScratchFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.provider.InternalMediaScratchFileProvider"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.provider.ProxyProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.ProxyProvider"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.diagnostics.DiagnosticsFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.diagnostics.DiagnosticsFileProvider"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="com.google.android.flib.pref.PreferenceFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.rcs.service.preferences"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.ui.avatar.AvatarContentProvider"
+            android:exported="true"
+            android:authorities="com.google.android.apps.messaging.shared.ui.avatar.AvatarContentProvider"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:enabled="false"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.androidx-startup"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="@string/forwarding_and_sharing_file_provider_authority"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/forwarding_and_sharing_media_paths"/>
+        </provider>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.datamodel.action.execution.PendingActionReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.MMS_DOWNLOADED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.link.CustomTabsBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.IncomingRcsEventReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="rcs.intent.action.incomingChatMessage"/>
+                <action android:name="rcs.intent.action.incomingGroupChat"/>
+                <action android:name="rcs.intent.action.incomingFileTransfer"/>
+                <action android:name="rcs.intent.action.fileTransferMetadataUpdate"/>
+                <action android:name="rcs.intent.action.newEvent"/>
+                <action android:name="rcs.intent.action.locationReceived"/>
+                <action android:name="rcs.intent.action.debugOptionResetRcsConfigResponse"/>
+                <action android:name="com.google.android.ims.ZERO_SESSION_ID"/>
+                <action android:name="rcs.intent.action.reportCurrentDebugState"/>
+                <action android:name="rcs.intent.action.incomingConversationSuggestionsMessage"/>
+                <action android:name="rcs.intent.action.incomingFileTransferPreviewUpdate"/>
+                <action android:name="rcs.intent.action.incomingFileTransferCompleted"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.RcsProvisioningEventReceiver"
+            android:permission="com.google.android.messages.rcs.PROVISIONING_EVENT"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.ims.provisioning.engine.provisioningEventAction"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.RestoreReceiver"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.lge.bnr.intent.action.REQUEST_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.telephony.action.CARRIER_CONFIG_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hicloud.android.clone.action.SMS_RESTORE_COMPLETE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.messaging.intent.action.TP_SYNC_FOR_RESTORE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.action.SMS_MMS_DB_CREATED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.action.SMS_MMS_DB_LOST"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.SmsRejectedReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_REJECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.MmsWapPushDeliverReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER"/>
+                <data android:mimeType="application/vnd.wap.mms-message"/>
+                <data android:mimeType="application/vnd.wap.sic"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.SmsDeliverReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.TelephonyChangeReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.action.EXTERNAL_PROVIDER_CHANGE"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.action.EXTERNAL_PROVIDER_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.DefaultSmsPackageChangedReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.action.DEFAULT_SMS_PACKAGE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.analytics.recurringmetrics.AnalyticsAlarmReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.StorageStatusReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.CopyOtpReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.copy_otp"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.NotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.reset_notifications"/>
+                <action android:name="com.google.android.apps.messaging.notification_reply"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.notification2o.NotificationsReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.reportissue.ReportIssueReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.shared.reportissue.LAUNCH_FEEDBACK_FROM_NOTIFICATION"/>
+                <action android:name="com.google.android.apps.messaging.shared.reportissue.LAUNCH_FEEDBACK_FROM_NOTIFICATION_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.DefaultSmsSubscriptionChangeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_DEFAULT_SMS_SUBSCRIPTION_CHANGED"/>
+                <action android:name="android.telephony.action.DEFAULT_SMS_SUBSCRIPTION_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.ims.receiver.sip.DebugOptionsReceiver"
+            android:exported="false"
+            android:process=":rcs">
+            <intent-filter>
+                <action android:name="rcs.intent.action.debugOptionIncreaseSessionId"/>
+                <action android:name="rcs.intent.action.debugOptionResetRcsConfig"/>
+                <action android:name="rcs.intent.action.debugOptionSendErrorResultFromEngine"/>
+                <action android:name="rcs.intent.action.debugOptionIgnoreOldEcCarriers"/>
+                <action android:name="rcs.intent.action.forceClientToUnregister"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.rcsprovisioning.singleregistration.SingleRegistrationCapabilityReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.telephony.ims.action.RCS_SINGLE_REGISTRATION_CAPABILITY_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.rcsprovisioning.singleregistration.SingleRegistrationProvisioningEventReceiver"
+            android:permission="com.google.android.messages.rcs.PROVISIONING_EVENT"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="rcs.intent.action.rcsSingleRegistrationProvisioningEvent"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.apps.messaging.shared.receiver.WapPushSiExpiringEventReceiver"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.experiments.receiver.BuglePhenotypeBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.phenotype.UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.ui.appsettings.SimFullReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SIM_FULL"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.rcsprovisioning.RcsProvisioningBroadcastReceiver"
+            android:permission="com.google.android.messages.rcs.PROVISIONING_EVENT"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="rcs.intent.action.csApkInitialized"/>
+                <action android:name="rcs.intent.action.rcsConfigRefresh"/>
+                <action android:name="rcs.intent.action.rcsReconfigurationRequired"/>
+                <action android:name="rcs.intent.action.rcsCancelProvisioningWork"/>
+                <action android:name="rcs.intent.action.rcsSystemBinding"/>
+                <action android:name="rcs.intent.action.jibe.deprovision"/>
+                <action android:name="com.google.android.apps.messaging.ACTION_RCS_PROVISIONING"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.messaging.shared.datamodel.BugleChooserTargetService"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.messaging.shared.datamodel.action.execution.ActionJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.EmptyService"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.apps.messaging.shared.NoConfirmationSmsSendService"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.messaging.voiceactions.BugleSearchActionVerificationClientService"
+            android:exported="false"
+            android:foregroundServiceType=""/>
+        <service
+            android:name="android.support.v7.mms.MmsService"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.apps.messaging.wearable.WearableBindService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED"/>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED"/>
+                <action android:name="com.google.android.gms.wearable.CHANNEL_EVENT"/>
+                <action android:name="com.google.android.gms.wearable.REQUEST_RECEIVED"/>
+                <data android:scheme="wear"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.ims.service.JibeService"
+            android:exported="true"
+            android:process=":rcs">
+            <intent-filter>
+                <action android:name="com.google.android.ims.service.KEEP_ALIVE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.ims.binding.SystemBindingService"
+            android:permission="android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE"
+            android:enabled="false"
+            android:exported="false"
+            android:process=":rcs">
+            <intent-filter>
+                <action android:name="android.telephony.action.CARRIER_MESSAGING_CLIENT_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.ims.metrics.PeriodicMetricsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"
+            android:process=":rcs"/>
+        <service
+            android:name="com.google.android.apps.messaging.rcsmigration.RcsMigrationService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.MIGRATE_RCS"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.messaging.shared.fcm.impl.BugleFirebaseMessagingService"
+            android:enabled="false"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.messaging.backup.g1.GoogleOneRestoreService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.Bugle.intent.action.RESTORE_ACTION"/>
+            </intent-filter>
+        </service>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <uses-library
+            android:name="android.telephony.satellite"
+            android:required="false"/>
+        <meta-data
+            android:name="gsma.joyn.client"
+            android:value="true"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCVl7z2EZZ1S1mbhW_beZ1cELoLreBMECM"/>
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIf1YRHZTUkS9A3WBNpUAPnrT4_279JvDQADCljw"/>
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true"/>
+        <meta-data
+            android:name="RemoteSharedPreferencesVersions"
+            android:value="1,"/>
+        <meta-data
+            android:name="firebase_analytics_collection_deactivated"
+            android:value="true"/>
+        <meta-data
+            android:name="com.google.android.partnersetup.RLZ_BOUNTY_ACCESS_POINT"
+            android:value="YM"/>
+        <meta-data
+            android:name="com.google.android.gms.supervision.supported_schemes"
+            android:value="sms,tel"/>
+        <meta-data
+            android:name="com.google.android.wearable.beta.app"
+            android:resource="@xml/wearable_desc"/>
+        <meta-data
+            android:name="com.google.android.gms.car.application"
+            android:resource="@xml/automotive_app_desc"/>
+        <meta-data
+            android:name="android.content.APP_RESTRICTIONS"
+            android:resource="@xml/app_restrictions"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.apps.messaging"
+            android:resource="@xml/com_google_android_apps_messaging_phenotype"/>
+        <service
+            android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+            android:enabled="false"
+            android:exported="false"
+            android:process="">
+            <intent-filter>
+                <action android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.apps.messaging"
+                android:resource="@raw/com_google_android_apps_messaging_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.apps.messaging.auto"
+                android:resource="@raw/com_google_android_apps_messaging_auto_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.apps.messaging.auto"
+                android:resource="@raw/com_google_android_apps_messaging_auto_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.apps.messaging.onboarding"
+                android:resource="@raw/com_google_android_apps_messaging_onboarding_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.apps.messaging.onboarding"
+                android:resource="@raw/com_google_android_apps_messaging_onboarding_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.auth_account"
+                android:resource="@raw/com_google_android_gms_auth_account_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.consentverifier"
+                android:resource="@raw/com_google_android_libraries_consentverifier_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.consentverifier"
+                android:resource="@raw/com_google_android_libraries_consentverifier_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.constellation"
+                android:resource="@raw/com_google_android_gms_constellation_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.droidguard"
+                android:resource="@raw/com_google_android_gms_droidguard_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.fido"
+                android:resource="@raw/com_google_android_gms_fido_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.gcm"
+                android:resource="@raw/com_google_android_gms_gcm_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.ulr"
+                android:resource="@raw/com_google_android_gms_ulr_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.usagereporting"
+                android:resource="@raw/com_google_android_gms_usagereporting_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.notifications.platform"
+                android:resource="@raw/com_google_android_libraries_notifications_platform_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.abuse.hades.moirai"
+                android:resource="@raw/com_google_android_libraries_abuse_hades_moirai_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.lighter.android"
+                android:resource="@raw/com_google_lighter_android_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.mdi.sync"
+                android:resource="@raw/com_google_android_libraries_mdi_sync_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.mdi.sync"
+                android:resource="@raw/com_google_android_libraries_mdi_sync_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.mobileconfiguration"
+                android:resource="@raw/com_google_android_libraries_mobileconfiguration_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.onegoogle"
+                android:resource="@raw/com_google_android_libraries_onegoogle_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.performance.primes"
+                android:resource="@raw/com_google_android_libraries_performance_primes_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.performance.primes"
+                android:resource="@raw/com_google_android_libraries_performance_primes_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:profile_primitives_android"
+                android:resource="@raw/profile_primitives_android_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:profile_primitives_android"
+                android:resource="@raw/profile_primitives_android_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.surveys"
+                android:resource="@raw/com_google_android_libraries_surveys_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:tiktok.device"
+                android:resource="@raw/tiktok_device_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:tiktok.device"
+                android:resource="@raw/tiktok_device_registration_info"/>
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.apps.messaging.auto"
+            android:resource="@xml/com_google_android_apps_messaging_auto_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.apps.messaging.onboarding"
+            android:resource="@xml/com_google_android_apps_messaging_onboarding_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.consentverifier"
+            android:resource="@xml/com_google_android_libraries_consentverifier_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.notifications.platform"
+            android:resource="@xml/com_google_android_libraries_notifications_platform_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.abuse.hades.moirai"
+            android:resource="@xml/com_google_android_libraries_abuse_hades_moirai_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.lighter.android"
+            android:resource="@xml/com_google_lighter_android_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.mdi.sync"
+            android:resource="@xml/com_google_android_libraries_mdi_sync_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.mobileconfiguration"
+            android:resource="@xml/com_google_android_libraries_mobileconfiguration_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.onegoogle"
+            android:resource="@xml/com_google_android_libraries_onegoogle_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.performance.primes"
+            android:resource="@xml/com_google_android_libraries_performance_primes_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:profile_primitives_android"
+            android:resource="@xml/profile_primitives_android_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.surveys"
+            android:resource="@xml/com_google_android_libraries_surveys_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:tiktok.device"
+            android:resource="@xml/tiktok_device_phenotype"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <activity
+            android:name="com.google.android.gms.gmscompliance.ui.UncertifiedDeviceActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.duokit.DuoKitContainerActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"/>
+        <receiver
+            android:name="com.google.android.libraries.appdoctor.AppDoctorReceiver"
+            android:permission="com.google.android.gms.permission.INTERNAL_BROADCAST"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.libraries.appdoctor.ACTION_TELE_DOCTOR_FIX"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.libraries.directboot.DirectBootHelperService"
+            android:enabled="false"
+            android:exported="false"
+            android:process=""
+            android:directBootAware="false"/>
+        <meta-data
+            android:name="com.google.android.libraries.glide.fife.module.FifeGlideModule"
+            android:value="GlideModule"/>
+        <activity
+            android:theme="@style/HatsLibPromptTheme"
+            android:name="com.google.android.libraries.hats20.SurveyPromptActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:theme="@style/TransparentActivity"
+            android:name="com.google.android.libraries.hats20.ShowSurveyActivity"
+            android:exported="false">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.google.android.libraries.inputmethod.appcontext.ApplicationContextContentProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.appcontext.provider"
+            android:initOrder="0x7fffffff"
+            android:directBootAware="true"/>
+        <receiver
+            android:name="com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver"
+            android:exported="false"
+            android:process=":primes_lifeboat"/>
+        <receiver
+            android:name="com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver"
+            android:exported="true"
+            android:process="">
+            <intent-filter>
+                <action android:name="android.accounts.action.ACCOUNT_REMOVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver"
+            android:permission="com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST"
+            android:exported="true"
+            android:process="">
+            <intent-filter>
+                <action android:name="com.google.android.gms.phenotype.UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseMenuActivity"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/StickerLightTheme"
+            android:label="@string/sticker_gallery_label"
+            android:name="com.google.android.libraries.stickers.gallery.StickerGalleryActivity"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/StickerLightTheme"
+            android:label="@string/pack_details_label"
+            android:name="com.google.android.libraries.stickers.packdetails.PackDetailsActivity"/>
+        <activity
+            android:theme="@style/SurveysTransparentActivity"
+            android:name="com.google.android.libraries.surveys.internal.view.SurveyActivity"
+            android:exported="false"
+            android:process="@string/survey_activity_process_name"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true"/>
+        </activity>
+        <service
+            android:name="com.google.apps.tiktok.concurrent.AndroidFuturesService"
+            android:exported="false"/>
+        <service
+            android:name="com.google.apps.tiktok.concurrent.InternalForegroundService"
+            android:exported="false"
+            android:foregroundServiceType=""/>
+        <receiver
+            android:name="com.google.apps.tiktok.experiments.phenotype.ConfigurationUpdatedReceiver_Receiver"
+            android:permission="com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.phenotype.UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/GatewayActivityTheme"
+            android:name="com.google.apps.tiktok.nav.gateway.GatewayActivity"
+            android:exported="true"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"/>
+        <activity-alias
+            android:name="com.google.android.apps.messaging.deeplinks.InstallDeepLink"
+            android:exported="true"
+            android:targetActivity="com.google.apps.tiktok.nav.gateway.GatewayActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="messages.google.com"/>
+                <data android:path="/install"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.google.android.apps.messaging.emergency.EmergencySosConversation"
+            android:permission="com.google.android.apps.messaging.emergency.permission.START_ESOS_CONVERSATION"
+            android:exported="true"
+            android:targetActivity="com.google.apps.tiktok.nav.gateway.GatewayActivity">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.ACTION_START_ESOS_CONVERSATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.google.android.apps.messaging.emergency.DemoEmergencySosConversation"
+            android:exported="true"
+            android:targetActivity="com.google.apps.tiktok.nav.gateway.GatewayActivity">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.ACTION_START_DEMO_ESOS_CONVERSATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.google.android.apps.messaging.ui.conversation.rbm.RbmDeepLink"
+            android:exported="true"
+            android:targetActivity="com.google.apps.tiktok.nav.gateway.GatewayActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="rbm.goog"/>
+                <data android:path="/message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="rbm"/>
+                <data android:host="rbm.goog"/>
+                <data android:path="/message"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.google.android.apps.messaging.ui.conversation.smsdeeplinks.SmsDeepLink"
+            android:exported="true"
+            android:targetActivity="com.google.apps.tiktok.nav.gateway.GatewayActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sms"/>
+            </intent-filter>
+        </activity-alias>
+        <service
+            android:name="com.google.frameworks.client.data.android.server.tiktok.MainProcessEndpointService"
+            android:exported="false"/>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="android.net.http.MetaDataHolder"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="android.net.http.EnableTelemetry"
+                android:value="true"/>
+        </service>
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable.BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/logging_consent_settings_screen_title"
+            android:name="com.google.android.apps.messaging.analytics.consent.LoggingConsentSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.analytics.consent.SettingsActivity"/>
+        <service
+            android:name="com.google.android.apps.messaging.backup.CustomD2DSourceEndpointService"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:label="@string/blocked_contacts_title"
+            android:name="com.google.android.apps.messaging.block.ui.list.BlockedParticipantsActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.main.MainActivity"/>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:label="@string/info_and_options_activity_title"
+            android:name="com.google.android.apps.messaging.conversation.settings.InfoAndOptionsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.screen.ConversationActivity"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:name="com.google.android.apps.messaging.datadonation.ui.DataDonationActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <service
+            android:name="com.google.android.apps.messaging.diagnostics.DiagnosticsService"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:label="@string/app_name"
+            android:name="com.google.android.apps.messaging.helpandfeedback.advancedfeedback.ui.AdvancedFeedbackActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.main.MainActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.MessageDetails"
+            android:label="Message Details"
+            android:name="com.google.android.apps.messaging.messagedetails.MessageDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.screen.ConversationActivity"/>
+        <profileable android:shell="true"/>
+        <activity
+            android:theme="@style/BugleTheme.ConversationActivity"
+            android:name="com.google.android.apps.messaging.multishare.MultiShareActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/notifications_settings_title"
+            android:name="com.google.android.apps.messaging.notifications.settings.NotificationSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.notifications.settings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:name="com.google.android.apps.messaging.penpal.settings.GeminiSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.penpal.settings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:name="com.google.android.apps.messaging.privacy.etouffeetoggle.EtouffeeToggleActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:name="com.google.android.apps.messaging.privacy.identitydetails.IdentityDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.settings.ConversationSettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:name="com.google.android.apps.messaging.privacy.settings.PrivacySettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.receiver.PhoneBootAndPackageReplacedReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.messaging.restore.service.CustomD2DTargetEndpointService"
+            android:exported="true"/>
+        <provider
+            android:name="com.google.android.apps.messaging.settings.search.MessagesSearchIndexablesProvider"
+            android:permission="android.permission.READ_SEARCH_INDEXABLES"
+            android:exported="true"
+            android:multiprocess="false"
+            android:authorities="com.google.android.apps.messaging.settings.search"
+            android:grantUriPermissions="true">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.samsung.android.settings.require_settings_key"
+                android:value="main_preference_screen"/>
+            <meta-data
+                android:name="com.samsung.android.settings.require_settings_title"
+                android:value="@string/samsung_setting_search_title"/>
+        </provider>
+        <activity
+            android:theme="@style/BugleTheme.ConversationActivity"
+            android:name="com.google.android.apps.messaging.startchat.StartChatActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:parentActivityName="com.google.android.apps.messaging.main.MainActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/smart_action_settings_page_title"
+            android:name="com.google.android.apps.messaging.suggestions.settings.SmartActionSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.suggestions.settings.SmartsSettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/spotlights_settings_page_title"
+            android:name="com.google.android.apps.messaging.suggestions.settings.SpotlightsSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.suggestions.settings.SmartsSettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.SettingsActivity"
+            android:label="@string/settings_activity_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.main.MainActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/settings_activity_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.SimSelectionSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/advanced_settings_activity_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.PerSubscriptionSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/general_settings_activity_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.ApplicationSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/rcs_settings_activity_title_v2"
+            android:name="com.google.android.apps.messaging.ui.appsettings.RcsSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.PerSubscriptionSettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/about_application_pp_tos_settings"
+            android:name="com.google.android.apps.messaging.ui.appsettings.AboutPrivacyTermsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/smarts_settings_page_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.SmartsSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/federated_learning_settings_page_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.FederatedLearningSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/nudge_settings_page_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.NudgeSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SmartsSettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/rich_cards_settings_root_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.RichCardsSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/verified_sms_user_setting_top_level_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.VerifiedSmsSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/notifications_settings_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.NotificationSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/spam_settings_activity_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.SpamSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/hqms_settings_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.HqmsSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/smart_action_settings_page_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.SmartActionSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SmartsSettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.SwipeActionSettingsActivity"
+            android:label="@string/swipe_actions"
+            android:name="com.google.android.apps.messaging.ui.appsettings.SwipeActionSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:name="com.google.android.apps.messaging.ui.appsettings.VmtSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:name="com.google.android.apps.messaging.ui.appsettings.ProfileSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:name="com.google.android.apps.messaging.ui.appsettings.TurnOffRcsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ToolbarSettingsActivity"
+            android:label="@string/verified_sms_user_setting_top_level_title"
+            android:name="com.google.android.apps.messaging.ui.appsettings.verifiedsms.VerifiedSmsSettingsActivity"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.ui.appsettings.verifiedsms.SettingsActivity"/>
+        <activity
+            android:theme="@style/BugleTheme.ContactDetails"
+            android:label="@string/contact_details"
+            android:name="com.google.android.apps.messaging.ui.conversation.details.ConversationDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.screen.ConversationActivity"/>
+        <activity
+            android:name="com.google.android.apps.messaging.ui.conversation.rbm.OpenRbmDeepLinkActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/BugleTheme.DialogActivity"
+            android:name="com.google.android.apps.messaging.ui.debug.database.DatabaseActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/BugleTheme.DialogActivity"
+            android:name="com.google.android.apps.messaging.ui.debug.DebugMmsConfigActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/BugleTheme.DialogActivity"
+            android:name="com.google.android.apps.messaging.ui.debug.DebugGServiceKeysActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/BugleTheme.DialogActivity"
+            android:name="com.google.android.apps.messaging.ui.debug.DebugPrefsActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/BugleTheme.DialogActivity"
+            android:label="MobileConfiguration"
+            android:name="com.google.android.apps.messaging.ui.debug.DebugMobileConfigurationActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.ui.debug.LoadMessagesReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.load_messages"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.ui.debug.LoadLinkPreviewsReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.load_link_previews"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.ui.debug.LoadRepliesReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.load_replies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.ui.debug.LoadReactionsReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.load_reactions"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.ui.debug.DebugContactsSyncReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.contacts_sync"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.google.android.apps.messaging.ui.mediapicker.c2o.gallery.GalleryCameraFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/media_paths"/>
+        </provider>
+        <activity
+            android:theme="@style/BugleCameraActivityTheme"
+            android:label="@string/c2o_camera_activity_title"
+            android:name="com.google.android.apps.messaging.ui.mediapicker.c2o.gallery.CameraActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.screen.ConversationActivity"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:label="@string/mediapicker_gallery_title"
+            android:name="com.google.android.apps.messaging.ui.mediapicker.c2o.gallery.GalleryBrowserActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.screen.ConversationActivity"/>
+        <activity
+            android:theme="@style/BugleTheme"
+            android:label="@string/location_attachment_picker_title"
+            android:name="com.google.android.apps.messaging.ui.mediapicker.c2o.location.picker.LocationAttachmentPickerActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustNothing"
+            android:parentActivityName="com.google.android.apps.messaging.conversation.screen.ConversationActivity"/>
+        <activity
+            android:theme="@style/MediaViewerActivityTheme"
+            android:name="com.google.android.apps.messaging.ui.mediaviewer.MediaViewerActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.ui.reminder.ReminderReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.set_reminder"/>
+                <action android:name="com.google.android.apps.messaging.trigger_reminder"/>
+                <action android:name="com.google.android.apps.messaging.dismiss_reminder_notifications"/>
+                <action android:name="com.google.android.apps.messaging.mark_as_done"/>
+                <action android:name="com.google.android.apps.messaging.snooze_reminder"/>
+                <action android:name="com.google.android.apps.messaging.view_reminder"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/BugleToolbarTheme"
+            android:name="com.google.android.apps.messaging.welcome.WelcomeFlowActivityWithoutConfigChanges"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.app.UncaughtExceptionReceiver"
+            android:exported="false"
+            android:process=":crash_report"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.provider.RbmBusinessInfoFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.provider.RbmBusinessInfoFileProvider"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.provider.sharedstorage.SharedStorageProvider"
+            android:exported="true"
+            android:authorities="com.google.android.apps.messaging.shared.datamodel.provider.sharedstorage.SharedStorageProvider"/>
+        <provider
+            android:name="com.google.android.apps.messaging.shared.datamodel.rcs.provider.FileTransferProvider"
+            android:exported="false"
+            android:authorities="com.google.android.rcs.service.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/rcs_file_transfer_paths"/>
+        </provider>
+        <service
+            android:name="com.google.android.apps.messaging.shared.datamodel.resizing.ResizingService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.google.android.apps.messaging.shared.datamodel.resizing.ResizingServiceAndroidV"
+            android:exported="false"
+            android:foregroundServiceType=""/>
+        <service
+            android:name="com.google.android.apps.messaging.shared.datamodel.workqueue.foregroundservice.BugleDataSyncForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.flaggedmessages.FlaggedMessageAlertReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.shared.flaggedmessages.ALERT_EXPIRED_FLAGGED_MESSAGES"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.notification.receiver.DismissNotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.dismiss_notification"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.messaging.shared.rcs.messaging.MessagingEngineNotificationServer"
+            android:permission="com.google.android.apps.messaging.services.ACCESS_MESSAGING_NOTIFICATION_SERVICE"
+            android:exported="true"/>
+        <service
+            android:name="com.google.android.ims.messaging.MessagingEngineEndpointService"
+            android:permission="com.google.android.ims.services.ACCESS_MESSAGING_SERVICE"
+            android:exported="false"
+            android:process=":rcs"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.rcs.messaging.MessagingServiceResponseReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.messaging_service_revoke_message_response"/>
+                <action android:name="com.google.android.apps.messaging.messaging_service_send_message_response"/>
+                <action android:name="com.google.android.apps.messaging.shared.messaging.incoming_chat_message_action"/>
+                <action android:name="com.google.android.apps.messaging.shared.messaging.incoming_group_notification_action"/>
+                <action android:name="com.google.android.apps.messaging.shared.messaging.messaging_service_add_user_to_group_response"/>
+                <action android:name="com.google.android.apps.messaging.shared.messaging.messaging_service_remove_user_from_group_response"/>
+                <action android:name="com.google.android.apps.messaging.shared.messaging.messaging_service_create_group_response"/>
+                <action android:name="com.google.android.apps.messaging.shared.messaging.messaging_service_update_group_response"/>
+                <action android:name="com.google.android.apps.messaging.shared.messaging.messaging_service_trigger_group_notification_response"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.ConfigSmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:exported="true">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED"/>
+                <data android:scheme="sms"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.SendStatusReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.shared.receiver.SendStatusReceiver.MESSAGE_SENT"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.shared.receiver.SendStatusReceiver.MESSAGE_DELIVERED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.shared.receiver.SendStatusReceiver.MMS_SENT"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.shared.receiver.SendStatusReceiver.MMS_DOWNLOADED"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.SmsTickleReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED"/>
+                <data android:port="8901"/>
+                <data android:scheme="sms"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.receiver.SpatulaSettingsBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.spatula.settings.core.SPATULA_SETTING_UPDATED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.satelliteapi.dunestar.SatelliteConnectionChangeReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.messaging.shared.satelliteapi.dunestar.ACTION_NEW_SATELLITE_CONNECTION"/>
+                <action android:name="com.google.android.apps.messaging.shared.satelliteapi.dunestar.ACTION_LOST_SATELLITE_NEW_WIFI_CONNECTION"/>
+                <action android:name="com.google.android.apps.messaging.shared.satelliteapi.dunestar.ACTION_LOST_SATELLITE_NEW_CELLULAR_CONNECTION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.messaging.shared.satelliteapi.endpointservice.GrpcEndpointService"
+            android:permission="com.google.android.apps.messaging.shared.satelliteapi.endpointservice.ACCESS_ENDPOINT_SERVICE"
+            android:exported="true"/>
+        <receiver
+            android:name="com.google.android.apps.messaging.shared.simstatetracker.AsyncTelephonySimStateReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+                <action android:name="android.telephony.action.CARRIER_CONFIG_CHANGED"/>
+                <action android:name="android.telephony.action.DEFAULT_SUBSCRIPTION_CHANGED"/>
+                <action android:name="android.telephony.action.DEFAULT_SMS_SUBSCRIPTION_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.build.data.PropertiesServiceHolder"
+            android:enabled="false"
+            android:exported="false"
+            android:process="">
+            <intent-filter>
+                <action android:name="com.google.android.build.data.Properties"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.build.data.properties"
+                android:resource="@raw/build_data"/>
+        </service>
+        <meta-data
+            android:name="com.android.dynamic.apk.fused.modules"
+            android:value="base"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="2"/>
+    </application>
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.emoji.view.EmojiView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="30dp"
+    android:textColor="?attr/EmojiPickerColorEmojiText"
+    android:gravity="center"
+    android:id="@+id/emoji_picker_popup_text_view"
+    android:tag=".emoji-picker-item"
+    android:background="@drawable/ripple_emoji_view"
+    android:padding="2dp"
+    android:layout_width="@dimen/emoji_picker_popup_view_width"
+    android:layout_height="@dimen/emoji_picker_popup_view_height"
+    android:importantForAccessibility="yes"/>

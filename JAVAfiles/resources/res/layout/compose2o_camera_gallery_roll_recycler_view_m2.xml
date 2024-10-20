@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/single_category_container"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/camera_gallery_category_vertical_margin"
+    android:layout_marginBottom="@dimen/camera_gallery_category_vertical_margin"
+    android:importantForAccessibility="no">
+    <android.support.v7.widget.RecyclerView
+        android:layout_gravity="end"
+        android:id="@+id/c2o_category_recycler_view"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ViewStub
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/camera_container_view_stub"
+        android:layout="@layout/compose2o_mini_camera_view"
+        android:inflatedId="@+id/camera_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/camera_gallery_camera_item_horizontal_margin"
+        android:layout_marginEnd="@dimen/camera_gallery_camera_item_horizontal_margin"/>
+</FrameLayout>

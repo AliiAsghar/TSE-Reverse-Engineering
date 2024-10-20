@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_only_recycler_view"
+        android:paddingTop="@dimen/emoji_variant_menu_rv_top_bottom_padding"
+        android:paddingBottom="@dimen/emoji_variant_menu_rv_top_bottom_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:paddingStart="@dimen/emoji_variant_menu_rv_side_padding"
+        android:paddingEnd="@dimen/emoji_variant_menu_rv_side_padding"/>
+</merge>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/ic_new_message_shortcut"
+        android:enabled="true"
+        android:shortcutId="manifest-shortcut-new_message"
+        android:shortcutShortLabel="@string/shortcut_new_message_text"
+        android:shortcutLongLabel="@string/shortcut_new_message_text"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_text">
+        <intent
+            android:targetPackage="com.google.android.apps.messaging"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.google.android.apps.messaging.main.MainActivity">
+            <extra
+                android:name="via_shortcut"
+                android:value="true"/>
+            <extra
+                android:name="conversation_state"
+                android:value="2"/>
+        </intent>
+        <categories android:name="android.shortcut.conversation"/>
+        <categories android:name="android.shortcut.media"/>
+    </shortcut>
+    <share-target android:targetClass="com.google.android.apps.messaging.ui.conversationlist.ShareIntentActivity">
+        <category android:name="com.google.android.apps.messaging.ui.conversationlist.SHARE_TARGET_CATEGORY"/>
+        <data android:mimeType="text/plain"/>
+        <data android:mimeType="text/x-vCard"/>
+        <data android:mimeType="text/x-vcard"/>
+        <data android:mimeType="image/*"/>
+        <data android:mimeType="audio/*"/>
+        <data android:mimeType="application/ogg"/>
+        <data android:mimeType="application/pdf"/>
+        <data android:mimeType="text/x-vCalendar"/>
+        <data android:mimeType="text/x-vcalendar"/>
+        <data android:mimeType="text/calendar"/>
+        <data android:mimeType="application/ics"/>
+        <data android:mimeType="application/vcs"/>
+        <data android:mimeType="application/hbs-vcs"/>
+        <data android:mimeType="application/msword"/>
+        <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <data android:mimeType="application/vnd.ms-powerpoint"/>
+        <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <data android:mimeType="application/vnd.ms-excel"/>
+    </share-target>
+    <share-target android:targetClass="com.google.android.apps.messaging.ui.conversationlist.VideoShareIntentActivity">
+        <category android:name="com.google.android.apps.messaging.ui.conversationlist.VIDEO_SHARE_TARGET_CATEGORY"/>
+        <data android:mimeType="video/*"/>
+    </share-target>
+</shortcuts>

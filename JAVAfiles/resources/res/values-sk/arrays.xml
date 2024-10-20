@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25 ×</item>
+        <item>0,5 ×</item>
+        <item>0,75 ×</item>
+        <item>Normálne</item>
+        <item>1,25 ×</item>
+        <item>1,5 ×</item>
+        <item>2 ×</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Láska</item>
+        <item>Áno</item>
+        <item>Bozkávam</item>
+        <item>Ahoj</item>
+        <item>Objímam</item>
+        <item>Slávim</item>
+        <item>Hnevám sa</item>
+        <item>Teším sa</item>
+        <item>Dovi</item>
+        <item>Haha</item>
+        <item>Plačem</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Áno</item>
+        <item>Nie</item>
+        <item>OK</item>
+        <item>Haha</item>
+        <item>Vďaka</item>
+        <item>Súhlasím</item>
+        <item>Pekné</item>
+        <item>Som na ceste</item>
+        <item>Dobre, ozvem sa neskôr</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS s odkazom</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Vždy odoslať znova ako SMS</item>
+        <item>Odoslať znova ako SMS mimo roamingu</item>
+        <item>Opýtať sa pred opätovným odoslaním</item>
+        <item>Nikdy neodosielať znova ako SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Vždy odoslať znova ako SMS/MMS</item>
+        <item>Odoslať znova ako SMS/MMS mimo roamingu</item>
+        <item>Opýtať sa pred opätovným odoslaním</item>
+        <item>Nikdy neodosielať znova ako SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

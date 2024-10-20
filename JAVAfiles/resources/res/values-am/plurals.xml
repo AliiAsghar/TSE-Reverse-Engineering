@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">እና %d ተጨማሪ</item>
+        <item quantity="other">እና %d ተጨማሪ</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d ውይይቶች በማኅደር ተቀምጠዋል</item>
+        <item quantity="other">%d ውይይቶች በማኅደር ተቀምጠዋል</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">%d አባሪዎችን ለመላክ የተዘጋጁ አባሪዎች</item>
+        <item quantity="other">%d አባሪዎችን ለመላክ የተዘጋጁ አባሪዎች</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d ዓባሪዎችን ማስቀመጥ አልተቻለም</item>
+        <item quantity="other">%d ዓባሪዎችን ማስቀመጥ አልተቻለም</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d አባሪዎች ተቀምጠዋል</item>
+        <item quantity="other">%d አባሪዎች ተቀምጠዋል</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d ደቂቃ</item>
+        <item quantity="other">%d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d ሰከንድ</item>
+        <item quantity="other">%d ሰከንዶች</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d ደቂቃዎች</item>
+        <item quantity="other">%d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d ደቂቃ</item>
+        <item quantity="other">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d ሰዓቶች</item>
+        <item quantity="other">%d ሰዓቶች</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d ደቂቃዎች</item>
+        <item quantity="other">%d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d ሰከንዶች</item>
+        <item quantity="other">%d ሰከንዶች</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">%d ውይይቶች ይሰረዙ?</item>
+        <item quantity="other">%d ውይይቶች ይሰረዙ?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">%d መልዕክቶች ይሰረዙ?</item>
+        <item quantity="other">%d መልዕክቶች ይሰረዙ?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d ውይይቶች ተሰርዘዋል</item>
+        <item quantity="other">%d ውይይቶች ተሰርዘዋል</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d ተመርጠዋል</item>
+        <item quantity="other">%1$d ተመርጠዋል</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">ከ%1$d</item>
+        <item quantity="other">ከ%1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d ላኪዎች</item>
+        <item quantity="other">%d ላኪዎች</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d መልዕክቶች</item>
+        <item quantity="other">%d መልዕክቶች</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d ተመርጠዋል</item>
+        <item quantity="other">%d ተመርጠዋል</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">የቡድን ከመጨረሻ እስከ መጨረሻ ምሥጠራ ለእርስዎ እና %1$s ሌሎች አይገኝም። %2$s</item>
+        <item quantity="other">የቡድን ከመጨረሻ እስከ መጨረሻ ምሥጠራ ለእርስዎ እና %1$s ሌሎች አይገኝም። %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">የቡድን ከመጨረሻ እስከ መጨረሻ ምሥጠራ ለ%1$s እና %2$s ሌሎች አይገኝም። %3$s</item>
+        <item quantity="other">የቡድን ከመጨረሻ እስከ መጨረሻ ምሥጠራ ለ%1$s እና %2$s ሌሎች አይገኝም። %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">በ%d ሰከንዶች በፍጥነት ወደፊት ያሳልፉ</item>
+        <item quantity="other">በ%d ሰከንዶች በፍጥነት ወደፊት ያሳልፉ</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">በ%d ሰከንዶች ወደኋላ ይመልሱ</item>
+        <item quantity="other">በ%d ሰከንዶች ወደኋላ ይመልሱ</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">%d ዓባሪዎችን መምረጥ አልተሳካም</item>
+        <item quantity="other">%d ዓባሪዎችን መምረጥ አልተሳካም</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s ተቀባይ ምስጠራን መፍታት አልቻሉም።</item>
+        <item quantity="other">%1$s ተቀባዮች ምስጠራን መፍታት አልቻሉም።</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d ተያይዘዋል</item>
+        <item quantity="other">%d ተያይዘዋል</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d ተመርጧል</item>
+        <item quantity="other">%d ተመርጠዋል</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d መልዕክቶች ተሰርዘዋል</item>
+        <item quantity="other">%d መልዕክቶች ተሰርዘዋል</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d መልዕክቶች ተመርጠዋል</item>
+        <item quantity="other">%d መልዕክቶች ተመርጠዋል</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">በ%s ታይቷል</item>
+        <item quantity="other">በ%s ታይቷል</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s ተቀባይ ምስጠራን መፍታት አልቻሉም፣ ለአማራጮች መታ ያድርጉ</item>
+        <item quantity="other">%1$s ተቀባዮች ምስጠራን መፍታት አልቻሉም፣ ለአማራጮች መታ ያድርጉ</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s ተቀባይ ምስጠራን መፍታት አልቻለም</item>
+        <item quantity="other">%1$s ተቀባዮች ምስጠራን መፍታት አልቻሉም</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">በ%s ተነቧል</item>
+        <item quantity="other">በ%s ተነቧል</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d ሰው በመተየብ ላይ ነው…</item>
+        <item quantity="other">%d ሰዎች በመተየብ ላይ ናቸው…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s + %2$s ሌላ</item>
+        <item quantity="other">%1$s + %2$s ሌሎች</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">ከ%2$d ውይይቶች ውስጥ %1$d መልዕክቶችን ማድረስ አልተቻለም</item>
+        <item quantity="other">ከ%2$d ውይይቶች ውስጥ %1$d መልዕክቶችን ማድረስ አልተቻለም</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d መልዕክቶች በ%2$d ውይይቶች ውስጥ</item>
+        <item quantity="other">%1$d መልዕክቶች በ%2$d ውይይቶች ውስጥ</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d ስዕሎች</item>
+        <item quantity="other">%d ስዕሎች</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d ቪዲዮዎች</item>
+        <item quantity="other">%d ቪዲዮዎች</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%1$d መልዕክቶች በ%2$d ውይይቶች ውስጥ አልተላኩም</item>
+        <item quantity="other">%1$d መልዕክቶች በ%2$d ውይይቶች ውስጥ አልተላኩም</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d ፎቶዎች</item>
+        <item quantity="other">%d ፎቶዎች</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">%1$d ፎቶዎች ወደ እርስዎ %2$s አቃፊ ተቀምጠዋል</item>
+        <item quantity="other">%1$d ፎቶዎች ወደ እርስዎ %2$s አቃፊ ተቀምጠዋል</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d ቪድዮዎች</item>
+        <item quantity="other">%d ቪድዮዎች</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d ቪዲዮዎች ወደ እርስዎ %2$s አቃፊ ተቀምጠዋል</item>
+        <item quantity="other">%1$d ቪዲዮዎች ወደ እርስዎ %2$s አቃፊ ተቀምጠዋል</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">የቅርብ ጊዜ ፎቶዎችን አያይዝ</item>
+        <item quantity="other">የቅርብ ጊዜ ፎቶዎችን አያይዝ</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d ሰዎች</item>
+        <item quantity="other">%d ሰዎች</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d ፎቶዎች የእርስዎ %2$s የተከማቸ ሚዲያ ላይ ተቀምጠዋል</item>
+        <item quantity="other">%1$d ፎቶዎች የእርስዎ %2$s የተከማቸ ሚዲያ ላይ ተቀምጠዋል</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">ተቀባዮች ከመስመር ውጭ ሊሆኑ ይችላሉ</item>
+        <item quantity="other">ተቀባዮች ከመስመር ውጭ ሊሆኑ ይችላሉ</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">መልዕክቶች አልደረሱም</item>
+        <item quantity="other">መልዕክቶች አልደረሱም</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">ለመላኪያ አማራጮች የ%1$d ውይይቶችን ይፈትሹ</item>
+        <item quantity="other">ለመላኪያ አማራጮች የ%1$d ውይይቶችን ይፈትሹ</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d %2$s ምላሽ</item>
+        <item quantity="other">%1$d %2$s ምላሾች</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">%d አባሪዎችን በመላክ ላይ</item>
+        <item quantity="other">%d አባሪዎችን በመላክ ላይ</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">%d ፎቶዎችን በመላክ ላይ</item>
+        <item quantity="other">%d ፎቶዎችን በመላክ ላይ</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">%d ቪዲዮዎችን በመላክ ላይ</item>
+        <item quantity="other">%d ቪዲዮዎችን በመላክ ላይ</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">መርሐግብር የተያዘላቸው መልዕክቶች</item>
+        <item quantity="other">መርሐግብር የተያዘላቸው መልዕክቶች</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d ተመርጧል</item>
+        <item quantity="other">%d ተመርጠዋል</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">አሁንም %1$s መልዕክቶች ወደ %2$s በመላክ ላይ ናቸው። ወደ Google ግብረመልስ ለመላክ መታ ያድርጉ። የእርስዎ የቅድመ ይሁንታ ግብረመልስ መልዕክቶችን ለማሻሻል ይረዳል።</item>
+        <item quantity="other">አሁንም %1$s መልዕክቶች ወደ %2$s በመላክ ላይ ናቸው። ወደ Google ግብረመልስ ለመላክ መታ ያድርጉ። የእርስዎ የቅድመ ይሁንታ ግብረመልስ መልዕክቶችን ለማሻሻል ይረዳል።</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">አሁንም መልዕክቶችን በመላክ ላይ ነው</item>
+        <item quantity="other">አሁንም መልዕክቶችን በመላክ ላይ ነው</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">መልዕክቶችን አሳይ</item>
+        <item quantity="other">መልዕክቶችን አሳይ</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d ኮከቦች ከ%2$d</item>
+        <item quantity="other">%1$d ኮከቦች ከ%2$d</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">%1$d/%2$d ውጤት ተገኝቷል</item>
+        <item quantity="other">%1$d/%2$d ውጤቶች ተገኝተዋል</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">ቅጂዎች ከ%d ሰከንድ በላይ መሆን አለባቸው።</item>
+        <item quantity="other">ቅጂዎች ከ%d ሰከንዶች በላይ መሆን አለባቸው።</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s እና %2$s ሌሎች እየተየቡ ነው</item>
+        <item quantity="other">%1$s እና %2$s ሌሎች እየተየቡ ነው</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d ውይይቶች ከማህደር ወጥተዋል</item>
+        <item quantity="other">%d ውይይቶች ከማህደር ወጥተዋል</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d ያልተነበበ መልዕክት</item>
+        <item quantity="other">%d ያልተነበቡ መልዕክቶች</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d እውቂያዎች</item>
+        <item quantity="other">%d እውቂያዎች</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">እውቂያዎችን ይመልከቱ</item>
+        <item quantity="other">እውቂያዎችን ይመልከቱ</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d ቪዲዮዎች የእርስዎ %2$s የተከማቸ ሚዲያ ላይ ተቀምጠዋል</item>
+        <item quantity="other">%1$d ቪዲዮዎች የእርስዎ %2$s የተከማቸ ሚዲያ ላይ ተቀምጠዋል</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d የድምጽ መልዕክቶች የእርስዎ %2$s የተከማቸ ሚዲያ ላይ ተቀምጠዋል</item>
+        <item quantity="other">%1$d የድምጽ መልዕክቶች የእርስዎ %2$s የተከማቸ ሚዲያ ላይ ተቀምጠዋል</item>
+    </plurals>
+</resources>

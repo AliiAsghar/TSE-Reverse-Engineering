@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners
+                android:topLeftRadius="@dimen/onboarding_bottomsheet_top_radius"
+                android:topRightRadius="@dimen/onboarding_bottomsheet_top_radius"/>
+            <solid android:color="?attr/colorSurface"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners
+                android:topLeftRadius="@dimen/onboarding_bottomsheet_top_radius"
+                android:topRightRadius="@dimen/onboarding_bottomsheet_top_radius"/>
+            <solid android:color="@color/surface3_elevation_overlay_color"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners
+                android:topLeftRadius="@dimen/onboarding_bottomsheet_top_radius"
+                android:topRightRadius="@dimen/onboarding_bottomsheet_top_radius"/>
+            <solid android:color="@color/elevation_overlay_accent_color"/>
+        </shape>
+    </item>
+</layer-list>

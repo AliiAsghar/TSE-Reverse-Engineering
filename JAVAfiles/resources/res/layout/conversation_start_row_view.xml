@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.conversation.messagelist.ConversationStartRowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/colorPrimaryBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/conversation_start_elevation">
+    <com.google.android.apps.messaging.conversation.messagelist.ConversationStartView
+        android:id="@+id/conversation_start_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.google.android.apps.messaging.conversation.messagelist.ConversationStartRowView>

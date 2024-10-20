@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cake_badge_background"
+    android:padding="3dp"
+    android:layout_width="22dp"
+    android:layout_height="22dp"
+    android:elevation="1dp">
+    <com.google.android.apps.messaging.ui.animation.illustration.IllustrationViewStub
+        android:id="@+id/birthday_cake"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        app:animated_src_id="@raw/anim_birthday_cake"
+        app:static_src="@drawable/ic_birthday_cake"/>
+</FrameLayout>

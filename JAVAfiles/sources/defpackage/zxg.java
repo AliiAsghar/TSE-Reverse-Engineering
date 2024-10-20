@@ -1,0 +1,218 @@
+package defpackage;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.constraint.ConstraintLayout;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import com.google.android.apps.messaging.R;
+import defpackage.apxm;
+import java.util.Locale;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class zxg extends zxj implements akkh, apxq, akkf, aklk, akrw {
+    public final eno a = new eno(this);
+    private boolean ag;
+    private zxh d;
+    private Context e;
+
+    @Deprecated
+    public zxg() {
+        aiut.c();
+    }
+
+    @Override // defpackage.akkh
+    public final Class C() {
+        return zxh.class;
+    }
+
+    @Override // defpackage.aklf, defpackage.aiuc, defpackage.cg
+    public final View K(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
+        this.c.k();
+        try {
+            aM(layoutInflater, viewGroup, bundle);
+            zxh E = E();
+            ConstraintLayout constraintLayout = (ConstraintLayout) layoutInflater.inflate(R.layout.conversation_bottom_bar_layout, viewGroup, false);
+            aohs aohsVar = (aohs) E.c.b();
+            zxf zxfVar = E.d;
+            aohsVar.C(new akfk(zxfVar.k, new ikn(zxfVar, 19), "CONVERSATION_BOTTOM_BAR_DATA_SERVICE_KEY", 2), E.e);
+            akqj.p();
+            return constraintLayout;
+        } catch (Throwable th) {
+            try {
+                akqj.p();
+            } catch (Throwable th2) {
+                th.addSuppressed(th2);
+            }
+            throw th;
+        }
+    }
+
+    @Override // defpackage.cg, defpackage.enm
+    public final enh N() {
+        return this.a;
+    }
+
+    @Override // defpackage.zxj, defpackage.aiuc, defpackage.cg
+    public final void Y(Activity activity) {
+        this.c.k();
+        try {
+            super.Y(activity);
+            akqj.p();
+        } catch (Throwable th) {
+            try {
+                akqj.p();
+            } catch (Throwable th2) {
+                th.addSuppressed(th2);
+            }
+            throw th;
+        }
+    }
+
+    @Override // defpackage.akkh
+    /* renamed from: a, reason: merged with bridge method [inline-methods] */
+    public final zxh E() {
+        zxh zxhVar = this.d;
+        if (zxhVar != null) {
+            if (!this.ag) {
+                return zxhVar;
+            }
+            throw new IllegalStateException("peer() called after destroyed.");
+        }
+        throw new IllegalStateException("peer() called before initialized.");
+    }
+
+    @Override // defpackage.cg
+    public final void aG(Intent intent) {
+        if (akec.y(intent, x().getApplicationContext())) {
+            akto.m(intent);
+        }
+        super.aG(intent);
+    }
+
+    @Override // defpackage.akkf
+    @Deprecated
+    public final Context aU() {
+        if (this.e == null) {
+            this.e = new aklm(this, super.x());
+        }
+        return this.e;
+    }
+
+    @Override // defpackage.aklf, defpackage.akrw
+    public final aktr aW() {
+        return this.c.a;
+    }
+
+    @Override // defpackage.aklk
+    public final Locale aX() {
+        return akec.q(this);
+    }
+
+    @Override // defpackage.aklf, defpackage.akrw
+    public final void aY(aktr aktrVar, boolean z) {
+        this.c.e(aktrVar, z);
+    }
+
+    @Override // defpackage.aklf, defpackage.akrw
+    public final void aZ(aktr aktrVar) {
+        this.c.b = aktrVar;
+    }
+
+    @Override // defpackage.cg
+    public final void ar(boolean z) {
+        d.H(z);
+    }
+
+    @Override // defpackage.cg
+    public final void au(Intent intent) {
+        if (akec.y(intent, x().getApplicationContext())) {
+            akto.m(intent);
+        }
+        aG(intent);
+    }
+
+    @Override // defpackage.zxj
+    protected final /* synthetic */ apxh d() {
+        return new aklt(this);
+    }
+
+    @Override // defpackage.zxj, defpackage.aklf, defpackage.cg
+    public final void f(Context context) {
+        this.c.k();
+        try {
+            if (!this.ag) {
+                super.f(context);
+                if (this.d == null) {
+                    try {
+                        Object aS = aS();
+                        zxh zxhVar = new zxh(((kqm) aS).aw, ((kqm) aS).ax, ((kqm) aS).r);
+                        this.d = zxhVar;
+                        zxhVar.f = this;
+                        this.Z.c(new akli(this.c, this.a));
+                    } catch (ClassCastException e) {
+                        throw new IllegalStateException("Missing entry point. If you're in a test with explicit entry points specified in your @TestRoot, check that you're not missing the one for this class.", e);
+                    }
+                }
+                akqj.p();
+                return;
+            }
+            throw new IllegalStateException("A Fragment cannot be attached more than once. Instead, create a new Fragment instance.");
+        } catch (Throwable th) {
+            try {
+                akqj.p();
+            } catch (Throwable th2) {
+                th.addSuppressed(th2);
+            }
+            throw th;
+        }
+    }
+
+    @Override // defpackage.cg
+    public final LayoutInflater gl(Bundle bundle) {
+        this.c.k();
+        try {
+            LayoutInflater aD = aD();
+            LayoutInflater cloneInContext = aD.cloneInContext(new apxm.a(aD, this));
+            LayoutInflater cloneInContext2 = cloneInContext.cloneInContext(new aklm(this, cloneInContext));
+            akqj.p();
+            return cloneInContext2;
+        } catch (Throwable th) {
+            try {
+                akqj.p();
+            } catch (Throwable th2) {
+                th.addSuppressed(th2);
+            }
+            throw th;
+        }
+    }
+
+    @Override // defpackage.aiuc, defpackage.cg
+    public final void i() {
+        aksa a = this.c.a();
+        try {
+            aV();
+            this.ag = true;
+            a.close();
+        } catch (Throwable th) {
+            try {
+                a.close();
+            } catch (Throwable th2) {
+                th.addSuppressed(th2);
+            }
+            throw th;
+        }
+    }
+
+    @Override // defpackage.zxj, defpackage.cg
+    public final Context x() {
+        if (super.x() == null) {
+            return null;
+        }
+        return aU();
+    }
+}

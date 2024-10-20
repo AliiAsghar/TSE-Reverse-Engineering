@@ -1,0 +1,55 @@
+package defpackage;
+
+import android.content.Context;
+import android.util.AttributeSet;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public class zwz extends ekf implements apxr {
+    private apxm a;
+    private boolean b;
+
+    zwz(Context context) {
+        super(context);
+        if (isInEditMode()) {
+            return;
+        }
+        c();
+    }
+
+    @Override // defpackage.apxq
+    public final Object aS() {
+        return aR().aS();
+    }
+
+    @Override // defpackage.apxr
+    /* renamed from: b, reason: merged with bridge method [inline-methods] */
+    public final apxm aR() {
+        if (this.a == null) {
+            this.a = new apxm(this);
+        }
+        return this.a;
+    }
+
+    protected final void c() {
+        if (!this.b) {
+            this.b = true;
+        }
+    }
+
+    public zwz(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        if (isInEditMode()) {
+            return;
+        }
+        c();
+    }
+
+    zwz(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+        if (isInEditMode()) {
+            return;
+        }
+        c();
+    }
+}

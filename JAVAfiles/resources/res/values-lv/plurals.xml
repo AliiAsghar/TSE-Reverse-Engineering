@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="zero">un vēl %d</item>
+        <item quantity="one">un vēl %d</item>
+        <item quantity="other">un vēl %d</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="zero">Tika arhivētas %d sarunas</item>
+        <item quantity="one">Tika arhivēta %d saruna</item>
+        <item quantity="other">Tika arhivētas %d sarunas</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="zero">Nav atlasīts neviens pielikums.</item>
+        <item quantity="one">%d pielikums ir gatavs nosūtīšanai.</item>
+        <item quantity="other">%d pielikumi ir gatavi nosūtīšanai.</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="zero">Nevarēja saglabāt %d pielikumus.</item>
+        <item quantity="one">Nevarēja saglabāt %d pielikumu.</item>
+        <item quantity="other">Nevarēja saglabāt %d pielikumus.</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="zero">Tika saglabāti %d pielikumi.</item>
+        <item quantity="one">Tika saglabāts %d pielikums.</item>
+        <item quantity="other">Tika saglabāti %d pielikumi.</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="zero">%d minūšu</item>
+        <item quantity="one">Minūšu skaits: %d</item>
+        <item quantity="other">Minūšu skaits: %d</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="zero">%d sekunžu</item>
+        <item quantity="one">Sekunžu skaits: %d</item>
+        <item quantity="other">Sekunžu skaits: %d</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="zero">%d minūšu</item>
+        <item quantity="one">%d minūte</item>
+        <item quantity="other">%d minūtes</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="zero">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="zero">%d stundas</item>
+        <item quantity="one">%d stunda</item>
+        <item quantity="other">%d stundas</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+        <item quantity="other">%d minūtes</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+        <item quantity="other">%d sekundes</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="zero">Vai dzēst %d sarunas?</item>
+        <item quantity="one">Vai dzēst %d sarunu?</item>
+        <item quantity="other">Vai dzēst %d sarunas?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="zero">Vai dzēst %d ziņojumus?</item>
+        <item quantity="one">Vai dzēst %d ziņojumu?</item>
+        <item quantity="other">Vai dzēst %d ziņojumus?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="zero">%d sarunas ir izdzēstas</item>
+        <item quantity="one">%d saruna ir izdzēsta</item>
+        <item quantity="other">%d sarunas ir izdzēstas</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="zero">Atlasīts: %1$d</item>
+        <item quantity="one">Atlasīts: %1$d</item>
+        <item quantity="other">Atlasīts: %1$d</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="zero">no %1$d</item>
+        <item quantity="one">no %1$d</item>
+        <item quantity="other">no %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="zero">%d sūtītājiem</item>
+        <item quantity="one">%d sūtītāja</item>
+        <item quantity="other">%d sūtītājiem</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="zero">%d ziņojumi</item>
+        <item quantity="one">%d ziņojums</item>
+        <item quantity="other">%d ziņojumi</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="zero">Atlasīts: %d</item>
+        <item quantity="one">Atlasīts: %d</item>
+        <item quantity="other">Atlasīts: %d</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="zero">Jums un vēl %1$s lietotājiem nav pieejama grupas sarunas pilnīga šifrēšana. %2$s</item>
+        <item quantity="one">Jums un vēl %1$s lietotājam nav pieejama grupas sarunas pilnīga šifrēšana. %2$s</item>
+        <item quantity="other">Jums un vēl %1$s lietotājiem nav pieejama grupas sarunas pilnīga šifrēšana. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="zero">Vairākiem lietotājiem (%1$s un vēl %2$s) nav pieejama grupas sarunas pilnīga šifrēšana. %3$s</item>
+        <item quantity="one">Vairākiem lietotājiem (%1$s un vēl %2$s) nav pieejama grupas sarunas pilnīga šifrēšana. %3$s</item>
+        <item quantity="other">Vairākiem lietotājiem (%1$s un vēl %2$s) nav pieejama grupas sarunas pilnīga šifrēšana. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="one">Pārtīt uz priekšu par %d sekundi</item>
+        <item quantity="other">Pārtīt uz priekšu par %d sekundēm</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="one">Attīt atpakaļ par %d sekundi</item>
+        <item quantity="other">Attīt atpakaļ par %d sekundēm</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="zero">Neizdevās atlasīt %d pielikumus.</item>
+        <item quantity="one">Neizdevās atlasīt %d pielikumu.</item>
+        <item quantity="other">Neizdevās atlasīt %d pielikumus.</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="zero">%1$s adresāti nevar atšifrēt.</item>
+        <item quantity="one">%1$s adresāts nevar atšifrēt.</item>
+        <item quantity="other">%1$s adresāti nevar atšifrēt.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="zero">Pievienoti %d vienumi</item>
+        <item quantity="one">Pievienots %d vienums</item>
+        <item quantity="other">Pievienoti %d vienumi</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="zero">%d atlasītu</item>
+        <item quantity="one">%d atlasīts</item>
+        <item quantity="other">%d atlasīti</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="zero">Tika dzēsts %d ziņojumu</item>
+        <item quantity="one">Tika dzēsts %d ziņojums</item>
+        <item quantity="other">Tika dzēsti %d ziņojumi</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="zero">Atlasīti %d ziņojumi</item>
+        <item quantity="one">Atlasīts %d ziņojums</item>
+        <item quantity="other">Atlasīti %d ziņojumi</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="zero">Apskatīja: %s</item>
+        <item quantity="one">Apskatīja: %s</item>
+        <item quantity="other">Apskatīja: %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="zero">%1$s saņēmēju nevar atšifrēt; pieskarieties, lai skatītu opcijas.</item>
+        <item quantity="one">%1$s saņēmējs nevar atšifrēt; pieskarieties, lai skatītu opcijas.</item>
+        <item quantity="other">%1$s saņēmēji nevar atšifrēt; pieskarieties, lai skatītu opcijas.</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="zero">%1$s adresāti nevar atšifrēt.</item>
+        <item quantity="one">%1$s adresāts nevar atšifrēt.</item>
+        <item quantity="other">%1$s adresāti nevar atšifrēt.</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="zero">Izlasīja %s</item>
+        <item quantity="one">Izlasīja %s</item>
+        <item quantity="other">Izlasīja %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="zero">%d personas raksta…</item>
+        <item quantity="one">%d persona raksta…</item>
+        <item quantity="other">%d personas raksta…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="zero">%1$s un vēl %2$s saņēmēju</item>
+        <item quantity="one">%1$s un vēl %2$s saņēmējs</item>
+        <item quantity="other">%1$s un vēl %2$s saņēmēji</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="zero">%1$d ziņojumus nevar piegādāt (sarunas: %2$d)</item>
+        <item quantity="one">%1$d ziņojumu nevar piegādāt (sarunas: %2$d)</item>
+        <item quantity="other">%1$d ziņojumus nevar piegādāt (sarunas: %2$d)</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="zero">%1$d ziņojumi %2$d sarunās</item>
+        <item quantity="one">%1$d ziņojumi %2$d sarunā</item>
+        <item quantity="other">%1$d ziņojumi %2$d sarunās</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="zero">%d attēlu</item>
+        <item quantity="one">%d attēls</item>
+        <item quantity="other">%d attēli</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="zero">%d videoklipu</item>
+        <item quantity="one">%d videoklips</item>
+        <item quantity="other">%d videoklipi</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="zero">Netika nosūtīti %1$d ziņojumi %2$d sarunās</item>
+        <item quantity="one">Netika nosūtīti %1$d ziņojumi %2$d sarunā</item>
+        <item quantity="other">Netika nosūtīti %1$d ziņojumi %2$d sarunās</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="zero">%d fotoattēlu</item>
+        <item quantity="one">%d fotoattēls</item>
+        <item quantity="other">%d fotoattēli</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="zero">Saglabāti %1$d fotoattēli jūsu mapē “%2$s”</item>
+        <item quantity="one">Saglabāts %1$d fotoattēls jūsu mapē “%2$s”</item>
+        <item quantity="other">Saglabāti %1$d fotoattēli jūsu mapē “%2$s”</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="zero">%d videoklipu</item>
+        <item quantity="one">%d videoklips</item>
+        <item quantity="other">%d videoklipi</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="zero">Saglabāti %1$d videoklipi jūsu mapē “%2$s”</item>
+        <item quantity="one">Saglabāts %1$d videoklips jūsu mapē “%2$s”</item>
+        <item quantity="other">Saglabāti %1$d videoklipi jūsu mapē “%2$s”</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="zero">Pievienot nesen uzņemtus fotoattēlus</item>
+        <item quantity="one">Pievienot nesen uzņemtus fotoattēlus</item>
+        <item quantity="other">Pievienot nesen uzņemtus fotoattēlus</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="zero">%d personu</item>
+        <item quantity="one">%d persona</item>
+        <item quantity="other">%d personas</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="zero">%1$d fotoattēli saglabāti multivides krātuvē %2$s</item>
+        <item quantity="one">%1$d fotoattēls saglabāts multivides krātuvē %2$s</item>
+        <item quantity="other">%1$d fotoattēli saglabāti multivides krātuvē %2$s</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="zero">vēl %d</item>
+        <item quantity="one">vēl %d</item>
+        <item quantity="other">vēl %d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="zero">Iespējams, adresāti ir bezsaistē.</item>
+        <item quantity="one">Iespējams, adresāti ir bezsaistē.</item>
+        <item quantity="other">Iespējams, adresāti ir bezsaistē.</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="zero">Ziņojumi nav piegādāti</item>
+        <item quantity="one">Ziņojumi nav piegādāti</item>
+        <item quantity="other">Ziņojumi nav piegādāti</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="zero">Skatiet sūtīšanas iespējas %1$d sarunās.</item>
+        <item quantity="one">Skatiet sūtīšanas iespējas %1$d sarunā.</item>
+        <item quantity="other">Skatiet sūtīšanas iespējas %1$d sarunās.</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="zero">%1$d reakciju %2$s</item>
+        <item quantity="one">%1$d reakcija %2$s</item>
+        <item quantity="other">%1$d reakcijas %2$s</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="zero">Notiek %d pielikumu sūtīšana</item>
+        <item quantity="one">Notiek %d pielikuma sūtīšana</item>
+        <item quantity="other">Notiek %d pielikumu sūtīšana</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="zero">Notiek %d fotoattēlu sūtīšana</item>
+        <item quantity="one">Notiek %d fotoattēla sūtīšana</item>
+        <item quantity="other">Notiek %d fotoattēlu sūtīšana</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="zero">Notiek %d videoklipu sūtīšana</item>
+        <item quantity="one">Notiek %d videoklipa sūtīšana</item>
+        <item quantity="other">Notiek %d videoklipu sūtīšana</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="zero">Ieplānoti ziņojumi</item>
+        <item quantity="one">Ieplānoti ziņojumi</item>
+        <item quantity="other">Ieplānoti ziņojumi</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">%d atlasītu</item>
+        <item quantity="one">%d atlasīts</item>
+        <item quantity="other">%d atlasīti</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="zero">Joprojām notiek %1$s ziņojumu sūtīšana sarunai: %2$s. Pieskarieties, lai sūtītu atsauksmi uzņēmumam Google. Jūsu atsauksmes beta versijā palīdz uzlabot lietotni Ziņojumi.</item>
+        <item quantity="one">Joprojām notiek %1$s ziņojuma sūtīšana sarunai: %2$s. Pieskarieties, lai sūtītu atsauksmi uzņēmumam Google. Jūsu atsauksmes beta versijā palīdz uzlabot lietotni Ziņojumi.</item>
+        <item quantity="other">Joprojām notiek %1$s ziņojumu sūtīšana sarunai: %2$s. Pieskarieties, lai sūtītu atsauksmi uzņēmumam Google. Jūsu atsauksmes beta versijā palīdz uzlabot lietotni Ziņojumi.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="zero">Joprojām notiek ziņojumu sūtīšana</item>
+        <item quantity="one">Joprojām notiek ziņojumu sūtīšana</item>
+        <item quantity="other">Joprojām notiek ziņojumu sūtīšana</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="zero">Skatīt ziņojumus</item>
+        <item quantity="one">Skatīt ziņojumus</item>
+        <item quantity="other">Skatīt ziņojumus</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="zero">Zvaigznīšu skaits: %1$d no %2$d</item>
+        <item quantity="one">Zvaigznīšu skaits: %1$d no %2$d</item>
+        <item quantity="other">Zvaigznīšu skaits: %1$d no %2$d</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="zero">Atrastie rezultāti: %1$d. no %2$d</item>
+        <item quantity="one">Atrastie rezultāti: %1$d. no %2$d</item>
+        <item quantity="other">Atrastie rezultāti: %1$d. no %2$d</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="zero">Ierakstiem ir jābūt ilgākiem par %d sekundēm.</item>
+        <item quantity="one">Ierakstiem ir jābūt ilgākiem par %d sekundi.</item>
+        <item quantity="other">Ierakstiem ir jābūt ilgākiem par %d sekundēm.</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="zero">%1$s un vēl %2$s personas raksta</item>
+        <item quantity="one">%1$s un vēl %2$s persona raksta</item>
+        <item quantity="other">%1$s un vēl %2$s personas raksta</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="zero">Tika atarhivētas %d sarunas</item>
+        <item quantity="one">Tika atarhivēta %d saruna</item>
+        <item quantity="other">Tika atarhivētas %d sarunas</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="zero">0 nelasītu ziņojumu</item>
+        <item quantity="one">%d nelasīts ziņojums</item>
+        <item quantity="other">%d nelasīti ziņojumi</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="zero">%d kontaktpersonu</item>
+        <item quantity="one">%d kontaktpersona</item>
+        <item quantity="other">%d kontaktpersonas</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="zero">Skatīt kontaktpersonas</item>
+        <item quantity="one">Skatīt kontaktpersonas</item>
+        <item quantity="other">Skatīt kontaktpersonas</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="zero">%1$d videoklipi saglabāti multivides krātuvē %2$s</item>
+        <item quantity="one">%1$d videoklips saglabāts multivides krātuvē %2$s</item>
+        <item quantity="other">%1$d videoklipi saglabāti multivides krātuvē %2$s</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="zero">%1$d balss ziņojumi saglabāti multivides krātuvē %2$s</item>
+        <item quantity="one">%1$d balss ziņojums saglabāts multivides krātuvē %2$s</item>
+        <item quantity="other">%1$d balss ziņojumi saglabāti multivides krātuvē %2$s</item>
+    </plurals>
+</resources>

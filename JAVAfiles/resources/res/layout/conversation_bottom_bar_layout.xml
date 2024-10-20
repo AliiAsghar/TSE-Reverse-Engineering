@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_bar_container"
+    android:background="?attr/colorSurface"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/conv_bottom_bar_height"
+    android:alpha="0.96">
+    <ImageView
+        android:id="@+id/bottom_bar_icon"
+        android:layout_width="@dimen/conv_bottom_bar_icon_size"
+        android:layout_height="@dimen/conv_bottom_bar_icon_size"
+        android:src="@drawable/quantum_gm_ic_cloud_off_vd_theme_24"
+        android:tint="?attr/colorPrimaryBrandIcon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bottom_bar_message"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/conv_bottom_bar_text_size"
+        android:id="@+id/bottom_bar_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_connection"
+        android:layout_marginStart="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/bottom_bar_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

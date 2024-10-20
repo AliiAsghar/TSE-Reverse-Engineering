@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>ធម្មតា</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>ស្នេហា</item>
+        <item>បាទ/ចាស</item>
+        <item>ថើប</item>
+        <item>សួស្តី ​</item>
+        <item>ឱប</item>
+        <item>ជប់លៀង</item>
+        <item>ខឹង</item>
+        <item>រំភើប</item>
+        <item>លាហើយ</item>
+        <item>សើច​ស្ញាញ!</item>
+        <item>យំ</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>បាទ/ចាស</item>
+        <item>ទេ</item>
+        <item>យល់ព្រម</item>
+        <item>ហេហេ</item>
+        <item>អរគុណ</item>
+        <item>ខ្ញុំយល់ព្រម</item>
+        <item>ល្អ</item>
+        <item>នៅតាមផ្លូវ</item>
+        <item>អូខេ បន្តិចទៀតខ្ញុំទាក់ទងទៅវិញ</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS ជាមួយ​តំណ</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>តែងតែ​ផ្ញើឡើងវិញ​​ជា SMS</item>
+        <item>ផ្ញើ​ឡើងវិញ​​ជា SMS នៅ​ពេល​មិន​ដាក់​​រ៉ូមីង</item>
+        <item>សួរ​សិន មុនពេល​ផ្ញើ</item>
+        <item>កុំ​ផ្ញើ​ឡើងវិញ​ជា SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>តែងតែ​ផ្ញើ​ឡើងវិញ​ជា SMS/MMS</item>
+        <item>ផ្ញើ​ម្ដង​ទៀត​ជា SMS/MMS នៅ​ពេល​មិន​ដាក់​រ៉ូមីង</item>
+        <item>សួរ​សិន មុនពេល​ផ្ញើ</item>
+        <item>កុំ​ផ្ញើ​ឡើងវិញ​ជា SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

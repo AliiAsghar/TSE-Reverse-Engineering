@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.mediapicker.c2o.gallery.CameraGalleryStoragePermissionItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/compose2o_tile_background"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/category_content_item_margin"
+    android:layout_marginBottom="@dimen/category_content_item_margin"
+    android:foreground="?attr/selectableItemBackground"
+    android:contentDescription="@string/c2o_category_name_gallery"
+    android:layout_marginStart="@dimen/category_content_item_margin"
+    android:layout_marginEnd="@dimen/category_content_overflow_item_margin_end">
+    <ImageView
+        android:id="@+id/storage_permission_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quantum_gm_ic_photo_library_black_24"
+        android:tint="?attr/colorOnSurfaceVariant"
+        android:importantForAccessibility="no"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/storage_permission_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/c2o_content_item_vertical_spacing_icon_text"
+        android:text="@string/c2o_category_name_gallery"
+        android:importantForAccessibility="no"
+        style="@style/Compose2oCameraGalleryPermissionContentItemStyle"/>
+</com.google.android.apps.messaging.ui.mediapicker.c2o.gallery.CameraGalleryStoragePermissionItemView>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">και %d άλλοι</item>
+        <item quantity="other">και άλλοι %d</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d συνομιλία αρχειοθετήθηκε</item>
+        <item quantity="other">%d συνομιλίες αρχειοθετήθηκαν</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Ένα συνημμένο έτοιμο για αποστολή</item>
+        <item quantity="other">%d συνημμένα έτοιμα για αποστολή</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Δεν ήταν δυνατή η αποθήκευση %d συνημμένου αρχείου</item>
+        <item quantity="other">Δεν ήταν δυνατή η αποθήκευση %d συνημμένων αρχείων</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">Αποθηκεύτηκε %d συνημμένο αρχείο</item>
+        <item quantity="other">Αποθηκεύτηκε %d συνημμένων αρχείων</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d λ.</item>
+        <item quantity="other">%d λ.</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d ώρα</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Να διαγραφεί αυτή η συνομιλία;</item>
+        <item quantity="other">Να διαγραφούν %d συνομιλίες;</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Να διαγραφεί αυτό το μήνυμα;</item>
+        <item quantity="other">Να διαγραφούν %d μηνύματα;</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d συνομιλία διαγράφηκε</item>
+        <item quantity="other">%d συνομιλίες διαγράφηκαν</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d επιλεγμένο</item>
+        <item quantity="other">%1$d επιλεγμένα</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">από %1$d</item>
+        <item quantity="other">από %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d αποστολέας</item>
+        <item quantity="other">%d αποστολείς</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d μηνύματα</item>
+        <item quantity="other">%d μηνύματα</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">Επιλογή %d</item>
+        <item quantity="other">Επιλογή %d</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Η κρυπτογράφηση end-to-end της ομάδας δεν είναι διαθέσιμη για εσάς και τον χρήστη %1$s. %2$s</item>
+        <item quantity="other">Η κρυπτογράφηση end-to-end της ομάδας δεν είναι διαθέσιμη για εσάς και άλλους %1$s χρήστες. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">Η κρυπτογράφηση end-to-end της ομάδας δεν είναι διαθέσιμη για τους χρήστες %1$s και %2$s. %3$s</item>
+        <item quantity="other">Η κρυπτογράφηση end-to-end της ομάδας δεν είναι διαθέσιμη για τον χρήστη %1$s και άλλους %2$s χρήστες. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Γρήγορη προώθηση κατά %d δευτερόλεπτο</item>
+        <item quantity="other">Γρήγορη προώθηση κατά %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Μετάβαση προς τα πίσω κατά %d δευτερόλεπτο</item>
+        <item quantity="other">Μετάβαση προς τα πίσω κατά %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Η επιλογή συνημμένου απέτυχε</item>
+        <item quantity="other">Η επιλογή %d συνημμένων απέτυχε</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">Δεν είναι δυνατή η αποκρυπτογράφηση από %1$s παραλήπτη.</item>
+        <item quantity="other">Δεν είναι δυνατή η αποκρυπτογράφηση από %1$s παραλήπτες.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d συνημμένο</item>
+        <item quantity="other">%d συνημμένα</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">Επιλέχθηκε %d</item>
+        <item quantity="other">Επιλέχθηκαν %d</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d μήνυμα διαγράφηκε</item>
+        <item quantity="other">%d μηνύματα διαγράφηκαν</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d επιλεγμένο μήνυμα</item>
+        <item quantity="other">%d επιλεγμένα μηνύματα</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Προβλήθηκε από %s</item>
+        <item quantity="other">Προβλήθηκε από %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">Δεν είναι δυνατή η αποκρυπτογράφηση από %1$s παραλήπτη, πατήστε για επιλογές</item>
+        <item quantity="other">Δεν είναι δυνατή η αποκρυπτογράφηση από %1$s παραλήπτες, πατήστε για επιλογές</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">Δεν είναι δυνατή η αποκρυπτογράφηση από %1$s παραλήπτη</item>
+        <item quantity="other">Δεν είναι δυνατή η αποκρυπτογράφηση από %1$s παραλήπτες</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Διαβάστηκε από %s</item>
+        <item quantity="other">Διαβάστηκε από %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d άτομα πληκτρολογούν…</item>
+        <item quantity="other">%d άτομα πληκτρολογούν…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s + %2$s ακόμη</item>
+        <item quantity="other">%1$s + %2$s ακόμη</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">Δεν είναι δυνατή η παράδοση %1$d μηνυμάτων στη συνομιλία %3$s</item>
+        <item quantity="other">Δεν είναι δυνατή η παράδοση %1$d μηνυμάτων σε %2$d συνομιλίες</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d μηνύματα σε μία συνομιλία</item>
+        <item quantity="other">%1$d μηνύματα σε %2$d συνομιλίες</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d εικόνα</item>
+        <item quantity="other">%d εικόνες</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d βίντεο</item>
+        <item quantity="other">%d βίντεο</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%1$d μηνύματα προς τη συνομιλία %3$s δεν στάλθηκαν</item>
+        <item quantity="other">%1$d μηνύματα σε %2$d συνομιλίες δεν στάλθηκαν</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d φωτογραφία</item>
+        <item quantity="other">%d φωτογραφίες</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">Αποθηκεύτηκε %1$d φωτογραφία στον φάκελο %2$s</item>
+        <item quantity="other">Αποθηκεύτηκαν %1$d φωτογραφίες στον φάκελο %2$s</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d βίντεο</item>
+        <item quantity="other">%d βίντεο</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">Αποθηκεύτηκε %1$d βίντεο στον φάκελο %2$s</item>
+        <item quantity="other">Αποθηκεύτηκαν %1$d βίντεο στον φάκελο %2$s</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Επισύναψη πρόσφατης φωτογραφίας</item>
+        <item quantity="other">Επισύναψη πρόσφατων φωτογραφιών</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d άτομο</item>
+        <item quantity="other">%d άτομα</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d φωτογραφία αποθηκεύτηκε στα αποθηκευμένα πολυμέσα του %2$s</item>
+        <item quantity="other">%1$d φωτογραφίες αποθηκεύτηκαν στα αποθηκευμένα πολυμέσα του %2$s</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">Η συνομιλία %1$s ενδέχεται να είναι εκτός σύνδεσης</item>
+        <item quantity="other">Οι παραλήπτες ενδέχεται να είναι εκτός σύνδεσης</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Το μήνυμα δεν παραδόθηκε</item>
+        <item quantity="other">Τα μηνύματα δεν παραδόθηκαν</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Ελέγξτε %1$d συνομιλίες για επιλογές αποστολής</item>
+        <item quantity="other">Ελέγξτε %1$d συνομιλίες για επιλογές αποστολής</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d %2$s αντίδραση</item>
+        <item quantity="other">%1$d %2$s αντιδράσεις</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Αποστολή συνημμένου</item>
+        <item quantity="other">Αποστολή %d συνημμένων</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Αποστολή φωτογραφίας</item>
+        <item quantity="other">Αποστολή %d φωτογραφιών</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Αποστολή βίντεο</item>
+        <item quantity="other">Αποστολή %d βίντεο</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Προγραμματισμένο μήνυμα</item>
+        <item quantity="other">Προγραμματισμένα μηνύματα</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d επιλεγμένο</item>
+        <item quantity="other">%d επιλεγμένα</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">Αποστολή %1$s μηνύματος προς %2$s ακόμα σε εξέλιξη. Πατήστε για αποστολή σχολίων στην Google. Τα σχόλιά σας κατά τη χρήση εκδόσεων beta συμβάλλουν στη βελτίωση του Messages.</item>
+        <item quantity="other">Αποστολή %1$s μηνυμάτων προς %2$s ακόμα σε εξέλιξη. Πατήστε για αποστολή σχολίων στην Google. Τα σχόλιά σας κατά τη χρήση εκδόσεων beta συμβάλλουν στη βελτίωση του Messages.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Αποστολή μηνύματος ακόμα σε εξέλιξη</item>
+        <item quantity="other">Αποστολή μηνυμάτων ακόμα σε εξέλιξη</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Προβολή μηνύματος</item>
+        <item quantity="other">Προβολή μηνυμάτων</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d στα %2$d αστέρια</item>
+        <item quantity="other">%1$d στα %2$d αστέρια</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">Βρέθηκε %1$d/%2$d αποτέλεσμα</item>
+        <item quantity="other">Βρέθηκαν %1$d/%2$d αποτελέσματα</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Οι εγγραφές πρέπει να έχουν διάρκεια μεγαλύτερη από %d δευτερόλεπτο</item>
+        <item quantity="other">Οι εγγραφές πρέπει να έχουν διάρκεια μεγαλύτερη από %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">Ο χρήστης %1$s και άλλος %2$s πληκτρολογούν</item>
+        <item quantity="other">Ο χρήστης %1$s και άλλοι %2$s πληκτρολογούν</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">Αναιρέθηκε η αρχειοθέτηση %d συνομιλίας</item>
+        <item quantity="other">Αναιρέθηκε η αρχειοθέτηση %d συνομιλιών</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d μη αναγνωσμένο μήνυμα</item>
+        <item quantity="other">%d μη αναγνωσμένα μηνύματα</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d επαφή</item>
+        <item quantity="other">%d επαφές</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Προβολή επαφής</item>
+        <item quantity="other">Προβολή επαφών</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d βίντεο αποθηκεύτηκε στα αποθηκευμένα πολυμέσα του %2$s</item>
+        <item quantity="other">%1$d βίντεο αποθηκεύτηκαν στα αποθηκευμένα πολυμέσα του %2$s</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d φωνητικό μήνυμα αποθηκεύτηκε στα αποθηκευμένα πολυμέσα του %2$s</item>
+        <item quantity="other">%1$d φωνητικά μηνύματα αποθηκεύτηκαν στα αποθηκευμένα πολυμέσα του %2$s</item>
+    </plurals>
+</resources>

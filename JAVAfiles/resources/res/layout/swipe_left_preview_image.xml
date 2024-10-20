@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_left_image_preview"
+    android:paddingTop="@dimen/swipe_action_pref_in_between_vertical_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+    <ImageView
+        android:id="@+id/swipe_left_preview_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/swipe_preview_image_margin"
+        android:contentDescription="@null"
+        android:layout_alignParentStart="true"
+        android:elevation="@dimen/swipe_preview_image_elevation"
+        app:srcCompat="@drawable/swipe_left"/>
+    <View
+        android:id="@+id/swipe_left_icon_background"
+        android:layout_width="@dimen/swipe_action_icon_background_width"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/swipe_left_preview_image"
+        android:layout_alignBottom="@+id/swipe_left_preview_image"
+        android:layout_alignEnd="@+id/swipe_left_preview_image"
+        android:elevation="@dimen/swipe_preview_image_elevation"/>
+    <ImageView
+        android:id="@+id/swipe_left_action_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/swipe_action_pref_icon_margin"
+        android:layout_alignTop="@+id/swipe_left_preview_image"
+        android:contentDescription="@null"
+        android:layout_marginEnd="@dimen/swipe_action_pref_icon_margin"
+        android:layout_alignEnd="@+id/swipe_left_preview_image"
+        android:elevation="@dimen/swipe_preview_image_elevation"/>
+</RelativeLayout>

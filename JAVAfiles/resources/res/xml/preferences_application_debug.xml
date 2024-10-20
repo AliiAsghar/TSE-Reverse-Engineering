@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/debug_category_pref_title"
+        android:key="@string/debug_pref_key"
+        app:allowDividerBelow="false">
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/dump_sms_pref_title"
+            android:key="@string/dump_sms_pref_key"
+            android:summary="@string/dump_sms_pref_summary"
+            android:defaultValue="@bool/dump_sms_pref_default"/>
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/dump_mms_pref_title"
+            android:key="@string/dump_mms_pref_key"
+            android:summary="@string/dump_mms_pref_summary"
+            android:defaultValue="@bool/dump_mms_pref_default"
+            app:allowDividerAbove="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

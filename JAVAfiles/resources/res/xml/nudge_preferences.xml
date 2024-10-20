@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <SwitchPreferenceCompat
+        android:persistent="false"
+        android:title="@string/nudge_reply_enabled_pref_title"
+        android:key="@string/nudge_reply_enabled_pref_key"
+        android:summary="@string/nudge_reply_enabled_pref_summary"
+        android:defaultValue="@bool/nudge_reply_enabled_pref_default"
+        app:allowDividerAbove="true"/>
+    <SwitchPreferenceCompat
+        android:persistent="false"
+        android:title="@string/birthday_nudge_enabled_pref_title"
+        android:key="@string/birthday_nudge_enabled_pref_key"
+        android:summary="@string/birthday_nudge_enabled_pref_summary"
+        android:defaultValue="@bool/birthday_nudge_enabled_pref_default"
+        app:allowDividerAbove="true"/>
+    <Preference
+        android:persistent="false"
+        android:layout="@layout/empty_preference"
+        android:key="@string/smart_action_example_divider_key"/>
+    <Preference
+        android:persistent="false"
+        android:layout="@layout/learn_more_preference"
+        android:selectable="true"
+        android:key="@string/nudge_learn_more_pref_key"
+        app:allowDividerAbove="true"/>
+</PreferenceScreen>

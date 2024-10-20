@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">и још %d</item>
+        <item quantity="few">и још %d</item>
+        <item quantity="other">и још %d</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d конверзација је архивирана</item>
+        <item quantity="few">%d конверзације су архивиране</item>
+        <item quantity="other">%d конверзација је архивирано</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">%d прилог је спреман за слање</item>
+        <item quantity="few">%d прилога су спремна за слање</item>
+        <item quantity="other">%d прилога је спремно за слање</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Нисмо успели да сачувамо %d прилог</item>
+        <item quantity="few">Нисмо успели да сачувамо %d прилога</item>
+        <item quantity="other">Нисмо успели да сачувамо %d прилога</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d прилог је сачуван</item>
+        <item quantity="few">%d прилога су сачувана</item>
+        <item quantity="other">%d прилога је сачувано</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d минут</item>
+        <item quantity="few">%d минута</item>
+        <item quantity="other">%d минута</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунде</item>
+        <item quantity="other">%d секунди</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d минут</item>
+        <item quantity="few">%d минута</item>
+        <item quantity="other">%d минута</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d мин</item>
+        <item quantity="few">%d мин</item>
+        <item quantity="other">%d мин</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d сат</item>
+        <item quantity="few">%d сата</item>
+        <item quantity="other">%d сати</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d минут</item>
+        <item quantity="few">%d минута</item>
+        <item quantity="other">%d минута</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунде</item>
+        <item quantity="other">%d секунди</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Желите ли да избришете %d конверзацију?</item>
+        <item quantity="few">Желите ли да избришете %d конверзације?</item>
+        <item quantity="other">Желите ли да избришете %d конверзација?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Желите ли да избришете %d поруку?</item>
+        <item quantity="few">Желите ли да избришете %d поруке?</item>
+        <item quantity="other">Желите ли да избришете %d порука?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d конверзација је избрисана</item>
+        <item quantity="few">%d конверзације су избрисане</item>
+        <item quantity="other">%d конверзација је избрисано</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">Изабрана је %1$d</item>
+        <item quantity="few">Изабране су %1$d</item>
+        <item quantity="other">Изабрано је %1$d</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">од %1$d</item>
+        <item quantity="few">од %1$d</item>
+        <item quantity="other">од %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d пошиљаоца</item>
+        <item quantity="few">%d пошиљаоца</item>
+        <item quantity="other">%d пошиљалаца</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d поруку</item>
+        <item quantity="few">%d поруке</item>
+        <item quantity="other">%d порука</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">Изабрана је %d</item>
+        <item quantity="few">Изабране су %d</item>
+        <item quantity="other">Изабрано је %d</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Шифровање групе с краја на крај није доступно за вас и за: %1$s. %2$s</item>
+        <item quantity="few">Шифровање групе с краја на крај није доступно за вас и за: %1$s. %2$s</item>
+        <item quantity="other">Шифровање групе с краја на крај није доступно за вас и за: %1$s. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">Шифровање групе с краја на крај није доступно за учеснике: %1$s и %2$s. %3$s</item>
+        <item quantity="few">Шифровање групе с краја на крај није доступно за учеснике: %1$s и %2$s. %3$s</item>
+        <item quantity="other">Шифровање групе с краја на крај није доступно за учеснике: %1$s и %2$s. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Премотајте %d секунду унапред</item>
+        <item quantity="few">Премотајте %d секунде унапред</item>
+        <item quantity="other">Премотајте %d секунди унапред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Премотајте %d секунду уназад</item>
+        <item quantity="few">Премотајте %d секунде уназад</item>
+        <item quantity="other">Премотајте %d секунди уназад</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Бирање %d прилога није успело</item>
+        <item quantity="few">Бирање %d прилога није успело</item>
+        <item quantity="other">Бирање %d прилога није успело</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s прималац не може да дешифрује.</item>
+        <item quantity="few">%1$s примаоца не могу да дешифрују.</item>
+        <item quantity="other">%1$s прималаца не могу да дешифрују.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d приложена</item>
+        <item quantity="few">%d приложене</item>
+        <item quantity="other">%d приложених</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">Изабрана је %d слика</item>
+        <item quantity="few">Изабране су %d слике</item>
+        <item quantity="other">Изабрано је %d слика</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d порука је избрисана</item>
+        <item quantity="few">%d поруке су избрисане</item>
+        <item quantity="other">%d порука је избрисано</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d порука је изабрана</item>
+        <item quantity="few">%d поруке су изабране</item>
+        <item quantity="other">%d порука је изабрано</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Видели су %s</item>
+        <item quantity="few">Видели су %s</item>
+        <item quantity="other">Видели су %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s прималац не може да дешифрује, додирните за опције</item>
+        <item quantity="few">%1$s примаоца не могу да дешифрују, додирните за опције</item>
+        <item quantity="other">%1$s прималаца не може да дешифрује, додирните за опције</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s прималац не може да дешифрује</item>
+        <item quantity="few">%1$s примаоца не могу да дешифрују</item>
+        <item quantity="other">%1$s прималаца не могу да дешифрују</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Прочитали су %s</item>
+        <item quantity="few">Прочитали су %s</item>
+        <item quantity="other">Прочитали су %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d особа куца…</item>
+        <item quantity="few">%d особе куцају…</item>
+        <item quantity="other">%d особа куцају…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s и још %2$s особа</item>
+        <item quantity="few">%1$s и још %2$s особе</item>
+        <item quantity="other">%1$s и још %2$s особа</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">Није успела испорука порука (%1$d) у %2$d конверзацију</item>
+        <item quantity="few">Није успела испорука порука (%1$d) у %2$d конверзације</item>
+        <item quantity="other">Није успела испорука порука (%1$d) у %2$d конверзација</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d поруке(а) у %2$d конверзацији</item>
+        <item quantity="few">%1$d поруке(а) у %2$d конверзације</item>
+        <item quantity="other">%1$d поруке(а) у %2$d конверзација</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d слика</item>
+        <item quantity="few">%d слике</item>
+        <item quantity="other">%d слика</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео записа</item>
+        <item quantity="other">%d видео записа</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">Поруке (%1$d) нису послате у %2$d конверзацију</item>
+        <item quantity="few">Поруке (%1$d) нису послате у %2$d конверзације</item>
+        <item quantity="other">Поруке (%1$d) нису послате у %2$d конверзација</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d слика</item>
+        <item quantity="few">%d слике</item>
+        <item quantity="other">%d слика</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">%1$d слика је сачувана у директоријуму %2$s</item>
+        <item quantity="few">%1$d слике су сачуване у директоријуму %2$s</item>
+        <item quantity="other">%1$d слика је сачувано у директоријуму %2$s</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео снимка</item>
+        <item quantity="other">%d видеа</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d видео је сачуван у директоријуму %2$s</item>
+        <item quantity="few">%1$d видео снимка су сачувана у директоријуму %2$s</item>
+        <item quantity="other">%1$d видеа је сачувано у директоријуму %2$s</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Приложи недавне слике</item>
+        <item quantity="few">Приложи недавне слике</item>
+        <item quantity="other">Приложи недавне слике</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d особа</item>
+        <item quantity="few">%d особе</item>
+        <item quantity="other">%d особа</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d слика је сачувана у %2$s сачуваним медијима</item>
+        <item quantity="few">%1$d слике су сачуване у %2$s сачуваним медијима</item>
+        <item quantity="other">%1$d слика је сачувано у %2$s сачуваним медијима</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+%d</item>
+        <item quantity="few">+%d</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">Примаоци су можда офлајн</item>
+        <item quantity="few">Примаоци су можда офлајн</item>
+        <item quantity="other">Примаоци су можда офлајн</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Поруке нису испоручене</item>
+        <item quantity="few">Поруке нису испоручене</item>
+        <item quantity="other">Поруке нису испоручене</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Потражите опције слања у %1$d конверзацији</item>
+        <item quantity="few">Потражите опције слања у %1$d конверзацијe</item>
+        <item quantity="other">Потражите опције слања у %1$d конверзацијa</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d реакција %2$s</item>
+        <item quantity="few">%1$d реакције %2$s</item>
+        <item quantity="other">%1$d реакција %2$s</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Шаље се %d прилог</item>
+        <item quantity="few">Шаљу се %d прилога</item>
+        <item quantity="other">Шаље се %d прилога</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Шаље се %d слика</item>
+        <item quantity="few">Шаљу се %d слике</item>
+        <item quantity="other">Шаље се %d слика</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Шаље се %d видео снимак</item>
+        <item quantity="few">Шаљу се %d видео снимка</item>
+        <item quantity="other">Шаље се %d видеа</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Заказане поруке</item>
+        <item quantity="few">Заказане поруке</item>
+        <item quantity="other">Заказане поруке</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d изабрана ставка</item>
+        <item quantity="few">%d изабране ставке</item>
+        <item quantity="other">%d изабраних ставки</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">%1$s порука за %2$s се још шаље. Додирните да бисте послали повратне информације Google-у. Ваши утисци о бети нам помажу да побољшамо Messages.</item>
+        <item quantity="few">%1$s поруке за %2$s се још шаљу. Додирните да бисте послали повратне информације Google-у. Ваши утисци о бети нам помажу да побољшамо Messages.</item>
+        <item quantity="other">%1$s порука за %2$s се још шаље. Додирните да бисте послали повратне информације Google-у. Ваши утисци о бети нам помажу да побољшамо Messages.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Још се шаљу поруке</item>
+        <item quantity="few">Још се шаљу поруке</item>
+        <item quantity="other">Још се шаљу поруке</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Прикажи поруке</item>
+        <item quantity="few">Прикажи поруке</item>
+        <item quantity="other">Прикажи поруке</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d звездица од %2$d</item>
+        <item quantity="few">%1$d звездице од %2$d</item>
+        <item quantity="other">%1$d звездица од %2$d</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">Број пронађених резултата: %1$d од %2$d</item>
+        <item quantity="few">Број пронађених резултата: %1$d од %2$d</item>
+        <item quantity="other">Број пронађених резултата: %1$d од %2$d</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Снимци морају да буду дужи од %d секунде</item>
+        <item quantity="few">Снимци морају да буду дужи од %d секунде</item>
+        <item quantity="other">Снимци морају да буду дужи од %d секунди</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s и још %2$s уносе текст</item>
+        <item quantity="few">%1$s и још %2$s уносе текст</item>
+        <item quantity="other">%1$s и још %2$s уносе текст</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d конверзација је враћена из архиве</item>
+        <item quantity="few">%d конверзације су враћене из архиве</item>
+        <item quantity="other">%d конверзација је враћено из архиве</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d непрочитана порука</item>
+        <item quantity="few">%d непрочитане поруке</item>
+        <item quantity="other">%d непрочитаних порука</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контакта</item>
+        <item quantity="other">%d контаката</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Погледајте контакте</item>
+        <item quantity="few">Погледајте контакте</item>
+        <item quantity="other">Погледајте контакте</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d видео је сачуван у %2$s сачуваним медијима</item>
+        <item quantity="few">%1$d видео снимка су сачувана у %2$s сачуваним медијима</item>
+        <item quantity="other">%1$d видеа је сачувано у %2$s сачуваним медијима</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d говорна порука је сачувана у %2$s сачуваним медијима</item>
+        <item quantity="few">%1$d говорне поруке су сачуване у %2$s сачуваним медијима</item>
+        <item quantity="other">%1$d говорних порука је сачувано у %2$s сачуваним медијима</item>
+    </plurals>
+</resources>

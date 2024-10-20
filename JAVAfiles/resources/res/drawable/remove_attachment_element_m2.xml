@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/colorPrimaryStateContent">
+    <item>
+        <layer-list>
+            <item android:drawable="@drawable/cancel_attachment_stroke"/>
+            <item android:drawable="@drawable/cancel_attachment_icon"/>
+        </layer-list>
+    </item>
+</ripple>

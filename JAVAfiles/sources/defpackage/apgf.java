@@ -1,0 +1,47 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public enum apgf implements apak {
+    FEATURE_TAG_TYPE_UNKNOWN(0),
+    FEATURE_TAG_TEXT(1),
+    FEATURE_TAG_VIDEO(2),
+    FEATURE_TAG_3GPP_SMSIP(3),
+    FEATURE_TAG_3GPP_IARI_REF_RCSE_DP(4),
+    FEATURE_TAG_3GPP_ICSI_REF_MMTEL(5),
+    FEATURE_TAG_3GPP_IARI_REF_GEOPUSH(6),
+    FEATURE_TAG_3GPP_ICSI_REF_CPM_SESSION(7),
+    FEATURE_TAG_3GPP_IARI_REF_FTHTTP(8),
+    FEATURE_TAG_3GPP_IARI_REF_CPM_FILETRANSFER(9),
+    FEATURE_TAG_3GPP_ICSI_REF_CPM_MSG(10),
+    FEATURE_TAG_3GPP_ICSI_REF_CPM_LARGEMSG(11),
+    FEATURE_TAG_3GPP_ICSI_REF_CPM_DEFERRED(12),
+    FEATURE_TAG_CPM_PAGER_LARGE(13),
+    FEATURE_TAG_3GPP_IARI_REF_FTSMS(14),
+    FEATURE_TAG_3GPP_ICSI_REF_CALLCOMPOSER(15),
+    FEATURE_TAG_GSMA_CALLCOMPOSER(16),
+    FEATURE_TAG_3GPP_ICSI_REF_CALLUNANSWERED(17),
+    FEATURE_TAG_3GPP_ICSI_REF_SHAREDMAP(18),
+    FEATURE_TAG_3GPP_ICSI_REF_SHAREDSKETCH(19),
+    FEATURE_TAG_3GPP_IARI_REF_GEOSMS(20),
+    FEATURE_TAG_3GPP_IARI_REF_CHATBOT(21),
+    FEATURE_TAG_3GPP_IARI_REF_CHATBOT_SA(22),
+    FEATURE_TAG_GSMA_BOTVERSION(23),
+    FEATURE_TAG_GSMA_CPIMEXT(24);
+
+    public final int z;
+
+    apgf(int i) {
+        this.z = i;
+    }
+
+    @Override // defpackage.apak
+    public final int a() {
+        return this.z;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.z);
+    }
+}

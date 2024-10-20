@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/fastscroll_thumb_pressed_padding"
+        android:top="@dimen/fastscroll_thumb_pressed_padding"
+        android:right="@dimen/fastscroll_thumb_pressed_padding"
+        android:bottom="@dimen/fastscroll_thumb_pressed_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp"/>
+            <solid android:color="@color/fastscroll_thumb_color"/>
+            <size android:height="@dimen/fastscroll_thumb_height"/>
+        </shape>
+    </item>
+</layer-list>

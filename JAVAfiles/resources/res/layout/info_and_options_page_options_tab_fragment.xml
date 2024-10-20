@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/info_and_options_settings_list_margin_bottom">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/info_and_options_general_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/info_and_options_settings_list_divider_m2"
+        android:showDividers="middle"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/info_and_options_options_tab_section_divider_spacing_m2"/>
+    <TextView
+        android:textColor="?android:attr/textColorSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_and_options_activity_business_tab_list_header"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/info_and_options_tab_contents_margin_start"
+        style="?attr/textAppearanceOverline"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/info_and_options_business_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/info_and_options_settings_list_divider_m2"
+        android:showDividers="middle"/>
+</LinearLayout>

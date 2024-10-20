@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>ปกติ</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>รัก</item>
+        <item>ใช่</item>
+        <item>จูบ</item>
+        <item>สวัสดี</item>
+        <item>กอด</item>
+        <item>ปาร์ตี้</item>
+        <item>โกรธ</item>
+        <item>ตื่นเต้น</item>
+        <item>ลาก่อน</item>
+        <item>หัวเราะเสียงดัง</item>
+        <item>ร้องไห้</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>ใช่</item>
+        <item>ไม่</item>
+        <item>ตกลง</item>
+        <item>อิอิ</item>
+        <item>ขอบคุณ</item>
+        <item>เห็นด้วย</item>
+        <item>เยี่ยม</item>
+        <item>เดินทางอยู่</item>
+        <item>ตกลง อีกสักพักจะติดต่อกลับไป</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS พร้อมด้วยลิงก์</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>ส่งซ้ำเป็น SMS เสมอ</item>
+        <item>ส่งซ้ำเป็น SMS เมื่อไม่ได้โรมมิ่ง</item>
+        <item>ถามก่อนส่งซ้ำ</item>
+        <item>ไม่ส่งซ้ำเป็น SMS เลย</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>ส่งซ้ำเป็น SMS/MMS เสมอ</item>
+        <item>ส่งซ้ำเป็น SMS/MMS เมื่อไม่ได้โรมมิ่ง</item>
+        <item>ถามก่อนส่งซ้ำ</item>
+        <item>ไม่ส่งซ้ำเป็น SMS/MMS เลย</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

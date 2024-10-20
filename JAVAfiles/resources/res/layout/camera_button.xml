@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_tile_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/open_camera_button_label"
+    android:drawableTop="@drawable/quantum_gm_ic_photo_camera_vd_theme_24"
+    style="@style/CameraGalleryButtonTile"/>

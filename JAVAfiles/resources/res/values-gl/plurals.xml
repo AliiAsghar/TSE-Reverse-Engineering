@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">e %d máis</item>
+        <item quantity="other">e %d máis</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d conversa arquivada</item>
+        <item quantity="other">%d conversas arquivadas</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Un anexo listo para enviar</item>
+        <item quantity="other">%d anexos listos para enviar</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Non se puido gardar %d anexo</item>
+        <item quantity="other">Non se puideron gardar %d anexos</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">Gardouse %d anexo</item>
+        <item quantity="other">Gardáronse %d anexos</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Queres eliminar esta conversa?</item>
+        <item quantity="other">Queres eliminar %d conversas?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Queres eliminar esta mensaxe?</item>
+        <item quantity="other">Queres eliminar %d mensaxes?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d conversa eliminada</item>
+        <item quantity="other">%d conversas eliminadas</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d mensaxe seleccionada</item>
+        <item quantity="other">%1$d mensaxes seleccionadas</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">de %1$d</item>
+        <item quantity="other">de %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d remitente</item>
+        <item quantity="other">%d remitentes</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d mensaxe</item>
+        <item quantity="other">%d mensaxes</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">Seleccionouse %d</item>
+        <item quantity="other">Seleccionáronse %d</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">A encriptación de extremo a extremo do grupo non está dispoñible para ti nin para %1$s. %2$s</item>
+        <item quantity="other">A encriptación de extremo a extremo do grupo non está dispoñible para ti nin para %1$s persoas máis. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">A encriptación de extremo a extremo do grupo non está dispoñible para %1$s nin para %2$s. %3$s</item>
+        <item quantity="other">A encriptación de extremo a extremo do grupo non está dispoñible para %1$s nin para %2$s persoas máis. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Avanza rapidamente %d segundo</item>
+        <item quantity="other">Avanza rapidamente %d segundos</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rebobina %d segundo</item>
+        <item quantity="other">Rebobina %d segundos</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Produciuse un erro ao seleccionar un anexo</item>
+        <item quantity="other">Produciuse un erro ao seleccionar %d anexos</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s destinatario non puido desencriptar a mensaxe.</item>
+        <item quantity="other">%1$s destinatarios non puideron desencriptar a mensaxe.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d elemento anexado</item>
+        <item quantity="other">%d elementos anexados</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">Seleccionouse %d</item>
+        <item quantity="other">Seleccionáronse %d</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d mensaxe eliminada</item>
+        <item quantity="other">%d mensaxes eliminadas</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d mensaxe seleccionada</item>
+        <item quantity="other">%d mensaxes seleccionadas</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Visto por %s</item>
+        <item quantity="other">Visto por %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s destinatario non puido desencriptar a mensaxe. Toca para ver máis opcións</item>
+        <item quantity="other">%1$s destinatarios non puideron desencriptar a mensaxe. Toca para ver máis opcións</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s destinatario non puido desencriptar a mensaxe</item>
+        <item quantity="other">%1$s destinatarios non puideron desencriptar a mensaxe</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Lido por %s</item>
+        <item quantity="other">Lido por %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d persoa escribindo…</item>
+        <item quantity="other">%d persoas escribindo…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s e %2$s persoa máis</item>
+        <item quantity="other">%1$s e %2$s persoas máis</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">Produciuse un erro ao entregar %1$d mensaxes a %3$s</item>
+        <item quantity="other">Produciuse un erro ao entregar %1$d mensaxes en %2$d conversas</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d mensaxes nunha conversa</item>
+        <item quantity="other">%1$d mensaxes en %2$d conversas</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d imaxe</item>
+        <item quantity="other">%d imaxes</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">Non se enviaron %1$d mensaxes a %3$s</item>
+        <item quantity="other">Non se enviaron %1$d mensaxes en %2$d conversas</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d fotos</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">Gardouse %1$d foto no teu cartafol %2$s</item>
+        <item quantity="other">Gardáronse %1$d fotos no teu cartafol %2$s</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">Gardouse %1$d vídeo no teu cartafol %2$s</item>
+        <item quantity="other">Gardáronse %1$d vídeos no teu cartafol %2$s</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Anexar foto recente</item>
+        <item quantity="other">Anexar fotos recentes</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d persoa</item>
+        <item quantity="other">%d persoas</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">Gardouse %1$d foto cos ficheiros multimedia que tes no álbum &quot;%2$s&quot;</item>
+        <item quantity="other">Gardáronse %1$d fotos cos ficheiros multimedia que tes no álbum &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="other">e %d máis</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">Pode que %1$s estea sen conexión</item>
+        <item quantity="other">Pode que os destinatarios estean sen conexión</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">A mensaxe non se entregou</item>
+        <item quantity="other">As mensaxes non se entregaron</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Comproba %1$d conversa para ver as opcións de envío</item>
+        <item quantity="other">Comproba %1$d conversas para ver as opcións de envío</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d reacción de %2$s</item>
+        <item quantity="other">%1$d reaccións de %2$s</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Enviando anexo</item>
+        <item quantity="other">Enviando %d anexos</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Enviando foto</item>
+        <item quantity="other">Enviando %d fotos</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Enviando vídeo</item>
+        <item quantity="other">Enviando %d vídeos</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Mensaxe programada</item>
+        <item quantity="other">Mensaxes programadas</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d mensaxe seleccionada</item>
+        <item quantity="other">%d mensaxes seleccionadas</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">Aínda se está enviando %1$s mensaxe a %2$s. Toca para enviar comentarios a Google. Axúdanos a mellorar Mensaxes na súa versión beta.</item>
+        <item quantity="other">Aínda se están enviando %1$s mensaxes a %2$s. Toca para enviar comentarios a Google. Axúdanos a mellorar Mensaxes na súa versión beta.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Aínda se está enviando unha mensaxe</item>
+        <item quantity="other">Aínda se están enviando algunhas mensaxes</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Ver mensaxe</item>
+        <item quantity="other">Ver mensaxes</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">Resultados atopados: %1$d/%2$d</item>
+        <item quantity="other">Resultados atopados: %1$d/%2$d</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">As gravacións deben durar máis de %d segundo</item>
+        <item quantity="other">As gravacións deben durar máis de %d segundos</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s e %2$s persoa máis están escribindo</item>
+        <item quantity="other">%1$s e outras %2$s persoas máis están escribindo</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">Desarquivouse %d conversa</item>
+        <item quantity="other">Desarquiváronse %d conversas</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d mensaxe non lida</item>
+        <item quantity="other">%d mensaxes non lidas</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d contacto</item>
+        <item quantity="other">%d contactos</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Ver contacto</item>
+        <item quantity="other">Ver contactos</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">Gardouse %1$d vídeo cos ficheiros multimedia que tes no álbum &quot;%2$s&quot;</item>
+        <item quantity="other">Gardáronse %1$d vídeos cos ficheiros multimedia que tes no álbum &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">Gardouse %1$d mensaxe de voz cos ficheiros multimedia que tes no álbum &quot;%2$s&quot;</item>
+        <item quantity="other">Gardáronse %1$d mensaxes de voz cos ficheiros multimedia que tes no álbum &quot;%2$s&quot;</item>
+    </plurals>
+</resources>

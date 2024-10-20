@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">ja %d muu</item>
+        <item quantity="other">ja %d muuta</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d keskustelu arkistoitu</item>
+        <item quantity="other">%d keskustelua arkistoitu</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Yksi liite valmiina lähetettäväksi</item>
+        <item quantity="other">%d liitettä valmiina lähetettäväksi</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d liitteen tallentaminen epäonnistui.</item>
+        <item quantity="other">%d liitteen tallentaminen epäonnistui.</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d liite tallennettiin.</item>
+        <item quantity="other">%d liitettä tallennettiin</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d minuutti</item>
+        <item quantity="other">%d minuuttia</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d sekunti</item>
+        <item quantity="other">%d sekuntia</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d minuutti</item>
+        <item quantity="other">%d minuuttia</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d tunti</item>
+        <item quantity="other">%d tuntia</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d minuutti</item>
+        <item quantity="other">%d minuuttia</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d sekunti</item>
+        <item quantity="other">%d sekuntia</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Poistetaanko tämä keskustelu?</item>
+        <item quantity="other">Poistetaanko %d keskustelua?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Poistetaanko tämä viesti?</item>
+        <item quantity="other">Poistetaanko %d viestiä?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d keskustelu poistettu</item>
+        <item quantity="other">%d keskustelua poistettu</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">Valittu %1$d</item>
+        <item quantity="other">Valittu %1$d</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">/%1$d</item>
+        <item quantity="other">/%1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d lähettäjä</item>
+        <item quantity="other">%d lähettäjää</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d viesti</item>
+        <item quantity="other">%d viestiä</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d valittu</item>
+        <item quantity="other">%d valittu</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Sinä ja %1$s ette voi käyttää ryhmän päästä päähän ‐salausta. %2$s</item>
+        <item quantity="other">Sinä ja %1$s muuta ette voi käyttää ryhmän päästä päähän ‑salausta. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">%1$s ja %2$s eivät voi käyttää ryhmän päästä päähän ‑salausta. %3$s</item>
+        <item quantity="other">%1$s ja %2$s muuta eivät voi käyttää ryhmän päästä päähän ‑salausta. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Siirry eteenpäin %d sekunti</item>
+        <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Siirry taaksepäin %d sekunti</item>
+        <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Liitteen valitseminen ei onnistunut</item>
+        <item quantity="other">%d liitteen valitseminen ei onnistunut</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s vastaanottaja ei voi purkaa salausta.</item>
+        <item quantity="other">%1$s vastaanottajaa ei voi purkaa salausta.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d liitetty</item>
+        <item quantity="other">%d liitetty</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d valittu</item>
+        <item quantity="other">%d valittu</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d viesti poistettu</item>
+        <item quantity="other">%d viestiä poistettu</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d viesti valittu</item>
+        <item quantity="other">%d viestiä valittu.</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Katsonut: %s</item>
+        <item quantity="other">Katsonut: %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s vastaanottaja ei voi purkaa salausta, napauta viestiä nähdäksesi vaihtoehdot</item>
+        <item quantity="other">%1$s vastaanottajaa ei voi purkaa salausta, napauta viestiä nähdäksesi vaihtoehdot</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s vastaanottaja ei voi purkaa salausta</item>
+        <item quantity="other">%1$s vastaanottajaa ei voi purkaa salausta</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Lukenut %s</item>
+        <item quantity="other">Lukenut %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d käyttäjä kirjoittaa…</item>
+        <item quantity="other">%d käyttäjä kirjoittaa…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s + %2$s muu</item>
+        <item quantity="other">%1$s + %2$s muuta</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">%1$d viestiä ei voitu toimittaa käyttäjälle %3$s</item>
+        <item quantity="other">%1$d viestiä ei voitu toimittaa %2$d käyttäjälle</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d viesti yhdessä keskustelussa</item>
+        <item quantity="other">%1$d viestiä %2$d keskustelussa</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d kuva</item>
+        <item quantity="other">%d kuvaa</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videota</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%1$d viestiä ei lähetetty keskusteluun %3$s.</item>
+        <item quantity="other">%1$d viestiä ei lähetetty %2$d keskusteluun.</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d kuva</item>
+        <item quantity="other">%d kuvaa</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">Tallennettiin %1$d kuva %2$s-kansioon</item>
+        <item quantity="other">Tallennettiin %1$d kuvaa %2$s-kansioon</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videota</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">Tallennettiin %1$d video %2$s-kansioon</item>
+        <item quantity="other">Tallennettiin %1$d videota %2$s-kansioon</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Liitä äskettäin otettu valokuva</item>
+        <item quantity="other">Liitä äskettäin otettuja kuvia</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d henkilö</item>
+        <item quantity="other">%d henkilöä</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d kuva tallennettu albumin %2$s mediasisältöön</item>
+        <item quantity="other">%1$d kuvaa tallennettu albumin %2$s mediasisältöön</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">%1$s on ehkä offline-tilassa</item>
+        <item quantity="other">Vastaanottajat ovat ehkä offline-tilassa</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Viestiä ei toimitettu</item>
+        <item quantity="other">Viestejä ei toimitettu</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Tarkista lähetysvaihtoehdot keskusteluista (%1$d)</item>
+        <item quantity="other">Tarkista lähetysvaihtoehdot keskusteluista (%1$d)</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d reaktio (%2$s)</item>
+        <item quantity="other">%1$d reaktiota (%2$s)</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Lähetetään liitettä</item>
+        <item quantity="other">Lähetetään %d liitettä</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Lähetetään kuvaa</item>
+        <item quantity="other">Lähetetään %d kuvaa</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Lähetetään videota</item>
+        <item quantity="other">Lähetetään %d videota</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Ajoitettu viesti</item>
+        <item quantity="other">Ajoitetut viestit</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d valittu</item>
+        <item quantity="other">%d valittu</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">%1$s viestin lähettäminen keskusteluun %2$s on yhä kesken. Lähetä palautetta Googlelle napauttamalla tätä. Betaversion palaute auttaa meitä parantamaan Messagesia.</item>
+        <item quantity="other">%1$s viestin lähettäminen keskusteluun %2$s on yhä kesken. Lähetä palautetta Googlelle napauttamalla tätä. Betaversion palaute auttaa meitä parantamaan Messagesia.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Viestin lähettäminen on yhä kesken</item>
+        <item quantity="other">Viestien lähettäminen on yhä kesken</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Näytä viesti</item>
+        <item quantity="other">Näytä viestit</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d/%2$d tähteä</item>
+        <item quantity="other">%1$d/%2$d tähteä</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">Tulos löytyi (%1$d/%2$d)</item>
+        <item quantity="other">Tuloksia löytyi (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Tallenteiden on oltava yli %d sekunnin pituisia</item>
+        <item quantity="other">Tallenteiden on oltava yli %d sekunnin pituisia</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s ja %2$s muu kirjoittavat.</item>
+        <item quantity="other">%1$s ja %2$s muuta kirjoittavat.</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d keskustelu poistettiin arkistosta.</item>
+        <item quantity="other">%d keskustelua poistettiin arkistosta.</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d lukematon viesti</item>
+        <item quantity="other">%d lukematonta viestiä</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d yhteystieto</item>
+        <item quantity="other">%d yhteystietoa</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Näytä yhteystieto</item>
+        <item quantity="other">Näytä yhteystiedot</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d video tallennettu albumin %2$s mediasisältöön</item>
+        <item quantity="other">%1$d videota tallennettu albumin %2$s mediasisältöön</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d ääniviesti tallennettu albumin %2$s mediasisältöön</item>
+        <item quantity="other">%1$d ääniviestiä tallennettu albumin %2$s mediasisältöön</item>
+    </plurals>
+</resources>

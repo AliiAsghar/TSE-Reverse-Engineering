@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/suggestion_button"
+    android:background="@drawable/conversation_suggestion_message_bg_m2"
+    android:paddingTop="@dimen/conversation_suggestion_bubble_top_bottom_inset"
+    android:paddingBottom="@dimen/conversation_suggestion_bubble_top_bottom_inset"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/min_touch_target_size"
+    android:foreground="?attr/selectableItemBackground"
+    android:minWidth="@dimen/conversation_suggestion_bubble_min_width"
+    android:minHeight="@dimen/min_touch_target_size"
+    android:paddingStart="@dimen/conversation_suggestion_bubble_container_horizontal_padding"
+    android:paddingEnd="@dimen/conversation_suggestion_bubble_container_horizontal_padding"
+    android:layout_marginStart="@dimen/conversation_suggestion_bubble_container_margin_start"
+    android:stateListAnimator="@null">
+    <ImageView
+        android:id="@+id/suggestion_button_icon"
+        android:layout_width="@dimen/conversation_suggestion_icon_size"
+        android:layout_height="@dimen/conversation_suggestion_icon_size"
+        android:contentDescription="@string/conversation_suggestion_app_icon"
+        android:layout_marginEnd="@dimen/conversation_suggestion_icon_right_margin"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubhead2"
+        android:textSize="@dimen/conversation_suggestion_text_size"
+        android:gravity="center_vertical"
+        android:id="@+id/suggestion_button_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

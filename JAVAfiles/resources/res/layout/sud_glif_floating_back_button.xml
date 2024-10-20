@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sud_layout_floating_back_button_container"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/sud_floating_back_button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sud_glif_expressive_back_button_margin_top"
+        android:checkable="true"
+        android:contentDescription="@string/sud_back_button_label"
+        android:filterTouchesWhenObscured="true"
+        android:layout_marginStart="?attr/sudMarginStart"
+        app:icon="@drawable/sud_ic_arrow_back"
+        style="?attr/materialIconButtonFilledStyle"/>
+</FrameLayout>

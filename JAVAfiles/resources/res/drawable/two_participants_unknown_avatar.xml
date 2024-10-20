@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:width="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <path
+        android:fillColor="@color/unknown_avatar_background"
+        android:pathData="M12,12m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M11.95,10.9C13.471,10.9 14.7,9.672 14.7,8.15C14.7,6.628 13.471,5.4 11.95,5.4C10.428,5.4 9.199,6.628 9.199,8.15C9.199,9.672 10.428,10.9 11.95,10.9Z"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M11.95,12.525C8.589,12.525 5.95,14.149 5.95,15.649C7.221,17.604 9.446,18.899 11.95,18.899C14.453,18.899 16.678,17.604 17.949,15.649C17.949,14.149 15.31,12.525 11.95,12.525Z"/>
+    <path
+        android:fillColor="@color/unknown_avatar_background"
+        android:pathData="M27,28m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M26.949,26.9C28.471,26.9 29.699,25.672 29.699,24.15C29.699,22.628 28.471,21.4 26.949,21.4C25.428,21.4 24.199,22.628 24.199,24.15C24.199,25.672 25.428,26.9 26.949,26.9Z"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M26.949,28.525C23.589,28.525 20.95,30.15 20.95,31.649C22.221,33.604 24.446,34.899 26.949,34.899C29.453,34.899 31.678,33.604 32.949,31.649C32.949,30.15 30.31,28.525 26.949,28.525Z"/>
+</vector>

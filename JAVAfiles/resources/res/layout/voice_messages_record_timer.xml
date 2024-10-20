@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.shared.audio.attachment.ui.PausableChronometer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/audio_picker_text_size"
+    android:id="@+id/audio_timer_text"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/compose_message_view_elevation"
+    android:letterSpacing="-0.03"
+    android:fontFeatureSettings="tnum"/>

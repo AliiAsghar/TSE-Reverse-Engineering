@@ -1,0 +1,13 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public enum vko {
+    NOTIFICATION_CALLBACK_UNKNOWN,
+    NOTIFICATION_CLICKED,
+    NOTIFICATION_SWIPED,
+    NOTIFICATION_BUBBLE_SWIPED,
+    NOTIFICATION_BUBBLE_CLICKED,
+    NOTIFICATION_CANCELED,
+    NOTIFICATION_POSTED
+}

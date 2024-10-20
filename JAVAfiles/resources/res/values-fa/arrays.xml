@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>۰٫۲۵ برابر</item>
+        <item>۰٫۵ برابر</item>
+        <item>۰٫۷۵ برابر</item>
+        <item>عادی</item>
+        <item>۱٫۲۵ برابر</item>
+        <item>۱٫۵ برابر</item>
+        <item>۲ برابر</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>عشق</item>
+        <item>بله</item>
+        <item>بوسه</item>
+        <item>سلام</item>
+        <item>آغوش</item>
+        <item>مهمانی</item>
+        <item>عصبانی</item>
+        <item>هیجان‌زده</item>
+        <item>خداحافظی</item>
+        <item>خنده بلند</item>
+        <item>گریان</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>بله</item>
+        <item>نه</item>
+        <item>تأیید</item>
+        <item>هه‌هه</item>
+        <item>متشکریم</item>
+        <item>موافقم</item>
+        <item>خوب است</item>
+        <item>در راهم</item>
+        <item>بسیار خوب، بگذارید بعداً با شما تماس بگیرم</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>پیامک به‌همراه پیوند</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>همیشه به‌عنوان پیامک ارسال شود</item>
+        <item>ارسال مجدد به‌عنوان پیامک هنگامی که درحالت فراگردی نباشد</item>
+        <item>قبل از ارسال مجدد سؤال شود</item>
+        <item>هرگز به‌عنوان پیامک دوباره ارسال نشود</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>همیشه به‌عنوان پیامک/فراپیام دوباره ارسال شود</item>
+        <item>ارسال مجدد به‌عنوان پیامک/فراپیام هنگامی که درحالت فراگردی نباشد</item>
+        <item>قبل از ارسال مجدد سؤال شود</item>
+        <item>هرگز به‌عنوان پیامک/فراپیام دوباره ارسال نشود</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

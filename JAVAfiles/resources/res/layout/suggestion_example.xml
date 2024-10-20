@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/smarts_settings_conversation_suggestion_example_text_size"
+        android:id="@+id/example_suggestion_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_suggestion_title"
+        android:paddingStart="@dimen/smarts_settings_conversation_suggestion_example_padding_start"/>
+    <include
+        android:id="@+id/conversation_suggestions_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/conversation_suggestions_view"/>
+</LinearLayout>

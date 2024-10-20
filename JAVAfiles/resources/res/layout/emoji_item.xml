@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.compose.emoji.ui.views.SingleEmojiView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emoji"
+    android:background="?android:attr/selectableItemBackgroundBorderless"
+    android:layout_width="@dimen/standard_icon_size"
+    android:layout_height="@dimen/standard_icon_size"
+    android:includeFontPadding="false"
+    android:layout_marginStart="@dimen/emoji_variant_menu_emoji_padding"
+    android:layout_marginEnd="@dimen/emoji_variant_menu_emoji_padding"/>

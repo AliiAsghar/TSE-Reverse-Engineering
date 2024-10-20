@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:width="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <path
+        android:fillColor="@color/unknown_avatar_background"
+        android:pathData="M10,10m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M9.954,9C11.337,9 12.454,7.883 12.454,6.5C12.454,5.117 11.337,4 9.954,4C8.571,4 7.454,5.117 7.454,6.5C7.454,7.883 8.571,9 9.954,9Z"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M9.954,10.477C6.899,10.477 4.5,11.954 4.5,13.318C5.655,15.095 7.678,16.272 9.954,16.272C12.23,16.272 14.253,15.095 15.408,13.318C15.408,11.954 13.009,10.477 9.954,10.477Z"/>
+    <path
+        android:fillColor="@color/unknown_avatar_background"
+        android:pathData="M30,10m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M29.954,9C31.337,9 32.454,7.883 32.454,6.5C32.454,5.117 31.337,4 29.954,4C28.571,4 27.454,5.117 27.454,6.5C27.454,7.883 28.571,9 29.954,9Z"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M29.954,10.477C26.899,10.477 24.5,11.954 24.5,13.318C25.655,15.095 27.678,16.272 29.954,16.272C32.23,16.272 34.253,15.095 35.408,13.318C35.408,11.954 33.009,10.477 29.954,10.477Z"/>
+    <path
+        android:fillColor="@color/unknown_avatar_background"
+        android:pathData="M30,30m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M29.954,29C31.337,29 32.454,27.883 32.454,26.5C32.454,25.117 31.337,24 29.954,24C28.571,24 27.454,25.117 27.454,26.5C27.454,27.883 28.571,29 29.954,29Z"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M29.954,30.477C26.899,30.477 24.5,31.954 24.5,33.318C25.655,35.095 27.678,36.272 29.954,36.272C32.23,36.272 34.253,35.095 35.408,33.318C35.408,31.954 33.009,30.477 29.954,30.477Z"/>
+    <path
+        android:fillColor="@color/unknown_avatar_background"
+        android:pathData="M10,30m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M9.954,29C11.337,29 12.454,27.883 12.454,26.5C12.454,25.117 11.337,24 9.954,24C8.571,24 7.454,25.117 7.454,26.5C7.454,27.883 8.571,29 9.954,29Z"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M9.954,30.477C6.899,30.477 4.5,31.954 4.5,33.318C5.655,35.095 7.678,36.272 9.954,36.272C12.23,36.272 14.253,35.095 15.408,33.318C15.408,31.954 13.009,30.477 9.954,30.477Z"/>
+</vector>

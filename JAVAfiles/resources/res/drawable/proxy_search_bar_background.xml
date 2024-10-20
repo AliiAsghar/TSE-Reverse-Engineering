@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="@dimen/proxy_screen_search_bar_vertical_padding"
+    android:insetBottom="@dimen/proxy_screen_search_bar_vertical_padding">
+    <shape>
+        <solid android:color="?android:attr/colorBackground"/>
+        <stroke
+            android:width="0.5dp"
+            android:color="?attr/colorHairline"/>
+        <corners android:radius="@dimen/google_opensearchbar_radius"/>
+    </shape>
+</inset>

@@ -1,0 +1,9 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public enum yll {
+    PHENOTYPE_REGISTRATION_TRIGGER_UNKNOWN,
+    PHENOTYPE_REGISTRATION_TRIGGER_SIM_CHANGE,
+    PHENOTYPE_REGISTRATION_TRIGGER_SINGLE_REGISTRATION_CAPABILITY_UPDATE
+}

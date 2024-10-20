@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.apps.messaging
+        </configuration-package>
+        <log-sources>
+            <log-source>ANDROID_MESSAGING
+            </log-source>
+            <log-source>ANDROID_MESSAGING_PRIMES
+            </log-source>
+            <log-source>BUGLE_COUNTERS
+            </log-source>
+            <log-source>BUGLE_SPAM
+            </log-source>
+            <log-source>CARRIER_SERVICES
+            </log-source>
+            <log-source>CLIENT_LOGGING_PROD
+            </log-source>
+            <log-source>COMMS_MESSAGES_WEB
+            </log-source>
+            <log-source>EXPRESSION
+            </log-source>
+            <log-source>EXPRESSION_COUNTERS
+            </log-source>
+            <log-source>MESSAGES
+            </log-source>
+        </log-sources>
+        <auto-subpackage>true
+        </auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>

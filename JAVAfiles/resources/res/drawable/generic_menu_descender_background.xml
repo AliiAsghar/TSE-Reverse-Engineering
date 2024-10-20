@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="2dp"
+    android:insetRight="2dp"
+    android:insetBottom="2dp">
+    <shape>
+        <solid android:color="?android:attr/colorBackground"/>
+        <corners
+            android:topLeftRadius="0dp"
+            android:topRightRadius="0dp"
+            android:bottomLeftRadius="@dimen/emoji_variant_menu_rounding"
+            android:bottomRightRadius="@dimen/emoji_variant_menu_rounding"/>
+    </shape>
+</inset>

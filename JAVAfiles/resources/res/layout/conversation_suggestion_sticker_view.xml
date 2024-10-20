@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.conversation.suggestions.common.ConversationSuggestionStickerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/conversation_suggestion_sticker_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/conversation_suggestion_sticker_bottom_margin"
+    android:layout_marginStart="@dimen/conversation_suggestion_bubble_container_margin_start">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/sticker_image"
+        android:layout_width="@dimen/conversation_suggestion_sticker_width"
+        android:layout_height="@dimen/conversation_suggestion_sticker_height"
+        android:scaleType="centerInside"/>
+    <ViewStub
+        android:id="@+id/sticker_debug_info_view_stub"
+        android:layout="@layout/sticker_debug_info_text_view"
+        android:inflatedId="@+id/sticker_debug_info_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+</com.google.android.apps.messaging.ui.conversation.suggestions.common.ConversationSuggestionStickerView>

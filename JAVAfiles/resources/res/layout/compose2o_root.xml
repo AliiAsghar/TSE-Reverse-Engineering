@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.conversation.compose.Compose2oRootView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/c2o_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/c2o_fragment_container"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/emoji_gallery_container_for_c2o"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.google.android.apps.messaging.ui.conversation.compose.Compose2oRootView>

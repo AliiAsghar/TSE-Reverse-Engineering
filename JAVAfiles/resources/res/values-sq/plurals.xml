@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">dhe %d të tjerë</item>
+        <item quantity="other">dhe %d të tjerë</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d bisedë u arkivua</item>
+        <item quantity="other">%d biseda u arkivuan</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Një bashkëngjitje gati për dërgim</item>
+        <item quantity="other">%d bashkëngjitje gati për dërgim</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d bashkëngjitje nuk mund të ruhej</item>
+        <item quantity="other">%d bashkëngjitje nuk mund të ruheshin</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d bashkëngjitje u ruajt</item>
+        <item quantity="other">%d bashkëngjitje u ruajtën</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d minutë</item>
+        <item quantity="other">%d minuta</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d sekondë</item>
+        <item quantity="other">%d sekonda</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d minutë</item>
+        <item quantity="other">%d minuta</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d orë</item>
+        <item quantity="other">%d orë</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d minutë</item>
+        <item quantity="other">%d minuta</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d sekondë</item>
+        <item quantity="other">%d sekonda</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Të fshihet kjo bisedë?</item>
+        <item quantity="other">Të fshihen %d biseda?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Të fshihet ky mesazh?</item>
+        <item quantity="other">Të fshihen %d mesazhe?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d bisedë u fshi</item>
+        <item quantity="other">%d biseda u fshinë</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d i zgjedhur</item>
+        <item quantity="other">%1$d të zgjedhura</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">nga %1$d</item>
+        <item quantity="other">nga %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d dërgues</item>
+        <item quantity="other">%d dërgues</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d mesazhe</item>
+        <item quantity="other">%d mesazhe</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d të zgjedhura</item>
+        <item quantity="other">%d të zgjedhura</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Enkriptimi nga skaji në skaj për grupin nuk ofrohet për ty dhe %1$s %2$s</item>
+        <item quantity="other">Enkriptimi nga skaji në skaj për grupin nuk ofrohet për ty dhe %1$s të tjerë. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">Enkriptimi nga skaji në skaj për grupin nuk ofrohet për %1$s dhe %2$s. %3$s</item>
+        <item quantity="other">Enkriptimi nga skaji në skaj për grupin nuk ofrohet për %1$s dhe %2$s të tjerë. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Shpejt përpara %d sekondë</item>
+        <item quantity="other">Shpejt përpara %d sekonda</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Shko prapa %d sekondë</item>
+        <item quantity="other">Shko prapa %d sekonda</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Zgjedhja e një bashkëngjitjeje dështoi</item>
+        <item quantity="other">Zgjedhja e %d bashkëngjitjeve dështoi</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s marrës nuk mund të deshifrohet.</item>
+        <item quantity="other">%1$s marrës nuk mund të deshifrohen.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d është bashkëngjitur</item>
+        <item quantity="other">%d janë bashkëngjitur</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d i zgjedhur</item>
+        <item quantity="other">%d të zgjedhura</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d mesazh u fshi</item>
+        <item quantity="other">%d mesazhe u fshinë</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d mesazh u zgjodh</item>
+        <item quantity="other">%d mesazhe u zgjodhën</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Shikuar nga %s</item>
+        <item quantity="other">Shikuar nga %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s marrës nuk mund të deshifrohet. Trokit për opsionet</item>
+        <item quantity="other">%1$s marrës nuk mund të deshifrohen. Trokit për opsionet</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s marrës nuk mund të deshifrohet</item>
+        <item quantity="other">%1$s marrës nuk mund të deshifrohen</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Lexuar nga %s</item>
+        <item quantity="other">Lexuar nga %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d persona po shkruajnë…</item>
+        <item quantity="other">%d persona po shkruajnë…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s dhe %2$s tjetër</item>
+        <item quantity="other">%1$s dhe %2$s të tjerë</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">%1$d mesazhe për %3$s nuk mund të dorëzohen</item>
+        <item quantity="other">%1$d mesazhe në %2$d biseda nuk mund të dorëzohen</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d mesazhe në një bashkëbisedim</item>
+        <item quantity="other">%1$d mesazhe në %2$d bashkëbisedime</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d fotografi</item>
+        <item quantity="other">%d fotografi</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%1$d mesazhe për %3$s nuk janë dërguar</item>
+        <item quantity="other">%1$d mesazhe në %2$d biseda nuk janë dërguar</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d fotografi</item>
+        <item quantity="other">%d fotografi</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">%1$d fotografi u ruajt te dosja %2$s</item>
+        <item quantity="other">%1$d fotografi u ruajtën te dosja %2$s</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d video u ruajt te dosja %2$s</item>
+        <item quantity="other">%1$d video u ruajtën te dosja %2$s</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Bashkëngjit fotografinë e fundit</item>
+        <item quantity="other">Bashkëngjit fotografitë e fundit</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d person</item>
+        <item quantity="other">%d persona</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d fotografi u ruajt te media e ruajtur në albumin &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d fotografi u ruajtën te media e ruajtur në albumin &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">%1$s mund të jetë offline</item>
+        <item quantity="other">Marrësit mund të jenë offline</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Mesazhi nuk u dorëzua</item>
+        <item quantity="other">Mesazhet nuk u dorëzuan</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Kontrollo %1$d biseda për opsionet e dërgimit</item>
+        <item quantity="other">Kontrollo %1$d biseda për opsionet e dërgimit</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d reagim me %2$s</item>
+        <item quantity="other">%1$d reagime me %2$s</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Po dërgohet një bashkëngjitje</item>
+        <item quantity="other">Po dërgohen %d bashkëngjitje</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Po dërgohet një fotografi</item>
+        <item quantity="other">Po dërgohen %d fotografi</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Po dërgohet një video</item>
+        <item quantity="other">Po dërgohen %d video​</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Mesazh i planifikuar</item>
+        <item quantity="other">Mesazhe të planifikuara</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d i zgjedhur</item>
+        <item quantity="other">%d të zgjedhura</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">%1$s mesazh për %2$s është akoma duke u dërguar. Trokit për të dërguar komente te Google. Komentet e tua për versionin beta ndihmojnë në përmirësimin e &quot;Mesazheve&quot;.</item>
+        <item quantity="other">%1$s mesazhe për %2$s janë akoma duke u dërguar. Trokit për të dërguar komente te Google. Komentet e tua për versionin beta ndihmojnë në përmirësimin e &quot;Mesazheve&quot;.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Një mesazh është akoma duke u dërguar</item>
+        <item quantity="other">Mesazhet janë akoma duke u dërguar</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Shiko mesazhin</item>
+        <item quantity="other">Shiko mesazhet</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d yll nga %2$d</item>
+        <item quantity="other">%1$d yje nga %2$d</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">%1$d/%2$d rezultat i gjetur</item>
+        <item quantity="other">%1$d/%2$d rezultate të gjetura</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Regjistrimet duhet të jenë më të gjata se %d sekondë</item>
+        <item quantity="other">Regjistrimet duhet të jenë më të gjata se %d sekonda</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s dhe %2$s tjetër po shkruan</item>
+        <item quantity="other">%1$s dhe %2$s të tjerë po shkruajnë</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d bisedë u hoq nga arkivi</item>
+        <item quantity="other">%d biseda u hoqën nga arkivi</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d mesazh i palexuar</item>
+        <item quantity="other">%d mesazhe të palexuara</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kontakt</item>
+        <item quantity="other">%d kontakte</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Shiko kontaktin</item>
+        <item quantity="other">Shiko kontaktet</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d video u ruajt te media e ruajtur në albumin &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d video u ruajtën te media e ruajtur në albumin &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d mesazh zanor u ruajt te media e ruajtur në albumin &quot;%2$s&quot;</item>
+        <item quantity="other">%1$d mesazhe zanore u ruajtën te media e ruajtur në albumin &quot;%2$s&quot;</item>
+    </plurals>
+</resources>

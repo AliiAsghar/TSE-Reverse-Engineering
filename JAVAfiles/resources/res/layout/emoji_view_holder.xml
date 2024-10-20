@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="0dp">
+    <com.google.android.libraries.inputmethod.emoji.view.EmojiView
+        android:textSize="30dp"
+        android:textColor="?attr/EmojiPickerColorEmojiText"
+        android:id="@+id/emoji_view"
+        android:tag=".emoji-picker-item"
+        android:background="@drawable/ripple_emoji_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="yes"
+        app:minTextSize="10dp"/>
+    <ImageView
+        android:layout_gravity="end|bottom"
+        android:id="@+id/variant_availability_indicator"
+        android:visibility="gone"
+        android:layout_width="@dimen/variant_availability_indicator_width"
+        android:layout_height="@dimen/variant_availability_indicator_height"
+        android:importantForAccessibility="no"
+        style="?attr/EmojiPickerStyleEmojiVariantsIndicator"/>
+</FrameLayout>

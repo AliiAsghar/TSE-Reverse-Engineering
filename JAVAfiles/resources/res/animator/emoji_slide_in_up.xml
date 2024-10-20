@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/emoji_gallery_animation_time_millis"
+    android:valueFrom="@dimen/emoji_gallery_height"
+    android:valueTo="0"
+    android:valueType="floatType"
+    android:propertyName="translationY"/>

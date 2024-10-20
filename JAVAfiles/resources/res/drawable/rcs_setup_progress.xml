@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1"
+    android:fromDegrees="0"
+    android:toDegrees="1080"
+    android:pivotX="50%"
+    android:pivotY="50%">
+    <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadius="38dp"
+        android:thickness="5dp">
+        <gradient
+            android:startColor="@color/message_transfer_indeterminate_progress_start"
+            android:endColor="@color/message_transfer_indeterminate_progress_end"
+            android:useLevel="false"
+            android:angle="0"
+            android:type="sweep"
+            android:centerY="0.5"
+            android:centerColor="@color/message_transfer_indeterminate_progress_start"/>
+    </shape>
+</rotate>

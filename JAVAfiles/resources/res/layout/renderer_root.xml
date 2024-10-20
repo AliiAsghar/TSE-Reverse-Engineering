@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.compose.ui.rendering.container.RendererContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/renderer_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/renderer_elevation_view"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.google.android.libraries.compose.ui.rendering.container.RendererContainer>

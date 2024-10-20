@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/play_icon_shadow_center_color"
+        android:endColor="@color/play_icon_shadow_edge_color"
+        android:angle="0"
+        android:type="radial"
+        android:gradientRadius="@dimen/video_play_icon_background_radius"
+        android:centerColor="@color/play_icon_shadow_center_color"/>
+</shape>

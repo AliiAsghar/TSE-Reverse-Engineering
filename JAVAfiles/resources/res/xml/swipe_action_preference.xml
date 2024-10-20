@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:persistent="false"
+    android:title="@string/swipe_actions"
+    android:key="swipe_actions_prefs_screen">
+    <com.google.android.apps.messaging.ui.appsettings.SwipeActionPreference
+        android:persistent="false"
+        android:layout="@layout/swipe_preference"
+        android:key="@string/swipe_right_key"
+        app:allowDividerAbove="true"/>
+    <com.google.android.apps.messaging.ui.appsettings.SwipeActionPreference
+        android:persistent="false"
+        android:layout="@layout/swipe_preference"
+        android:key="@string/swipe_left_key"
+        app:allowDividerAbove="true"/>
+</PreferenceScreen>

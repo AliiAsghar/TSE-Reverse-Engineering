@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="com.google.android.apps.messaging.ui.mediapicker.c2o.Compose2oFragment"
+    android:id="@+id/c2o_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

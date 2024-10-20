@@ -1,0 +1,19 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class spe extends agnx {
+    public spe() {
+        super("drafts", "$primary");
+    }
+
+    @Override // defpackage.agnx
+    public final /* bridge */ /* synthetic */ aday a() {
+        agny n = this.b.n();
+        agpw agpwVar = this.a;
+        if (agpwVar == null) {
+            agpwVar = new agpw(new spi());
+        }
+        return new aday(n, agpwVar);
+    }
+}

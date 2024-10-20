@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">dan %d lagi</item>
+        <item quantity="other">dan %d lagi</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d perbualan diarkibkan</item>
+        <item quantity="other">%d perbualan diarkibkan</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Satu lampiran sedia untuk dihantar</item>
+        <item quantity="other">%d lampiran sedia untuk dihantar</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Tidak dapat menyimpan %d lampiran</item>
+        <item quantity="other">Tidak dapat menyimpan %d lampiran</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d lampiran disimpan</item>
+        <item quantity="other">%d lampiran disimpan</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d minit</item>
+        <item quantity="other">%d minit</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d minit</item>
+        <item quantity="other">%d minit</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d jam</item>
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d minit</item>
+        <item quantity="other">%d minit</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Padamkan perbualan ini?</item>
+        <item quantity="other">Padamkan %d perbualan?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Padamkan mesej ini?</item>
+        <item quantity="other">Padamkan %d mesej?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">%d perbualan dipadamkan</item>
+        <item quantity="other">%d perbualan dipadamkan</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d dipilih</item>
+        <item quantity="other">%1$d dipilih</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">daripada %1$d</item>
+        <item quantity="other">daripada %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d pengirim</item>
+        <item quantity="other">%d pengirim</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d mesej</item>
+        <item quantity="other">%d mesej</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d dipilih</item>
+        <item quantity="other">%d dipilih</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">Penyulitan menyeluruh kumpulan tidak tersedia untuk anda dan %1$s. %2$s</item>
+        <item quantity="other">Penyulitan menyeluruh kumpulan tidak tersedia untuk anda dan %1$s. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">Penyulitan menyeluruh kumpulan tidak tersedia untuk %1$s dan %2$s. %3$s</item>
+        <item quantity="other">Penyulitan menyeluruh kumpulan tidak tersedia untuk %1$s dan %2$s. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Mundar laju %d saat</item>
+        <item quantity="other">Mundar laju %d saat</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Mandir %d saat</item>
+        <item quantity="other">Mandir %d saat</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">Gagal memilih lampiran</item>
+        <item quantity="other">Gagal memilih %d lampiran</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s penerima tidak dapat menyahsulitkan mesej.</item>
+        <item quantity="other">%1$s penerima tidak dapat menyahsulitkan mesej.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d dilampirkan</item>
+        <item quantity="other">%d dilampirkan</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d dipilih</item>
+        <item quantity="other">%d dipilih</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d mesej dipadamkan</item>
+        <item quantity="other">%d mesej dipadamkan</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d mesej dipilih</item>
+        <item quantity="other">%d mesej dipilih</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Dilihat oleh %s</item>
+        <item quantity="other">Dilihat oleh %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s penerima tidak dapat menyahsulit, ketik untuk mendapatkan pilihan</item>
+        <item quantity="other">%1$s penerima tidak dapat menyahsulit, ketik untuk mendapatkan pilihan</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s penerima tidak dapat menyahsulitkan mesej</item>
+        <item quantity="other">%1$s penerima tidak dapat menyahsulitkan mesej</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Dibaca oleh %s</item>
+        <item quantity="other">Dibaca oleh %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d orang sedang menaip…</item>
+        <item quantity="other">%d orang sedang menaip…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s + %2$s lain-lain</item>
+        <item quantity="other">%1$s + %2$s lain-lain</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">%1$d mesej kepada %3$s tidak dapat dihantar</item>
+        <item quantity="other">%1$d mesej dalam %2$d tidak dapat dihantar</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d mesej dalam satu perbualan</item>
+        <item quantity="other">%1$d mesej dalam %2$d perbualan</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d gambar</item>
+        <item quantity="other">%d gambar</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">%1$d mesej ke %3$s belum dihantar</item>
+        <item quantity="other">%1$d mesej dalam %2$d perbualan belum dihantar</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d foto</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">Saved %1$d foto disimpan pada folder %2$s anda</item>
+        <item quantity="other">%1$d foto disimpan pada folder %2$s anda</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">%1$d video disimpan pada folder %2$s anda</item>
+        <item quantity="other">%1$d video disimpan pada folder %2$s anda</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Lampirkan foto terbaharu</item>
+        <item quantity="other">Lampirkan foto terbaharu</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d orang</item>
+        <item quantity="other">%d orang</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">%1$d foto disimpan pada media disimpan %2$s anda</item>
+        <item quantity="other">%1$d foto disimpan pada media disimpan %2$s anda</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">%1$s mungkin di luar talian</item>
+        <item quantity="other">Penerima mungkin di luar talian</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">Mesej tidak dihantar</item>
+        <item quantity="other">Mesej tidak dihantar</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Semak %1$d perbualan untuk mengetahui pilihan penghantaran</item>
+        <item quantity="other">Semak %1$d perbualan untuk mengetahui pilihan penghantaran</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d %2$s reaksi</item>
+        <item quantity="other">%1$d %2$s reaksi</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">Menghantar lampiran</item>
+        <item quantity="other">Menghantar %d lampiran</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">Menghantar foto</item>
+        <item quantity="other">Menghantar %d foto</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">Menghantar video</item>
+        <item quantity="other">Menghantar %d video</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Mesej dijadualkan</item>
+        <item quantity="other">Mesej dijadualkan</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d dipilih</item>
+        <item quantity="other">%d dipilih</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">Masih menghantar %1$s mesej kepada %2$s. Ketik untuk menghantar maklum balas kepada Google. Maklum balas anda dalam beta membantu kami meningkatkan Messages.</item>
+        <item quantity="other">%1$s mesej kepada %2$s masih dihantar. Ketik untuk menghantar maklum balas kepada Google. Maklum balas anda dalam beta membantu kami meningkatkan Messages.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Masih menghantar mesej</item>
+        <item quantity="other">Masih menghantar mesej</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Lihat mesej</item>
+        <item quantity="other">Lihat mesej</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d bintang daripada %2$d</item>
+        <item quantity="other">%1$d bintang daripada %2$d</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">%1$d/%2$d hasil carian ditemukan</item>
+        <item quantity="other">%1$d/%2$d hasil carian ditemukan</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Rakaman perlu lebih panjang daripada %d saat</item>
+        <item quantity="other">Rakaman perlu lebih panjang daripada %d saat</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s dan %2$s yang lain sedang menaip</item>
+        <item quantity="other">%1$s dan %2$s yang lain sedang menaip</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">%d perbualan dinyaharkibkan</item>
+        <item quantity="other">%d perbualan dinyaharkibkan</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d mesej belum dibaca</item>
+        <item quantity="other">%d mesej belum dibaca</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kenalan</item>
+        <item quantity="other">%d kenalan</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Lihat kenalan</item>
+        <item quantity="other">Lihat kenalan</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">%1$d video disimpan pada media disimpan %2$s anda</item>
+        <item quantity="other">%1$d video disimpan pada media disimpan %2$s anda</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">%1$d mesej suara disimpan pada media disimpan %2$s anda</item>
+        <item quantity="other">%1$d mesej suara disimpan pada media disimpan %2$s anda</item>
+    </plurals>
+</resources>

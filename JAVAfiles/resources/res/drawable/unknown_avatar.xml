@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:width="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <path
+        android:fillColor="@color/unknown_avatar_background"
+        android:pathData="M20,20m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M19.908,18C22.675,18 24.908,15.767 24.908,13C24.908,10.233 22.675,8 19.908,8C17.142,8 14.908,10.233 14.908,13C14.908,15.767 17.142,18 19.908,18Z"/>
+    <path
+        android:fillColor="@color/avatar_person"
+        android:pathData="M19.908,20.953C13.798,20.953 9,23.907 9,26.634C11.31,30.188 15.356,32.543 19.908,32.543C24.46,32.543 28.506,30.188 30.817,26.634C30.817,23.907 26.019,20.953 19.908,20.953Z"/>
+</vector>

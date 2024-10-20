@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/MediaFragmentTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center">
+    <com.google.android.libraries.view.zoomableimage.ZoomableImageView
+        android:id="@+id/zoomable_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image_attachment_content_description"/>
+    <com.google.android.apps.messaging.ui.mediaviewer.CenterFitVideoView
+        android:layout_gravity="center"
+        android:id="@+id/media_viewer_video_preview"
+        android:background="@android:color/transparent"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/video_attachment_content_description"/>
+</FrameLayout>

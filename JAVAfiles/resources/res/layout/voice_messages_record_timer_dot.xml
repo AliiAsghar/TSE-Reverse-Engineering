@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/audio_timer_dot"
+    android:visibility="gone"
+    android:layout_width="@dimen/conversation_audio_timer_dot_width"
+    android:layout_height="@dimen/conversation_audio_timer_dot_height"
+    android:src="@drawable/compose2o_voice_message_record_timer_dot"
+    android:importantForAccessibility="no"
+    android:layout_marginStart="@dimen/conversation_audio_timer_dot_margin_start"
+    android:elevation="@dimen/compose_message_view_elevation"/>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorSecondaryFixed"/>
+        </shape>
+    </item>
+    <item
+        android:height="@dimen/welcome_gaia_auto_sign_in_google_profile_logo_size"
+        android:width="@dimen/welcome_gaia_auto_sign_in_google_profile_logo_size"
+        android:drawable="@drawable/googleg_standard_color_24"
+        android:left="@dimen/welcome_gaia_auto_sign_in_google_profile_logo_padding"
+        android:top="@dimen/welcome_gaia_auto_sign_in_google_profile_logo_padding"
+        android:right="@dimen/welcome_gaia_auto_sign_in_google_profile_logo_padding"
+        android:bottom="@dimen/welcome_gaia_auto_sign_in_google_profile_logo_padding"/>
+</layer-list>

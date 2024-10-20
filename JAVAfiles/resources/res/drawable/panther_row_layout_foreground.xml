@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/panther_row_layout_foreground_gradient"
+        android:start="@dimen/panther_row_layout_foreground_gradient_start"
+        android:end="@dimen/fastscroll_track_width"/>
+</layer-list>

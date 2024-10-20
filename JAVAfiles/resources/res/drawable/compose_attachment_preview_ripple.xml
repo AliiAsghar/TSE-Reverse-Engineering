@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/colorOnSurfaceStateLayer">
+    <item android:id="@android:id/mask">
+        <shape>
+            <solid android:color="?attr/colorOnSurfaceStateLayer"/>
+            <corners android:radius="@dimen/file_attachment_rounded_corner_radius"/>
+        </shape>
+    </item>
+</ripple>

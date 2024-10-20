@@ -1,0 +1,19 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public enum mis {
+    NONE,
+    CONVERSATION_UNKNOWN,
+    GROUP_EMPTY,
+    GROUP_TOO_LARGE,
+    GROUP_NOT_A_MEMBER,
+    RECIPIENT_INCOMING_ONLY,
+    SELFIDENTITY_UNAVAILABLE,
+    RCS_DISCONNECTED,
+    RCS_UNSUPPORTED_BY_CARRIER,
+    CONVERSATION_ENDED,
+    NOT_DEFAULT_SMS_APP,
+    GROUP_NO_SELF_NUMBER,
+    PARENTAL_APPROVAL_REQUIRED
+}

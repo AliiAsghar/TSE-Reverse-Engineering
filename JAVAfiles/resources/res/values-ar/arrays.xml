@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>قلب</item>
+        <item>نعم</item>
+        <item>قبلة</item>
+        <item>مرحبًا</item>
+        <item>معانقة</item>
+        <item>حفل</item>
+        <item>غاضب</item>
+        <item>متحمس</item>
+        <item>وداع</item>
+        <item>قهقهة</item>
+        <item>بكاء</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>نعم</item>
+        <item>لا</item>
+        <item>حسنًا</item>
+        <item>ههههه</item>
+        <item>شكرًا</item>
+        <item>أوافق</item>
+        <item>لطيف</item>
+        <item>على الطريق</item>
+        <item>حسنًا، سأرد عليك لاحقًا</item>
+        <item>:)</item>
+        <item>):</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>‏رسالة SMS تحتوي على رابط</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>‏إعادة الإرسال دومًا كرسالة SMS</item>
+        <item>‏إعادة الإرسال كرسالة SMS أثناء عدم التجوال</item>
+        <item>السؤال قبل إعادة الإرسال</item>
+        <item>‏عدم الإرسال مطلقًا كرسالة SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>‏إعادة الإرسال دومًا كرسالة SMS/MMS</item>
+        <item>‏إعادة الإرسال كرسالة SMS/MMS أثناء عدم التجوال</item>
+        <item>السؤال قبل إعادة الإرسال</item>
+        <item>‏عدم الإرسال مطلقًا كرسالة SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

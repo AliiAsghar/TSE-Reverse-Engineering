@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_n_more_plural">
+        <item quantity="one">i %d més</item>
+        <item quantity="many">i %d més</item>
+        <item quantity="other">i %d més</item>
+    </plurals>
+    <plurals name="archived_toast_message">
+        <item quantity="one">%d conversa arxivada</item>
+        <item quantity="many">%d converses arxivades</item>
+        <item quantity="other">%d converses arxivades</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Ja es pot enviar un fitxer adjunt</item>
+        <item quantity="many">Ja es poden enviar %d fitxers adjunts</item>
+        <item quantity="other">Ja es poden enviar %d fitxers adjunts</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">No s&apos;ha pogut desar %d fitxer adjunt</item>
+        <item quantity="many">No s&apos;han pogut desar %d fitxers adjunts</item>
+        <item quantity="other">No s&apos;han pogut desar %d fitxers adjunts</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">S&apos;ha desat %d fitxer adjunt</item>
+        <item quantity="many">S&apos;han desat %d fitxers adjunts</item>
+        <item quantity="other">S&apos;han desat %d fitxers adjunts</item>
+    </plurals>
+    <plurals name="audiobubble_timer_minutes_content_description">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minuts</item>
+    </plurals>
+    <plurals name="audiobubble_timer_seconds_content_description">
+        <item quantity="one">%d segon</item>
+        <item quantity="other">%d segons</item>
+    </plurals>
+    <plurals name="bugle_content_description_num_minutes_ago">
+        <item quantity="one">%d minut</item>
+        <item quantity="many">%d minuts</item>
+        <item quantity="other">%d minuts</item>
+    </plurals>
+    <plurals name="bugle_num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="many">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="content_description_duration_hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="many">%d hores</item>
+        <item quantity="other">%d hores</item>
+    </plurals>
+    <plurals name="content_description_duration_minutes">
+        <item quantity="one">%d minut</item>
+        <item quantity="many">%d minuts</item>
+        <item quantity="other">%d minuts</item>
+    </plurals>
+    <plurals name="content_description_duration_seconds">
+        <item quantity="one">%d segon</item>
+        <item quantity="many">%d segons</item>
+        <item quantity="other">%d segons</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Vols suprimir aquesta conversa?</item>
+        <item quantity="many">Vols suprimir %d converses?</item>
+        <item quantity="other">Vols suprimir %d converses?</item>
+    </plurals>
+    <plurals name="delete_message_confirmation_dialog_title">
+        <item quantity="one">Vols suprimir aquest missatge?</item>
+        <item quantity="many">Vols suprimir %d missatges?</item>
+        <item quantity="other">Vols suprimir %d missatges?</item>
+    </plurals>
+    <plurals name="deleted_toast_message">
+        <item quantity="one">S&apos;ha suprimit %d conversa</item>
+        <item quantity="many">S&apos;han suprimit %d converses</item>
+        <item quantity="other">S&apos;han suprimit %d converses</item>
+    </plurals>
+    <plurals name="donation_conversation_selected_count_content_description">
+        <item quantity="one">%1$d element seleccionat</item>
+        <item quantity="many">%1$d elements seleccionats</item>
+        <item quantity="other">%1$d elements seleccionats</item>
+    </plurals>
+    <plurals name="donation_conversation_total_count_content_description">
+        <item quantity="one">de %1$d</item>
+        <item quantity="many">de %1$d</item>
+        <item quantity="other">de %1$d</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_conversations">
+        <item quantity="one">%d remitent</item>
+        <item quantity="many">%d remitents</item>
+        <item quantity="other">%d remitents</item>
+    </plurals>
+    <plurals name="donation_donate_dialog_body_text_messages">
+        <item quantity="one">%d missatge</item>
+        <item quantity="many">%d missatges</item>
+        <item quantity="other">%d missatges</item>
+    </plurals>
+    <plurals name="donation_toolbar_title">
+        <item quantity="one">%d de seleccionats</item>
+        <item quantity="many">%d de seleccionats</item>
+        <item quantity="other">%d de seleccionats</item>
+    </plurals>
+    <plurals name="encryption_status_self_and_other_users_group">
+        <item quantity="one">L&apos;encriptació d&apos;extrem a extrem del grup no està disponible per a tu ni per a %1$s. %2$s</item>
+        <item quantity="many">L&apos;encriptació d&apos;extrem a extrem del grup no està disponible per a tu ni per a %1$s persones més. %2$s</item>
+        <item quantity="other">L&apos;encriptació d&apos;extrem a extrem del grup no està disponible per a tu ni per a %1$s persones més. %2$s</item>
+    </plurals>
+    <plurals name="encryption_status_user_and_other_users_group">
+        <item quantity="one">L&apos;encriptació d&apos;extrem a extrem del grup no està disponible per a %1$s ni per a %2$s. %3$s</item>
+        <item quantity="many">L&apos;encriptació d&apos;extrem a extrem del grup no està disponible per a %1$s ni per a %2$s persones més. %3$s</item>
+        <item quantity="other">L&apos;encriptació d&apos;extrem a extrem del grup no està disponible per a %1$s ni per a %2$s persones més. %3$s</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Avança ràpidament %d segon</item>
+        <item quantity="other">Avança ràpidament %d segons</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rebobina %d segon</item>
+        <item quantity="other">Rebobina %d segons</item>
+    </plurals>
+    <plurals name="failed_to_select_attachments_from_system_picker">
+        <item quantity="one">No s&apos;ha pogut seleccionar 1 fitxer adjunt</item>
+        <item quantity="other">No s&apos;han pogut seleccionar %d fitxers adjunts</item>
+    </plurals>
+    <plurals name="mapi_message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s destinatari no pot fer la desencriptació.</item>
+        <item quantity="many">%1$s de destinataris no poden fer la desencriptació.</item>
+        <item quantity="other">%1$s destinataris no poden fer la desencriptació.</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection">
+        <item quantity="one">%d element adjunt</item>
+        <item quantity="many">%d elements adjunts</item>
+        <item quantity="other">%d elements adjunts</item>
+    </plurals>
+    <plurals name="mediapicker_gallery_title_selection_alternate">
+        <item quantity="one">%d de seleccionada</item>
+        <item quantity="many">%d de seleccionades</item>
+        <item quantity="other">%d de seleccionades</item>
+    </plurals>
+    <plurals name="message_deleted_count">
+        <item quantity="one">%d missatge suprimit</item>
+        <item quantity="many">%d missatges suprimits</item>
+        <item quantity="other">%d missatges suprimits</item>
+    </plurals>
+    <plurals name="message_selected_count">
+        <item quantity="one">%d missatge seleccionat</item>
+        <item quantity="many">%d missatges seleccionats</item>
+        <item quantity="other">%d missatges seleccionats</item>
+    </plurals>
+    <plurals name="message_status_media_seen_by_list">
+        <item quantity="one">Vist per %s</item>
+        <item quantity="many">Vist per %s</item>
+        <item quantity="other">Vist per %s</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption">
+        <item quantity="one">%1$s destinatari no pot desencriptar el missatge; toca per veure les opcions</item>
+        <item quantity="many">%1$s destinataris no poden desencriptar el missatge; toca per veure les opcions</item>
+        <item quantity="other">%1$s destinataris no poden desencriptar el missatge; toca per veure les opcions</item>
+    </plurals>
+    <plurals name="message_status_recipients_failed_decryption_no_options">
+        <item quantity="one">%1$s destinatari no pot fer la desencriptació</item>
+        <item quantity="many">%1$s destinataris no poden fer la desencriptació</item>
+        <item quantity="other">%1$s destinataris no poden fer la desencriptació</item>
+    </plurals>
+    <plurals name="message_status_seen_by_list">
+        <item quantity="one">Llegit per %s</item>
+        <item quantity="many">Llegit per %s</item>
+        <item quantity="other">Llegit per %s</item>
+    </plurals>
+    <plurals name="multiple_typing_indicators_in_groups">
+        <item quantity="one">%d persona està escrivint…</item>
+        <item quantity="many">%d persones estan escrivint…</item>
+        <item quantity="other">%d persones estan escrivint…</item>
+    </plurals>
+    <plurals name="name_and_other_plural">
+        <item quantity="one">%1$s i %2$s persona més</item>
+        <item quantity="many">%1$s i %2$s persones més</item>
+        <item quantity="other">%1$s i %2$s persones més</item>
+    </plurals>
+    <plurals name="notification_delivery_failures_line2_plural">
+        <item quantity="one">No es poden entregar %1$d missatges al %3$s</item>
+        <item quantity="many">No es poden entregar %1$d missatges al %2$d</item>
+        <item quantity="other">No es poden entregar %1$d missatges al %2$d</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%1$d missatges en 1 conversa</item>
+        <item quantity="many">%1$d missatges en %2$d converses</item>
+        <item quantity="other">%1$d missatges en %2$d converses</item>
+    </plurals>
+    <plurals name="notification_picture_count">
+        <item quantity="one">%d imatge</item>
+        <item quantity="many">%d imatges</item>
+        <item quantity="other">%d imatges</item>
+    </plurals>
+    <plurals name="notification_video_count">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="many">%d vídeos</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+    <plurals name="notification_waiting_for_connection_timeout_line2_plural">
+        <item quantity="one">No s&apos;han enviat %1$d missatges a %3$s</item>
+        <item quantity="many">No s&apos;han enviat %1$d missatges a %2$d</item>
+        <item quantity="other">No s&apos;han enviat %1$d missatges a %2$d</item>
+    </plurals>
+    <plurals name="original_image_plural_info">
+        <item quantity="one">%d foto</item>
+        <item quantity="many">%d fotos</item>
+        <item quantity="other">%d fotos</item>
+    </plurals>
+    <plurals name="original_images_only_saved_info">
+        <item quantity="one">S&apos;ha desat %1$d foto a la carpeta %2$s</item>
+        <item quantity="many">S&apos;han desat %1$d fotos a la carpeta %2$s</item>
+        <item quantity="other">S&apos;han desat %1$d fotos a la carpeta %2$s</item>
+    </plurals>
+    <plurals name="original_video_plural_info">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="many">%d vídeos</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+    <plurals name="original_videos_only_saved_info">
+        <item quantity="one">S&apos;ha desat %1$d vídeo a la carpeta %2$s</item>
+        <item quantity="many">S&apos;han desat %1$d vídeos a la carpeta %2$s</item>
+        <item quantity="other">S&apos;han desat %1$d vídeos a la carpeta %2$s</item>
+    </plurals>
+    <plurals name="p2p_conversation_suggestion_share_recent_image_display_text">
+        <item quantity="one">Adjunta una foto recent</item>
+        <item quantity="many">Adjunta fotos recents</item>
+        <item quantity="other">Adjunta fotos recents</item>
+    </plurals>
+    <plurals name="participant_list_count_title">
+        <item quantity="one">%d persona</item>
+        <item quantity="many">%d persones</item>
+        <item quantity="other">%d persones</item>
+    </plurals>
+    <plurals name="photos_saved_to_folder">
+        <item quantity="one">S&apos;ha desat %1$d foto als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+        <item quantity="many">S&apos;han desat %1$d fotos als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+        <item quantity="other">S&apos;han desat %1$d fotos als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+    </plurals>
+    <plurals name="plus_n_plural">
+        <item quantity="one">+1</item>
+        <item quantity="many">%d més</item>
+        <item quantity="other">%d més</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_text">
+        <item quantity="one">%1$s podria no tenir connexió</item>
+        <item quantity="many">Els destinataris podrien no tenir connexió</item>
+        <item quantity="other">Els destinataris podrien no tenir connexió</item>
+    </plurals>
+    <plurals name="rcs_not_delivered_notification_title">
+        <item quantity="one">El missatge no s&apos;ha entregat</item>
+        <item quantity="many">Els missatges no s&apos;han entregat</item>
+        <item quantity="other">Els missatges no s&apos;han entregat</item>
+    </plurals>
+    <plurals name="rcs_still_sending_notification_text_plural">
+        <item quantity="one">Comprova %1$d conversa per veure les opcions d&apos;enviament</item>
+        <item quantity="many">Comprova %1$d de converses per veure les opcions d&apos;enviament</item>
+        <item quantity="other">Comprova %1$d converses per veure les opcions d&apos;enviament</item>
+    </plurals>
+    <plurals name="reaction_badges_content_description">
+        <item quantity="one">%1$d reacció %2$s</item>
+        <item quantity="many">%1$d de reaccions %2$s</item>
+        <item quantity="other">%1$d reaccions %2$s</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_attachment_plural">
+        <item quantity="one">S&apos;està enviant el fitxer adjunt</item>
+        <item quantity="many">S&apos;estan enviant %d fitxers adjunts</item>
+        <item quantity="other">S&apos;estan enviant %d fitxers adjunts</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_photo_plural">
+        <item quantity="one">S&apos;està enviant la foto</item>
+        <item quantity="many">S&apos;estan enviant %d fotos​</item>
+        <item quantity="other">S&apos;estan enviant %d fotos​</item>
+    </plurals>
+    <plurals name="resize_service_notification_title_video_plural">
+        <item quantity="one">S&apos;està enviant el vídeo</item>
+        <item quantity="many">S&apos;estan enviant %d vídeos</item>
+        <item quantity="other">S&apos;estan enviant %d vídeos</item>
+    </plurals>
+    <plurals name="scheduled_message">
+        <item quantity="one">Missatge programat</item>
+        <item quantity="many">Missatges programats</item>
+        <item quantity="other">Missatges programats</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d seleccionat</item>
+        <item quantity="many">%d seleccionats</item>
+        <item quantity="other">%d seleccionats</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_text_beta">
+        <item quantity="one">Encara s&apos;està enviant %1$s missatge a%2$s. Toca per enviar suggeriments a Google. El que ens indiquis sobre la versió beta ens ajudarà a millorar Missatges.</item>
+        <item quantity="many">Encara s&apos;estan enviant %1$s missatges a %2$s. Toca per enviar suggeriments a Google. El que ens indiquis sobre la versió beta ens ajudarà a millorar Missatges.</item>
+        <item quantity="other">Encara s&apos;estan enviant %1$s missatges a %2$s. Toca per enviar suggeriments a Google. El que ens indiquis sobre la versió beta ens ajudarà a millorar Missatges.</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_title">
+        <item quantity="one">Encara s&apos;està enviant un missatge</item>
+        <item quantity="many">Encara s&apos;estan enviant missatges</item>
+        <item quantity="other">Encara s&apos;estan enviant missatges</item>
+    </plurals>
+    <plurals name="stuck_in_sending_notification_view_message_action_button">
+        <item quantity="one">Mostra el missatge</item>
+        <item quantity="many">Mostra els missatges</item>
+        <item quantity="other">Mostra els missatges</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d estrella de %2$d</item>
+        <item quantity="other">%1$d estrelles de %2$d</item>
+    </plurals>
+    <plurals name="text_results_bar_results">
+        <item quantity="one">Resultat trobat: %1$d/%2$d</item>
+        <item quantity="other">Resultats trobats: %1$d/%2$d</item>
+    </plurals>
+    <plurals name="toast_discard_minimum_recording">
+        <item quantity="one">Les gravacions han de durar més d’%d segon</item>
+        <item quantity="many">Les gravacions han de durar més de %d segons</item>
+        <item quantity="other">Les gravacions han de durar més de %d segons</item>
+    </plurals>
+    <plurals name="typing_indicator_many">
+        <item quantity="one">%1$s i %2$s persona més estan escrivint</item>
+        <item quantity="many">%1$s i %2$s persones més estan escrivint</item>
+        <item quantity="other">%1$s i %2$s persones més estan escrivint</item>
+    </plurals>
+    <plurals name="unarchived_toast_message">
+        <item quantity="one">S&apos;ha tret %d conversa de l&apos;arxiu</item>
+        <item quantity="many">S&apos;han tret %d converses de l&apos;arxiu</item>
+        <item quantity="other">S&apos;han tret %d converses de l&apos;arxiu</item>
+    </plurals>
+    <plurals name="unread_with_count">
+        <item quantity="one">%d missatge no llegit</item>
+        <item quantity="many">%d missatges no llegits</item>
+        <item quantity="other">%d missatges no llegits</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d contacte</item>
+        <item quantity="many">%d contactes</item>
+        <item quantity="other">%d contactes</item>
+    </plurals>
+    <plurals name="vcard_tap_hint_new">
+        <item quantity="one">Mostra el contacte</item>
+        <item quantity="many">Mostra els contactes</item>
+        <item quantity="other">Mostra els contactes</item>
+    </plurals>
+    <plurals name="videos_saved_to_folder">
+        <item quantity="one">S&apos;ha desat %1$d vídeo als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+        <item quantity="many">S&apos;han desat %1$d vídeos als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+        <item quantity="other">S&apos;han desat %1$d vídeos als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+    </plurals>
+    <plurals name="voice_messages_saved_to_folder">
+        <item quantity="one">S&apos;ha desat %1$d missatge de veu als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+        <item quantity="many">S&apos;han desat %1$d missatges de veu als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+        <item quantity="other">S&apos;han desat %1$d missatges de veu als fitxers multimèdia emmagatzemats que tens a %2$s</item>
+    </plurals>
+</resources>

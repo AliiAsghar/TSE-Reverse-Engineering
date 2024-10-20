@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Amor</item>
+        <item>Sim</item>
+        <item>Beijo</item>
+        <item>Olá</item>
+        <item>Abraço</item>
+        <item>Festa</item>
+        <item>Irritado</item>
+        <item>Animado</item>
+        <item>Tchau</item>
+        <item>HAHAHA</item>
+        <item>Chorando</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Sim</item>
+        <item>Não</item>
+        <item>OK</item>
+        <item>Hehe</item>
+        <item>Obrigado</item>
+        <item>Concordo</item>
+        <item>Legal</item>
+        <item>Estou a caminho</item>
+        <item>OK, falo com você mais tarde</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS com link</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Sempre reenviar como SMS</item>
+        <item>Reenviar como SMS quando não estiver em roaming</item>
+        <item>Perguntar antes de reenviar</item>
+        <item>Nunca reenviar como SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Sempre reenviar como SMS/MMS</item>
+        <item>Reenviar como SMS/MMS quando não estiver em roaming</item>
+        <item>Perguntar antes de reenviar</item>
+        <item>Nunca reenviar como SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

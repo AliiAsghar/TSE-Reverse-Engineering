@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+    <ImageView
+        android:id="@+id/nearby_place_image"
+        android:background="@drawable/location_attachment_picker_nearby_icon_default_m2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/nearby_place_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/nearby_place_address"
+        app:layout_constraintEnd_toStartOf="@+id/nearby_place_distance"
+        app:layout_constraintStart_toEndOf="@+id/nearby_place_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        style="@style/LocationAttachmentPickerNearbyListItemNameStyle"/>
+    <TextView
+        android:id="@+id/nearby_place_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/nearby_place_name"
+        app:layout_constraintStart_toStartOf="@+id/nearby_place_name"
+        app:layout_constraintTop_toBottomOf="@+id/nearby_place_name"
+        style="@style/LocationAttachmentPickerNearbyListItemAddressStyle"/>
+    <TextView
+        android:gravity="end"
+        android:id="@+id/nearby_place_distance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/nearby_place_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/LocationAttachmentPickerNearbyListItemDistanceStyle"/>
+</android.support.constraint.ConstraintLayout>

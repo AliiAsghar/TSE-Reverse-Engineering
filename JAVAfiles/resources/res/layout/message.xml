@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="@dimen/message_list_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:layout_gravity="center_vertical"
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="16dp"
+        android:layout_weight="1"
+        android:lineSpacingMultiplier="@dimen/H6_spacing_multiplier"
+        android:drawableStart="@android:color/transparent"
+        style="@style/CheckBoxStyle"/>
+    <ImageButton
+        android:layout_gravity="center_vertical"
+        android:id="@+id/edit_button"
+        android:background="@null"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/quantum_gm_ic_mode_edit_white_24"
+        android:tint="?attr/colorPrimaryBrandIcon"
+        android:layout_weight="0"
+        android:contentDescription="@string/donation_edit_button_content_description"
+        android:paddingStart="8dp"
+        android:paddingEnd="0dp"/>
+</LinearLayout>

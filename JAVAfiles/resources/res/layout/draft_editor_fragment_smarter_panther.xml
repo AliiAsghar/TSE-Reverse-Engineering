@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/draft_message_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/panther_row_layout"
+            android:background="@drawable/panther_row_layout_background"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="@drawable/panther_row_layout_foreground"
+            android:paddingEnd="@dimen/panther_row_layout_padding_end"
+            android:backgroundTint="?attr/colorPrimaryBackground"
+            android:foregroundTint="?attr/colorPrimaryBackground"/>
+        <include
+            android:id="@+id/draft_message_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/compose_message_view_with_c2o_smarter_panther"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

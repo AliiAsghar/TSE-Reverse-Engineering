@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/primary_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.apps.messaging.ui.rcs.setup.success.RcsSuccessView
+        android:layout_gravity="center"
+        android:id="@+id/rcs_success"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:importantForAccessibility="noHideDescendants"/>
+</FrameLayout>

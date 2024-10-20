@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubhead2"
+        android:textColor="@color/video_duration_text"
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/video_duration_text_shadow"
+        android:shadowDy="@integer/video_duration_text_shadow"
+        android:shadowRadius="@integer/video_duration_text_shadow"/>
+    <ImageView
+        android:id="@+id/icon"
+        android:background="@drawable/play_icon_background"
+        android:layout_width="@dimen/video_play_icon_size"
+        android:layout_height="@dimen/video_play_icon_size"
+        android:src="@drawable/quantum_gm_ic_play_circle_filled_white_24"
+        android:importantForAccessibility="no"/>
+</merge>

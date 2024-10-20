@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+    <TextView
+        android:textSize="20sp"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/country_flag_emoji"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/country_code_selection_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:ellipsize="marquee"
+        android:id="@+id/country_code_selection_item_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textDirection="ltr"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="12dp"/>
+</LinearLayout>

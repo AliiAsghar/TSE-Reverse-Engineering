@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/rcs_sim_status_list_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/rcs_sim_status_list"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/legal_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="@dimen/rcs_sim_status_legal_fyi_banner_margin"
+        android:layout_below="@+id/verify_number_button"
+        android:layout_marginStart="@dimen/rcs_sim_status_legal_fyi_banner_margin"
+        android:layout_marginEnd="@dimen/rcs_sim_status_legal_fyi_banner_margin"
+        app:cardBackgroundColor="?attr/colorPrimaryContainer"
+        style="?attr/materialCardViewFilledStyle">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorPrimary"
+            android:id="@+id/legal_banner_text"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rcs_status_legal_banner"/>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

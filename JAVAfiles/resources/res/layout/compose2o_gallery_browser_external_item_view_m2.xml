@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.mediapicker.c2o.gallery.GalleryBrowserExternalItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/compose2o_tile_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="?attr/selectableItemBackground">
+    <ImageView
+        android:id="@+id/gallery_external_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="?attr/colorPrimaryBrandIcon"
+        android:importantForAccessibility="no"/>
+    <TextView
+        android:textColor="?attr/colorOnSurface"
+        android:orientation="vertical"
+        android:id="@+id/gallery_external_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/c2o_content_item_vertical_spacing_icon_text"
+        android:src="@drawable/quantum_gm_ic_photo_library_black_24"/>
+</com.google.android.apps.messaging.ui.mediapicker.c2o.gallery.GalleryBrowserExternalItemView>

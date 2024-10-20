@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.attachment.ImageAttachmentPhoneView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_attachment_view"
+    android:background="@drawable/compose_attachment_preview_image_bg"
+    android:layout_width="@dimen/compose_attachment_size"
+    android:layout_height="@dimen/compose_attachment_size"
+    android:adjustViewBounds="true"
+    android:maxWidth="@dimen/compose_attachment_size"
+    android:maxHeight="@dimen/compose_attachment_size"
+    android:minWidth="@dimen/compose_attachment_size"
+    android:minHeight="@dimen/compose_attachment_size"
+    app:imageAllowCrop="true"
+    app:imageCornerRadius="@dimen/compose_media_attachment_rounded_corner_radius"
+    app:removeStickerCropping="true"/>

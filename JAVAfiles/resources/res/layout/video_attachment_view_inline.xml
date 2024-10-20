@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.messaging.shared.ui.RoundedImageView
+        android:id="@+id/video_thumbnail_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:maxWidth="@dimen/video_attachment_inline_fallback_width"
+        android:maxHeight="@dimen/video_attachment_inline_fallback_height"
+        android:minWidth="@dimen/video_attachment_min_width"
+        android:minHeight="@dimen/video_attachment_min_height"
+        android:contentDescription="@string/video_thumbnail_view_play_button_content_description"
+        app:adjustAspectRatio="true"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/video_play_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/quantum_gm_ic_play_circle_filled_white_24"
+        android:importantForAccessibility="no"/>
+    <com.google.android.apps.messaging.ui.video.VideoOverlayView
+        android:layout_gravity="bottom|right"
+        android:id="@+id/video_overlay"
+        android:padding="@dimen/message_video_overlay_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</merge>

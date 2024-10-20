@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="@dimen/welcome_gaia_auto_sign_in_promo_list_icon_size"
+        android:layout_height="@dimen/welcome_gaia_auto_sign_in_promo_list_icon_size"
+        android:src="@drawable/quantum_gm_ic_lock_vd_theme_24"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:id="@+id/item_text"
+        android:padding="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_gaia_auto_sign_in_title_text"
+        android:layout_marginStart="16dp"/>
+</LinearLayout>

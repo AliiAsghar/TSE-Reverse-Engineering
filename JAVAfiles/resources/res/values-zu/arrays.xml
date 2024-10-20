@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Okujwayelekile</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Thanda</item>
+        <item>Yebo</item>
+        <item>Qabula</item>
+        <item>Sawubona!</item>
+        <item>Ukwangana</item>
+        <item>Iqembu</item>
+        <item>Uthukuthele</item>
+        <item>Ukujabulisa</item>
+        <item>Sala kahle</item>
+        <item>Lol</item>
+        <item>Ukukhala</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Yebo</item>
+        <item>Cha</item>
+        <item>KULUNGILE</item>
+        <item>Hehe</item>
+        <item>Siyabonga</item>
+        <item>Ngiyavuma</item>
+        <item>I-Nice</item>
+        <item>Ngisendleleni</item>
+        <item>KULUNGILE, mangibuye kuwe emuva kwesikhathi</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>i-MMS</item>
+        <item>I-SMS enesixhumanisi</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Njalo thumela kabusha njenge-SMS</item>
+        <item>Thumela kabusha njenge-SMS uma ingazuli</item>
+        <item>Buza ngaphambi kokuthumela kabusha</item>
+        <item>Ungathumeli kabusha i-SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Njalo thumela kabusha njenge-SMS/MMS</item>
+        <item>Thumela kabusha njenge-SMS/MMS uma izula</item>
+        <item>Buza ngaphambi kokuthumela kabusha</item>
+        <item>Ungathumeli kabusha njenge-SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

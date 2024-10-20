@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:top="@dimen/shortcuts_screen_background_top_padding"/>
+    <solid android:color="?attr/colorOnSurfaceInverse"/>
+    <corners
+        android:topLeftRadius="@dimen/shortcuts_screen_background_top_corner_radius"
+        android:topRightRadius="@dimen/shortcuts_screen_background_top_corner_radius"/>
+</shape>

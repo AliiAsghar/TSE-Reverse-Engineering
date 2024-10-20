@@ -1,0 +1,422 @@
+package defpackage;
+
+import android.content.Context;
+import com.google.android.apps.messaging.shared.api.messaging.recipient.DefaultRecipient;
+import com.google.android.apps.messaging.shared.datamodel.databasegen.tabledefinitions.ParticipantsTable;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class tde {
+    public final Object a;
+    public final Object b;
+    public final Object c;
+    public final Object d;
+    public final Object e;
+    public final Object f;
+    public final Object g;
+    public final Object h;
+    public final Object i;
+    public final Object j;
+    public final Object k;
+    public final Object l;
+    public final Object m;
+    public final Object n;
+    public final Object o;
+    public final Object p;
+    public final Object q;
+    public final Object r;
+    public final Object s;
+    public final Object t;
+    public final Object u;
+
+    public tde(armf armfVar, armf armfVar2, armf armfVar3, armf armfVar4, armf armfVar5, armf armfVar6, armf armfVar7, armf armfVar8, armf armfVar9, armf armfVar10, armf armfVar11, armf armfVar12, armf armfVar13, armf armfVar14, armf armfVar15, armf armfVar16, armf armfVar17, armf armfVar18, armf armfVar19, armf armfVar20, armf armfVar21, byte[] bArr) {
+        armfVar.getClass();
+        this.m = armfVar;
+        armfVar2.getClass();
+        this.d = armfVar2;
+        armfVar3.getClass();
+        this.j = armfVar3;
+        armfVar4.getClass();
+        this.a = armfVar4;
+        armfVar5.getClass();
+        this.c = armfVar5;
+        armfVar6.getClass();
+        this.u = armfVar6;
+        armfVar7.getClass();
+        this.q = armfVar7;
+        this.s = armfVar8;
+        armfVar9.getClass();
+        this.t = armfVar9;
+        armfVar10.getClass();
+        this.h = armfVar10;
+        armfVar11.getClass();
+        this.i = armfVar11;
+        armfVar12.getClass();
+        this.k = armfVar12;
+        armfVar13.getClass();
+        this.p = armfVar13;
+        armfVar14.getClass();
+        this.r = armfVar14;
+        armfVar15.getClass();
+        this.o = armfVar15;
+        armfVar16.getClass();
+        this.n = armfVar16;
+        armfVar17.getClass();
+        this.b = armfVar17;
+        armfVar18.getClass();
+        this.f = armfVar18;
+        armfVar19.getClass();
+        this.l = armfVar19;
+        armfVar20.getClass();
+        this.e = armfVar20;
+        armfVar21.getClass();
+        this.g = armfVar21;
+    }
+
+    /* JADX WARN: Type inference failed for: r10v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r11v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r12v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r13v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r15v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r2v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r3v2, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r4v2, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r5v10, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r5v11, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r5v12, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r5v13, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r5v2, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r5v5, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r5v8, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r5v9, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r6v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r7v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r8v0, types: [armf, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r9v0, types: [armf, java.lang.Object] */
+    public final DefaultRecipient a(ParticipantsTable.BindData bindData, msh mshVar) {
+        Context context = (Context) this.o.b();
+        context.getClass();
+        anen anenVar = (anen) this.i.b();
+        anenVar.getClass();
+        anen anenVar2 = (anen) this.j.b();
+        anenVar2.getClass();
+        psw pswVar = (psw) this.r.b();
+        pswVar.getClass();
+        nej nejVar = (nej) this.b.b();
+        nejVar.getClass();
+        bindData.getClass();
+        mshVar.getClass();
+        ?? r5 = this.u;
+        return new DefaultRecipient(context, anenVar, anenVar2, this.k, this.p, this.d, this.f, this.e, this.l, this.s, this.g, this.a, pswVar, this.n, this.c, this.h, this.q, this.m, nejVar, r5, bindData, mshVar);
+    }
+
+    public tde(armf armfVar, armf armfVar2, armf armfVar3, armf armfVar4, armf armfVar5, armf armfVar6, armf armfVar7, armf armfVar8, armf armfVar9, armf armfVar10, armf armfVar11, armf armfVar12, armf armfVar13, armf armfVar14, armf armfVar15, armf armfVar16, armf armfVar17, armf armfVar18, armf armfVar19, armf armfVar20, armf armfVar21) {
+        armfVar.getClass();
+        this.o = armfVar;
+        armfVar2.getClass();
+        this.i = armfVar2;
+        armfVar3.getClass();
+        this.j = armfVar3;
+        armfVar4.getClass();
+        this.k = armfVar4;
+        armfVar5.getClass();
+        this.p = armfVar5;
+        armfVar6.getClass();
+        this.d = armfVar6;
+        armfVar7.getClass();
+        this.f = armfVar7;
+        armfVar8.getClass();
+        this.e = armfVar8;
+        armfVar9.getClass();
+        this.l = armfVar9;
+        armfVar10.getClass();
+        this.s = armfVar10;
+        armfVar11.getClass();
+        this.g = armfVar11;
+        armfVar12.getClass();
+        this.a = armfVar12;
+        armfVar13.getClass();
+        this.r = armfVar13;
+        armfVar14.getClass();
+        this.n = armfVar14;
+        armfVar15.getClass();
+        this.c = armfVar15;
+        armfVar16.getClass();
+        this.h = armfVar16;
+        armfVar17.getClass();
+        this.q = armfVar17;
+        armfVar18.getClass();
+        this.m = armfVar18;
+        armfVar19.getClass();
+        this.b = armfVar19;
+        armfVar20.getClass();
+        this.u = armfVar20;
+        armfVar21.getClass();
+        this.t = armfVar21;
+    }
+
+    public tde(byte[] bArr) {
+        agmi a = agmk.a();
+        a.d = 2;
+        a.j(true);
+        a.f(true);
+        a.c(true);
+        a.a = "conversations_backup._id";
+        a.c = new wsy();
+        rld rldVar = new rld(a.a());
+        this.u = rldVar;
+        agmi a2 = agmk.a();
+        a2.d = 4;
+        a2.c(true);
+        a2.d(true);
+        a2.b = new rlm(1);
+        a2.a = "conversations_backup.current_my_identity";
+        a2.c = new wsy();
+        rld rldVar2 = new rld(a2.a());
+        this.p = rldVar2;
+        agmi a3 = agmk.a();
+        a3.d = 4;
+        a3.a = "conversations_backup.snippet_text";
+        a3.c = new wsy();
+        rld rldVar3 = new rld(a3.a());
+        this.e = rldVar3;
+        agmi a4 = agmk.a();
+        a4.d = 1;
+        a4.a = "conversations_backup.archive_status";
+        a4.c = new wsy();
+        rld rldVar4 = new rld(a4.a());
+        this.m = rldVar4;
+        agmi a5 = agmk.a();
+        a5.d = 1;
+        a5.a = "conversations_backup.most_recent_timestamp_ms";
+        a5.c = new wsy();
+        rld rldVar5 = new rld(a5.a());
+        this.b = rldVar5;
+        agmi a6 = agmk.a();
+        a6.d = 4;
+        a6.a = "conversations_backup.subject";
+        a6.c = new wsy();
+        rld rldVar6 = new rld(a6.a());
+        this.a = rldVar6;
+        agmi a7 = agmk.a();
+        a7.d = 4;
+        a7.a = "conversations_backup.name";
+        a7.c = new wsy();
+        rld rldVar7 = new rld(a7.a());
+        this.c = rldVar7;
+        agmi a8 = agmk.a();
+        a8.d = 2;
+        a8.a = "conversations_backup.name_is_automatic";
+        a8.c = new wsy();
+        rld rldVar8 = new rld(a8.a());
+        this.n = rldVar8;
+        agmi a9 = agmk.a();
+        a9.d = 1;
+        a9.a = "conversations_backup.has_rbm_participant";
+        a9.c = new wsy();
+        rld rldVar9 = new rld(a9.a());
+        this.h = rldVar9;
+        agmi a10 = agmk.a();
+        a10.d = 4;
+        a10.a = "conversations_backup.rcs_group_self_msisdn";
+        a10.c = new wsy();
+        rld rldVar10 = new rld(a10.a());
+        this.f = rldVar10;
+        agmi a11 = agmk.a();
+        a11.d = 4;
+        a11.c(true);
+        a11.a = "conversations_backup.rcs_group_id";
+        a11.c = new wsy();
+        rld rldVar11 = new rld(a11.a());
+        this.d = rldVar11;
+        agmi a12 = agmk.a();
+        a12.d = 4;
+        a12.a = "conversations_backup.rcs_conference_uri";
+        a12.c = new wsy();
+        rld rldVar12 = new rld(a12.a());
+        this.r = rldVar12;
+        agmi a13 = agmk.a();
+        a13.d = 1;
+        a13.a = "conversations_backup.rcs_group_capabilities";
+        a13.c = new wsy();
+        rld rldVar13 = new rld(a13.a());
+        this.j = rldVar13;
+        agmi a14 = agmk.a();
+        a14.d = 1;
+        a14.a = "conversations_backup.error_state";
+        a14.c = new wsy();
+        rld rldVar14 = new rld(a14.a());
+        this.o = rldVar14;
+        agmi a15 = agmk.a();
+        a15.d = 2;
+        a15.a = "conversations_backup.rcs_subject_change_timestamp_ms";
+        a15.c = new wsy();
+        rld rldVar15 = new rld(a15.a());
+        this.k = rldVar15;
+        agmi a16 = agmk.a();
+        a16.d = 1;
+        a16.a = "conversations_backup.join_state";
+        a16.c = new wsy();
+        rld rldVar16 = new rld(a16.a());
+        this.q = rldVar16;
+        agmi a17 = agmk.a();
+        a17.d = 1;
+        a17.a = "conversations_backup.conversation_type";
+        a17.c = new wsy();
+        rld rldVar17 = new rld(a17.a());
+        this.t = rldVar17;
+        agmi a18 = agmk.a();
+        a18.d = 1;
+        a18.a = "conversations_backup.send_mode";
+        a18.c = new wsy();
+        rld rldVar18 = new rld(a18.a());
+        this.l = rldVar18;
+        agmi a19 = agmk.a();
+        a19.d = 4;
+        a19.c(true);
+        a19.a = "conversations_backup.cms_id";
+        a19.c = new wsy();
+        rld rldVar19 = new rld(a19.a());
+        this.i = rldVar19;
+        agmi a20 = agmk.a();
+        a20.d = 1;
+        a20.a = "conversations_backup.cms_life_cycle";
+        a20.c = new wsy();
+        rld rldVar20 = new rld(a20.a());
+        this.g = rldVar20;
+        this.s = new rld[]{rldVar, rldVar2, rldVar3, rldVar4, rldVar5, rldVar6, rldVar7, rldVar8, rldVar9, rldVar10, rldVar11, rldVar12, rldVar13, rldVar14, rldVar15, rldVar16, rldVar17, rldVar18, rldVar19, rldVar20};
+    }
+
+    public tde() {
+        agmi a = agmk.a();
+        a.d = 2;
+        a.j(true);
+        a.f(true);
+        a.c(true);
+        a.a = "profiles_table._id";
+        a.c = new wsy();
+        tdf tdfVar = new tdf(a.a());
+        this.a = tdfVar;
+        agmi a2 = agmk.a();
+        a2.d = 2;
+        a2.c(true);
+        a2.d(true);
+        a2.b = new tdb(2);
+        a2.a = "profiles_table.participant_id";
+        a2.c = new wsy();
+        tdf tdfVar2 = new tdf(a2.a());
+        this.b = tdfVar2;
+        agmi a3 = agmk.a();
+        a3.d = 4;
+        a3.a = "profiles_table.person_id";
+        a3.c = new wsy();
+        tdf tdfVar3 = new tdf(a3.a());
+        this.c = tdfVar3;
+        agmi a4 = agmk.a();
+        a4.d = 4;
+        a4.a = "profiles_table.profile_access_token";
+        a4.c = new wsy();
+        tdf tdfVar4 = new tdf(a4.a());
+        this.d = tdfVar4;
+        agmi a5 = agmk.a();
+        a5.d = 2;
+        a5.a = "profiles_table.sending_self_profile_interaction_state";
+        a5.c = new wsy();
+        tdf tdfVar5 = new tdf(a5.a());
+        this.e = tdfVar5;
+        agmi a6 = agmk.a();
+        a6.d = 5;
+        a6.a = "profiles_table.self_profile_sharing_metadata";
+        a6.c = new wsy();
+        tdf tdfVar6 = new tdf(a6.a());
+        this.f = tdfVar6;
+        agmi a7 = agmk.a();
+        a7.d = 4;
+        a7.a = "profiles_table.first_name";
+        a7.c = new wsy();
+        tdf tdfVar7 = new tdf(a7.a());
+        this.g = tdfVar7;
+        agmi a8 = agmk.a();
+        a8.d = 4;
+        a8.a = "profiles_table.last_name";
+        a8.c = new wsy();
+        tdf tdfVar8 = new tdf(a8.a());
+        this.h = tdfVar8;
+        agmi a9 = agmk.a();
+        a9.d = 4;
+        a9.a = "profiles_table.display_name";
+        a9.c = new wsy();
+        tdf tdfVar9 = new tdf(a9.a());
+        this.i = tdfVar9;
+        agmi a10 = agmk.a();
+        a10.d = 4;
+        a10.a = "profiles_table.photo_uri";
+        a10.c = new wsy();
+        tdf tdfVar10 = new tdf(a10.a());
+        this.j = tdfVar10;
+        agmi a11 = agmk.a();
+        a11.d = 4;
+        a11.a = "profiles_table.sender_last_updated_time";
+        a11.c = new wsy();
+        tdf tdfVar11 = new tdf(a11.a());
+        this.k = tdfVar11;
+        agmi a12 = agmk.a();
+        a12.d = 4;
+        a12.a = "profiles_table.sender_last_updated_time_from_rcs";
+        a12.c = new wsy();
+        tdf tdfVar12 = new tdf(a12.a());
+        this.l = tdfVar12;
+        agmi a13 = agmk.a();
+        a13.d = 4;
+        a13.c(true);
+        a13.a = "profiles_table.contact_lookup_key";
+        a13.c = new wsy();
+        tdf tdfVar13 = new tdf(a13.a());
+        this.m = tdfVar13;
+        agmi a14 = agmk.a();
+        a14.d = 4;
+        a14.i(true);
+        a14.c(true);
+        a14.a = "profiles_table.phone_number";
+        a14.c = new wsy();
+        tdf tdfVar14 = new tdf(a14.a());
+        this.n = tdfVar14;
+        agmi a15 = agmk.a();
+        a15.d = 1;
+        a15.a = "profiles_table.is_self_profile_shareable";
+        a15.c = new wsy();
+        tdf tdfVar15 = new tdf(a15.a());
+        this.o = tdfVar15;
+        agmi a16 = agmk.a();
+        a16.d = 2;
+        a16.a = "profiles_table.has_shared_access_token_with_user";
+        a16.c = new wsy();
+        tdf tdfVar16 = new tdf(a16.a());
+        this.p = tdfVar16;
+        agmi a17 = agmk.a();
+        a17.d = 1;
+        a17.a = "profiles_table.name_timestamp";
+        a17.c = new wsy();
+        tdf tdfVar17 = new tdf(a17.a());
+        this.q = tdfVar17;
+        agmi a18 = agmk.a();
+        a18.d = 1;
+        a18.a = "profiles_table.photo_timestamp";
+        a18.c = new wsy();
+        tdf tdfVar18 = new tdf(a18.a());
+        this.r = tdfVar18;
+        agmi a19 = agmk.a();
+        a19.d = 1;
+        a19.a = "profiles_table.belongs_to_self_gaia";
+        a19.c = new wsy();
+        tdf tdfVar19 = new tdf(a19.a());
+        this.s = tdfVar19;
+        agmi a20 = agmk.a();
+        a20.d = 1;
+        a20.a = "profiles_table.gaia_update_timestamp";
+        a20.c = new wsy();
+        tdf tdfVar20 = new tdf(a20.a());
+        this.t = tdfVar20;
+        this.u = new tdf[]{tdfVar, tdfVar2, tdfVar3, tdfVar4, tdfVar5, tdfVar6, tdfVar7, tdfVar8, tdfVar9, tdfVar10, tdfVar11, tdfVar12, tdfVar13, tdfVar14, tdfVar15, tdfVar16, tdfVar17, tdfVar18, tdfVar19, tdfVar20};
+    }
+}

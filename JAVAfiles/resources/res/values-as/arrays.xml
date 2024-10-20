@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gif_category_names_tenor">
+        <item>প্ৰেম</item>
+        <item>হয়</item>
+        <item>চুম্বন</item>
+        <item>নমস্কাৰ</item>
+        <item>আলিংগন</item>
+        <item>পাৰ্টী</item>
+        <item>ক্ৰোধান্বিত</item>
+        <item>উত্তেজিত</item>
+        <item>বিদায়</item>
+        <item>Lol</item>
+        <item>ক্ৰন্দনৰত</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>হয়</item>
+        <item>নালাগে</item>
+        <item>ঠিক আছে</item>
+        <item>হা হা</item>
+        <item>ধন্যবাদ</item>
+        <item>মই সন্মত</item>
+        <item>সুন্দৰ</item>
+        <item>মোৰ নিজৰ ধৰণেৰে</item>
+        <item>ঠিক আছে, মই আপোনাক পাছত যোগাযোগ কৰিম</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>কোনো লিংকসহ এছএমএছ</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>সদায় এছএমএছ হিচাপে পুনৰ পঠিয়াওক</item>
+        <item>ৰ’মিঙত নথকাৰ সময়ত এছএমএছ হিচাপে পঠিয়াওক</item>
+        <item>পুনৰ পঠিওৱাৰ আগতে সোধক</item>
+        <item>কেতিয়াও এছএমএছ হিচাপে পুনৰ নপঠিয়াব</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>সদায় এছএমএছ/এমএমএছ হিচাপে পুনৰ পঠিয়াওক</item>
+        <item>ৰ’মিঙত নথকাৰ সময়ত এছএমএছ/এমএমএছ হিচাপে পুনৰ পঠিয়াওক</item>
+        <item>পুনৰ পঠিওৱাৰ আগতে সোধক</item>
+        <item>কেতিয়াও এছএমএছ/এমএমএছ হিচাপে পুনৰ নপঠিয়াব</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+</resources>

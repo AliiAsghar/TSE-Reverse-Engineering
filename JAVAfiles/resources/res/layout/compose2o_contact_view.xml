@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/contact_view"
+    android:background="@drawable/compose2o_tile_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/c2o_contact_item_height"
+    android:foreground="?attr/selectableItemBackground"
+    android:baselineAligned="false"
+    android:contentDescription="@string/c2o_category_contact_view_description">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/share_contact_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/c2o_contact_item_icon_size"
+        android:src="@drawable/quantum_gm_ic_person_white_24"
+        android:tint="?attr/colorOnSurfaceVariant"
+        style="@style/CategoryNotImportantForAccessibilityStyle"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_gravity="center"
+        android:id="@+id/share_contact_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c2o_contact_share_button_text"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/c2o_contact_item_margin"/>
+</LinearLayout>

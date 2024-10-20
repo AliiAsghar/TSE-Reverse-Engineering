@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:paddingEnd="4dp">
+    <com.google.android.apps.messaging.ui.animation.illustration.IllustrationViewStub
+        android:id="@+id/rcs_badge"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0.25dp"
+        android:importantForAccessibility="no"
+        app:static_src="@drawable/rcs_badge"/>
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/gif_browser_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/gif_browser_category_recycler_view"
+        android:background="?android:attr/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/action_bar_elevation"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gif_recycler_view"
+            android:fitsSystemWindows="true"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"/>
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/gif_browser_loading_spinner"
+            android:visibility="gone"
+            android:fitsSystemWindows="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            style="?android:attr/progressBarStyleLarge"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
